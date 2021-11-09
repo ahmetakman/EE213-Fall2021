@@ -1,6 +1,7 @@
 \documentclass[letterpaper,12pt]{article}
 \usepackage{tabularx} % extra features for tabular environment
 \usepackage{amsmath}  % improve math presentation
+\usepackage{float}
 \usepackage{graphicx} % takes care of graphic including machinery
 \graphicspath{ {./figures/} }
 \usepackage[margin=1in,letterpaper]{geometry} % decreases margins
@@ -13,6 +14,7 @@
 	filecolor=magenta,     % color of file links
 	urlcolor=blue         
 }
+
 %++++++++++++++++++++++++++++++++++++++++
 
 
@@ -39,7 +41,7 @@ In this step, only the oscilloscope instrument was used. The probes of "Channel 
 In Step 2, the oscilloscope and probing setup is conserved as described in Step 1. After making sure channel one is activated, the substeps of a. and b. followed.
 \subsubsection{a.}
 The coupling method is adjusted using the on-screen menu. The difference between the "DC" and "AC" coupling methods is observed from the square waveform. As given in the figure "AC" coupling method ignores the DC component of the signal. Unlike the "DC" setting, the "AC" setting is especially used for the change on the waveform.
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{AC Coupling Plot}
 	\centering
 	\includegraphics[width=1\textwidth]{2a.png}
@@ -48,7 +50,7 @@ The coupling method is adjusted using the on-screen menu. The difference between
 \subsubsection{b.}
 The coupling method is adjusted using the on-screen menu, and the DC-coupled waveform is inverted. The plot of the DC-coupled signal is shown in Figure 2.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{DC Coupling Plot}
 	\centering
 	\includegraphics[width=1\textwidth]{2b1.png}
@@ -81,7 +83,7 @@ Using the type  button on the display panel, the measurement type is selected "P
 Using button indicating type on the display panel measurement type is selected "Period" then the measurement obtained as "998.84 \(\mu\)s"
 \subsection{Step 6}
 In this step, oscillator and function waveform generator instruments are used. The function waveform generator is set sine waveform 2 kHz on the "High Z" option. The circuit constructed on the breadboard can be seen from Figure 4. The inputs of the oscilloscope connected CH1 and CH2 terminals accordingly.
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{The circuit diagram for the Step 6}
 	\centering
 	\includegraphics[width=1\textwidth]{6circuit.png}
@@ -90,7 +92,7 @@ In this step, oscillator and function waveform generator instruments are used. T
 \subsubsection{a.}
 In Figure 5, \( V_{in}\) (t) at Channel 1 ,\( V_0 \) (t) at Channel 2 is shown. The phase difference between the signals is measured as "65.\(\overline{45}\)  degrees" using the DSO cursors. The horizontal mode is set as the time for Figure 5.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{\( V_{in}\) (t) at Channel 1 ,\( V_0 \) (t) at Channel 2  }
 	\centering
 	\includegraphics[width=1\textwidth]{6a.png}
@@ -98,7 +100,7 @@ In Figure 5, \( V_{in}\) (t) at Channel 1 ,\( V_0 \) (t) at Channel 2 is shown. 
 
 \subsubsection{b.}
 In Figure 6, \( V_{in}\) at Channel 1 ,\( V_0 \) at Channel 2 is shown. The phase difference between the signals is measured as "63.78211805 degrees" using the DSO cursors Y1 and Y2. The difference between Y-axis interception points is denoted as A, and the difference between the boundary points is denoted as B. Then, using the \(arcsin({A}/{B})\) formula, the phase difference is determined. The XY mode is set as a time option for Figure 6.
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{\( V_{in}\) (t) at X axis \( V_0 \) (t) at Y axis  }
 	\centering
 	\includegraphics[width=1\textwidth]{6b.png}
@@ -119,7 +121,7 @@ Small variations in the frequency of the output signal of the function generator
 
 \subsection{Step 9}
 In this step the, circuit of Figure  7 is prototyped to the breadboard. The Channel 1 and Channel 2 probes are connected, as shown in the figure. After pressing the "Math" button, a third is observed in purple color. 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{ The circuit diagram for Step 9  }
 	\centering
 	\includegraphics[width=1\textwidth]{9circuit.png}
@@ -129,7 +131,7 @@ In this step the, circuit of Figure  7 is prototyped to the breadboard. The Chan
 Using the operator button, the "-" subtraction operation is selected. The subtraction of "Channel 2" from "Channel 1" is displayed on the oscilloscope screen as the third signal. 
 \subsubsection{b.}
 Using the operator button, the "+" addition operation is selected. The addition of "Channel 1" with "Channel 2" is displayed on the oscilloscope screen as the third signal. The data plot is given in Figure 8. It can be clearly seen that the amplitude of the resulting signal is the sum of the other two signals. 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{ Channel Signals and Added Signal  }
 	\centering
 	\includegraphics[width=1\textwidth]{9b.png}
@@ -138,10 +140,13 @@ Using the operator button, the "+" addition operation is selected. The addition 
 
 \section{Conclusion}
 In conclusion, in experiment 2, "Signal Generators and Oscilloscopes," as students, we have learned how to use the signal generator and oscilloscopes instruments' behavior under nine steps. The scaling and movement properties of the oscilloscope channels are explored on a square waveform then the difference between "AC" and "DC" coupling methods are observed and explained. Also, inversion of the signal is observed then interpreted. The experiment repeated for the second channel, and the results are verified. Using cursor functions of the DSO, various measurements are made. The measurement features of the oscilloscope instrument are experienced. Different circuits are set and supplied by the signal generator, and the outputs are observed and plotted using DSO. The outputs of the function waveform generator and the prob comparison port of the oscilloscope are compared, and the trigger signal effect of the DSO is observed so that both signals are fit to the same time frame steady. Lastly, the mathematical operation ability is used to add and subtract the signals, then the results are observed.  In this experiment, as students, we have experimented with how to use signal generators and oscilloscopes.
-\section{Appendix I}
+
+
+
+\section*{Appendix I}
 Total time spent on/during:
 \begin{itemize}
-	\item Pre-lab preparation: 1 hours (including the preliminary work & simulations) 
+	\item Pre-lab preparation: 1 hours (including the preliminary work and simulations) 
 	\item Experimental work: 2 hours (hours spent in lab)
 	\item Report writing: 8 hours 
 \end{itemize}
