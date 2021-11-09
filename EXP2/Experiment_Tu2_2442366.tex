@@ -79,7 +79,7 @@ Using type soft  button on the display panel measurement type is selected "Peak-
 \subsubsection{b.}
 Using button indicating type on the display panel measurement type is selected "Period" then the measurement obtained as "998.84 \(\mu\)s"
 \subsection{Step 6}
-In this step, oscillator and function waveform generator instruments are used. The function waveform generator is set sine waveform 2 kHz on "High Z" option. The circuit constructed on the breadboard can be seen from the Figure 4
+In this step, oscillator and function waveform generator instruments are used. The function waveform generator is set sine waveform 2 kHz on "High Z" option. The circuit constructed on the breadboard can be seen from the Figure 4. The inputs of the oscilloscope connected CH1 and CH2 terminals accordingly.
 \begin{figure}[h]
 	\caption{The circuit diagram for the Step 6}
 	\centering
@@ -87,13 +87,39 @@ In this step, oscillator and function waveform generator instruments are used. T
 \end{figure}
 
 \subsubsection{a.}
+In Figure 5, \( V_{in}\) (t) at Channel 1 ,\( V_0 \) (t) at Channel 2 is shown. The phase difference between the signals is measured as "65.\(\overline{45}\)  degrees" using the DSO cursors. The horizontal mode is set as time for the Figure 5.
+
+\begin{figure}[h]
+	\caption{\( V_{in}\) (t) at Channel 1 ,\( V_0 \) (t) at Channel 2  }
+	\centering
+	\includegraphics[width=1\textwidth]{6a.png}
+\end{figure}
 
 \subsubsection{b.}
+In Figure 6, \( V_{in}\) at Channel 1 ,\( V_0 \) at Channel 2 is shown. The phase difference between the signals is measured as "63.78211805 degrees" using the DSO cursors' Y1 and Y2 . The difference between Y axis interception points denoted as A and  difference between the boundary points are denoted as B. Then using the \(arcsin({A}/{B})\) formula the phase difference is determined. The XY mode is set as time option for the Figure 6.
+\begin{figure}[h]
+	\caption{\( V_{in}\) (t) at X axis \( V_0 \) (t) at Y axis  }
+	\centering
+	\includegraphics[width=1\textwidth]{6b.png}
+\end{figure}
 
 \subsection{Step 7}
+The function waveform generator is adjusted 3 \(V_{pp}\) and frequency of 1.003 kHz. The "Channel 1" probes of the DSO is connected the generators' output after making sure that the "Channel 2" is deactivated. Using the measurement tools on the oscilloscope the properties of the autoscaled signal are measured. The  \(V_{pp}\) is displayed "3.06 Volts" . The period is displayed 998.8\( \mu \)s and the frequency is 1.003 kHz.
+
+
 \subsection{Step 8}
-\subsection{Step 9}
+In this step, in addition to the setup at Step 7 the "Channel 2" probes connected to the "Probe Comp" output and activated. Two waveforms observed on the screen.
 \subsubsection{a.}
+Using the trigger and source buttons on the oscilloscope, "CH 1" is selected as source. As a result while the "Channel 1" signal is steady the "Channel 2" signal became moving. 
+\subsubsection{b.}
+Using the trigger and source options on the oscilloscope, "CH 2" is selected as References. As a result while the "Channel 2" signal is steady the "Channel 1" signal became moving. 
+\subsubsection{c.}
+Small variations in the frequency of the output signal of the function generator is made. The signal slides are observed. To get two steady waveforms on the screen the frequency is adjusted to "1.001,170 kHz". The reason why there are slides when we adjust the frequency higher or lower can be stated that,  the reference time frame of the sliding signal does not fit with the reference time frame of the trigger source signal.
+
+\subsection{Step 9}
+
+\subsubsection{a.}
+
 \subsubsection{b.}
 
 
