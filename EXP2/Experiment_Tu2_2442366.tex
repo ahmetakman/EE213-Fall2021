@@ -2,6 +2,7 @@
 \usepackage{tabularx} % extra features for tabular environment
 \usepackage{amsmath}  % improve math presentation
 \usepackage{graphicx} % takes care of graphic including machinery
+\graphicspath{ {./figures/} }
 \usepackage[margin=1in,letterpaper]{geometry} % decreases margins
 \usepackage{cite} % takes care of citations
 \usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
@@ -34,6 +35,32 @@ In this section the results of the Experiment 2 are discussed.
 \subsection{Step 1}
 In this step only the oscilloscope instrument used. The probes of the "Channel 1" is connected to the "Prob Comp" terminals which supplies square waveform. After adjusting the monitor scale using "AutoScale" button, peak to peak value is observed from the grids of the monitor. Peak to peak voltage is measured as "2.40 Volts". When "Vertical Division Control" rotary button adjusted to different positions the voltage values of which the grids represents differs. When "Vertical Position Control" rotary button adjusted to diferent positions the signal moves in vertical position without changing its from. The "Horizontal Division Control" rotary button is used to scale the time steps for the active signal. The "Horizontal Position Control" is used to regulate the delay of the signal display. By observing the channel axis control buttons' functions the step 1 is completed.
 \subsection{Step 2}
+In Step 2, the oscilloscope and probing setup is conserved as described in Step 1. After making sure the channel 1 is activated, the substeps of a. and b. followed.
+\subsubsection{a.}
+The coupling method is adjusted using the on-screen menu. The difference between "DC" and "AC" coupling method is observed from the square waveform. As given in the figure "AC" coupling method ignores the DC component of the signal. Unlike "DC" setting "AC" setting is especially used for the change on the waveform.
+\begin{figure}[h]
+	\caption{AC Coupling Plot}
+	\centering
+	\includegraphics[width=1\textwidth]{2a.png}
+\end{figure}
+
+\subsubsection{b.}
+The coupling method is adjusted using the on-screen menu and the DC coupled waveform is inverted. The plot of DC coupled signal is shown in the Figure 2.
+
+\begin{figure}[h]
+	\caption{DC Coupling Plot}
+	\centering
+	\includegraphics[width=1\textwidth]{2b1.png}
+\end{figure}
+The inverted form of the DC coupled signal is observed. The plot of the inverted form is shown in the Figure 3.
+
+\begin{figure}[h]
+	\caption{DC Coupling Inverted Plot}
+	\centering
+	\includegraphics[width=1\textwidth]{2b2.png}
+\end{figure}
+When the signal is inverted, the inverse of the measured values become displayed. So that the values multplied with -1. 
+
 \subsection{Step 3}
 \subsection{Step 4}
 \subsection{Step 5}
