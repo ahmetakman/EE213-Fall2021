@@ -76,72 +76,144 @@ The resistances of the resistors are measured using digital multimeter. The meas
 	\end{table}
 	
 
-It is observed that the actual value of the resistances are can be different than the its expected value. This difference could be stemmed from environmental factors as well as probing. Although there are a precision factor the tolerance values are verified.
+It is observed that the actual value of the resistances can be different than their expected value. This difference could be stemmed from environmental factors as well as probing. Although there are a precision factor the tolerance values are verified. 
 
 \subsection{Step 2}
-In Step 2, the oscilloscope and probing setup is conserved as described in Step 1. After making sure channel one is activated, the substeps of a. and b. followed.
-\subsubsection{a.}
-The coupling method is adjusted using the on-screen menu. The difference between the "DC" and "AC" coupling methods is observed from the square waveform. As given in the Figure 1 "AC" coupling method ignores the DC component of the signal. Unlike the "DC" setting, the "AC" setting is especially used for detecting the change on the waveform.
-
-
-\subsubsection{b.}
-The coupling method is adjusted using the on-screen menu, and the DC-coupled waveform is inverted. The plot of the DC-coupled signal is shown in Figure 2.
-
-The inverted form of the DC-coupled signal is observed. The plot of the inverted form is shown in Figure 3.
-
-
-When the signal is inverted, the inverse of the measured values becomes displayed so that the values are multiplied with -1. 
-
+In Step 2, the digital multimeter instrument  is used only. Using resistance measurement feature of the multimeter, the resistance value of the opposings ends of the 1K and 10K potentiometers are measured. Then The maximum and minimum resistance values between their middle terminals and another terminals are recorded.
+The recorded resistance values are provided in the Table 3.
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|| c | c | c | c ||} 
+		 \hline
+		 Potentiometer & Resistance Between Opposing Ends &  Maximum Resistance & Minimum Resistance\\ [0.5ex] 
+		 \hline\hline
+		 1K\( \Omega \) & 0.983K\( \Omega \) & 0.981K\( \Omega \) & 0.001\( \Omega \) \\ 
+		 \hline
+	     10K\( \Omega \) & 8.695K\( \Omega \) & 8.690K\( \Omega \) & 0.004\( \Omega \)  \\
+		 \hline
+		\end{tabular}
+	\end{center}
+	\caption{Resistance measurements of the potentiometer}
+	\end{table}
+It can be inferred that the resistance does not change when we connect the measurement probes to the opposing ends because there is a static resistance between those terminals which approximately corresponds the maximum value of the dynamic terminal.  
 \subsection{Step 3}
-In this step, procedures followed during the first and second steps are repeated for "Channel 2". The figures displayed are verified to be the same for the second channel. Although the substeps are significantly the same, there are separated button sets on the oscilloscope panel.
+In this step the internal battery voltages of the analog and digital multimeters are measured and compared.
+\subsubsection{a}
+Analog multimeter is set for resistance measurement. Then the digital multimeter is set to voltage measurement and its probes are connected to the probes of the analog multimeter. As a result even though the ohmmeter scale is different the measured voltage is observed constant. The measurements are given in the Table 4
+\begin{table}[H]
+	\begin{center}
+		
+	
+	\begin{tabular}{|| c | c ||}
+	\hline
+	Scale              & Voltage Value \\[0.5ex] 
+	\hline\hline
+	x1\( \Omega \)   & -1.5924 V     \\
+	\hline
+	x10\( \Omega \)  & -1.5924 V     \\
+	\hline
+	x100 \( \Omega \) & -1.5921 V     \\
+	\hline
+	x1K\( \Omega \)  & -1.5890 V   \\
+	\hline
+	\end{tabular}
+	\caption{Internal battery measurements of the analog multimeter.}
+\end{center}
+\end{table}
+
+\subsubsection{b}
+Digital multimeter is set for resistance measurement. Then the analog multimeter is set to voltage measurement and its probes are connected to the probes of the digital multimeter. So, the internal battery voltage differs when the digital multimeter set to different ohmmeter scales. The measurements are given in the Table 5.
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|| c | c ||}
+		\hline
+	Scale & Voltage Value \\\hline
+	\hline
+	x100 \( \Omega \) & 6V \\\hline
+	x1 k\( \Omega \) & 6V \\\hline
+	x10 k\( \Omega \) & 6.25 V \\\hline
+	x100 k\( \Omega \) & 3V \\\hline
+	x1 M\( \Omega \) & 1.5V \\\hline
+	x10 M\( \Omega \) & $\sim$0.1 V (or zero) \\\hline
+	x100 M\( \Omega \) & $\sim$0.1 V (or zero) \\\hline
+	\end{tabular}
+	\caption{Internal battery measurements of the digital multimeter.}
+\end{table}
+
+This results shows us the digital multimeters are able to adjust its internal voltage when they are measuring resistances in different scales. It can be concluded that digital multimeters have higher precision in measurement.
+
 \subsection{Step 4}
-In this step, only the oscilloscope instrument was used. The probes of "Channel 1" are connected to the "Prob Comp" terminals which generate the square waveform.
-\subsubsection{a.}
-Using the "Cursors" button and "Cursors Knob" cursors of Y1 and Y2 are adjusted while source "1" is selected.
-\subsubsection{b.}
-By adjusting Y1 and Y2 cursors to the peaks of the waveform, peak to peak voltage is measured as "2.45 Volts".
-\subsubsection{c.}
-By setting the "Cursors Knob" for X1 and X2 cursors verticallly, period is measured as "500 \(\mu\)s" then the frequency is calculated from the equation "  \( \frac{1}{period} \) " as "1.00 kHz".
+In this step, the line voltage is measured using analog multimeter. Multimeters range is set "500V AC". The measurement is stated in Table 6.
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|| c | c ||} 
+		 \hline
+		 Line Voltage & Approximately 220\(V_{ac}\) 		 \\ [0.5ex] 
+		
+		 \hline
+		\end{tabular}
+	\end{center}
+	\caption{Line voltage measurement }
+\end{table}
 
 \subsection{Step 5}
-In Step 5, the oscilloscope and probing setup is conserved as described in Step 4. While the relevant channel is selected, the measure button is pressed.
-\subsubsection{a.}
-Using the type  button on the display panel, the measurement type is selected "Peak-Peak," then the measurement is taken as "2.59 Volts."
-\subsubsection{b.}
-Using button indicating type on the display panel measurement type is selected "Period" then the measurement obtained as "998.84 \(\mu\)s"
+In Step 5, power supply and digital multimeter instruments are used. The circuit in the Figure 1 is constructed on the breadboard. 
+\begin{figure}[H]
+	\caption{Circuit schematic for the step 5}
+	\centering
+	\includegraphics[width=0.6\textwidth]{5.png}
+\end{figure} 
+Then the required voltage and current measurements are made. The measurements are given in the Table 7.
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|| c | c | c ||}
+		\hline
+	\(V_1\) & \(V_2\) & \(V_3\) \\
+	\hline
+	10.041V & 1.948V & 1.948 \\
+	\hline\hline
+	\(i_1\) & \(i_2\) & \(i_3\) \\
+	\hline
+	2.064mA & 1.957mA & 0.109mA\\
+	\hline
+	\end{tabular}
+	\caption{Voltage and current measurements for the step 5}
+	
+	\end{table}
+
 \subsection{Step 6}
-In this step, oscillator and function waveform generator instruments are used. The function waveform generator is set sine waveform 2 kHz on the "High Z" option. The circuit constructed on the breadboard can be seen from Figure 4. The inputs of the oscilloscope connected CH1 and CH2 terminals accordingly.
+In this step, power supply , analog multimeter ,and digital multimeter instruments are used. The circuit illustrated in Figure 2 is set. 
+
+\begin{figure}[H]
+	\caption{Circuit schematic for the step 6}
+	\centering
+	\includegraphics[width=0.6\textwidth]{6.png}
+\end{figure} 
+
+The resistor with resistance "R" is selected as "4.7K\(\Omega\)". The potentiometer is adjusted so that the voltage value becomes 9, 7, 5, 0 volts. For all cases the current \emph{i} is measured and recorded.
+
+\subsubsection{a}
+The current and voltage measurements are made and plotted in MATLAB. The Figure 3 shows  \emph{i} versus \emph{v}. The resistor with resistance "R" is measured as approximately "4.602k\(\Omega\)" using the equation " R  = \(\frac{V}{I}\) ".
+
+\begin{figure}[H]
+	\caption{Plot of \emph{i} versus \emph{v}}
+	\centering
+	\includegraphics[width=1\textwidth]{6a.png}
+\end{figure} 
 
 
-\subsubsection{a.}
-In Figure 5, \( V_{in}\) (t) at Channel 1 ,\( V_0 \) (t) at Channel 2 is shown. The phase difference between the signals is measured as "65.\(\overline{45}\)  degrees" using the DSO cursors. The horizontal mode is set as the time for Figure 5.
+\subsubsection{b}
 
+The resistor with resistance "R" is measured as approximately "4k\(\Omega\)" using analog multimeter.
+\subsubsection{c}
 
-\subsubsection{b.}
-In Figure 6, \( V_{in}\) at Channel 1 ,\( V_0 \) at Channel 2 is shown. The phase difference between the signals is measured as "63.78211805 degrees" using the DSO cursors Y1 and Y2. The difference between Y-axis interception points is denoted as A, and the difference between the boundary points is denoted as B. Then, using the \(arcsin({A}/{B})\) formula, the phase difference is determined. The XY mode is set as a time option for Figure 6.
+The resistor with resistance "R" is measured as  "4.60k\(\Omega\)" using digital multimeter.
 
+\subsubsection{d}
+It can be seen from the Figure 3 that the plot is approximately linear. This is because the equation of  \emph{ R (constant) = \(\frac{V}{I}\) } . Also the measurements from the analog and digital multimeters practically shows that the digital multimeters have higher resolution ,whose measurement is approximately same with the experimental and given resistance data.
 
 \subsection{Step 7}
-The function waveform generator is adjusted 3 \(V_{pp}\) and frequency of 1.003 kHz. The "Channel 1" probes of the DSO are connected to the generators' output after making sure that the "Channel 2" is deactivated. Using the measurement tools on the oscilloscope, the properties of the autoscaled signal are measured. The  \(V_{pp}\) is displayed "3.06 Volts" . The period is displayed 998.8\( \mu \)s, and the frequency is 1.003 kHz.
 
-
-\subsection{Step 8}
-In this step, in addition to the setup at Step 7, the "Channel 2" probes are connected to the "Probe Comp" output and activated. Two waveforms were observed on the screen.
-\subsubsection{a.}
-Using the trigger and source buttons on the oscilloscope, "CH 1" is selected as the source. As a result, while the "Channel 1" signal is steady, the "Channel 2" signal becomes moving. 
-\subsubsection{b.}
-Using the trigger and source options on the oscilloscope, "CH 2" is selected as References. As a result, while the "Channel 2" signal is steady, the "Channel 1" signal becomes moving. 
-\subsubsection{c.}
-Small variations in the frequency of the output signal of the function generator are made. The signal slides are observed. To get two steady waveforms on the screen, the frequency is adjusted to "1.001,170 kHz". The reason why there are slides when we adjust the frequency higher or lower can be stated that the reference time frame of the sliding signal does not fit with the reference time frame of the trigger source signal.
-
-\subsection{Step 9}
-In this step the, circuit of Figure  7 is prototyped to the breadboard. The Channel 1 and Channel 2 probes are connected, as shown in the figure. After pressing the "Math" button, a third is observed in purple color. 
-
-
-\subsubsection{a.}
-Using the operator button, the "-" subtraction operation is selected. The subtraction of "Channel 2" from "Channel 1" is displayed on the oscilloscope screen as the third signal. 
-\subsubsection{b.}
-Using the operator button, the "+" addition operation is selected. The addition of "Channel 1" with "Channel 2" is displayed on the oscilloscope screen as the third signal. The data plot is given in Figure 8. It can be clearly seen that the amplitude of the resulting signal is the sum of the other two signals. 
 
 
 \section{Conclusion}
@@ -150,7 +222,7 @@ In conclusion, in experiment 2, "Signal Generators and Oscilloscopes," as studen
 
 assdasd \( \Omega \) A
 
-dsajldkjasldjlaskd
+
 \section*{Appendix I}
 Total time spent on/during:
 \begin{itemize}
