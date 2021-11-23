@@ -33,11 +33,12 @@
 %\end{abstract}
 
 \section{Introduction} 
-In this experiment, as students, we are expected to experiment with how to use measure voltage, current, and resistance by completing the steps described in the third experiment laboratory manual. Throughout these steps, how to determine the resistance via reading resistor color codes and using a multimeter is expected to be learned. As students, we are expected to discriminate the analog and digital multimeters by considering their internal voltage sources. It is observed how to measure the AC line voltage. How to measure DC current and voltage, how the potentiometer works, the characteristics of linear and non-linear resistors, and equivalent resistances are observed by connecting the multimeters directly to each other and the circuit. The results of the steps were noted and plotted for further comments.
+In this experiment, as students, we are expected to experiment with different kinds of resistive circuits by completing the steps described in the fourth experiment laboratory manual. Throughout these steps, ground loops and output resistances of the signal are expected to be learned. As students, we are expected to discriminate the analog and digital multimeters by considering their internal resistances. The i versus v characteristics is observed by connecting the signal generator to the oscilloscope and the circuit. The nonlinear resistance behavior and how to determine the unknown resistance via Wheatstone Bridge are observed. The results of the steps were recorded and plotted for further comments.
 \section{Experimental Results}
 In this section, the results of Experiment 4 are discussed.
 \subsection{Step 1}
-\subsubsection{a} In this step, power supply, signal generator and oscilloscope instruments are used. The circuit given in Figure 1 is constructed. The \(V_{pp}\) is selected as 12 and the frequency is adjusted as 50 Hz. The channel 2 of the oscilloscope is connected to the terminals of rightmost resistor. 
+\subsubsection{a}
+In this step, the power supply, signal generator, and oscilloscope instruments are used. The circuit given in Figure 1 is constructed. The \(V_{pp}\) is selected as 12, and the frequency is adjusted as 50 Hz. Channel 2 of the oscilloscope is connected to the terminals of the rightmost resistor. 
 \begin{figure}[H]
 	\centering
    \includegraphics[width=0.6\textwidth]{1a_sch.png}
@@ -52,7 +53,7 @@ As a result the \(V_2(t)\) is observed and plottted. The plotting is given in th
 
 
 \subsubsection{b} 
-In this step, the circuit given in in Figure 1 is used. As measurement setup, probes of the channel 1 is connected additionally. The setup is given in Figure 3. 
+In this step, the circuit given in Figure 1 is used. As measurement setup, probes of channel 1 are connected additionally. The setup is given in Figure 3. 
 
 \begin{figure}[H]
 	\centering
@@ -67,9 +68,7 @@ As a result the values of \(V_1\) and \(V_2\) are observed and plotted. The plot
    \caption{\(V_1\) \(V_2\) versus time\((s)\) }
 \end{figure} 
 
-As it can be seen from the plot channel 2 is approximately corresponds to "0" value , although it is not supposed to be so. The measurement probe of the second channel is connected between two ground terminals of the oscilloscope. This result demonstares that grounding configuration of the oscilloscope may prevent the accurate observations. 
-
-For comparison the values measured and calculated therotically are given in the Table 1.
+As it can be seen from the plot, channel 2 approximately corresponds to "0" value, although it is not supposed to be so. The measurement probe of the second channel is connected between two ground terminals of the oscilloscope. This result demonstrates that the grounding configuration of the oscilloscope may prevent accurate observations. For comparison, the values measured and calculated theoretically are given in Table 1. 
 \begin{table}[H]
 	\begin{center}
 		\caption{Calculated values and measured values.}
@@ -85,9 +84,9 @@ For comparison the values measured and calculated therotically are given in the 
 		\end{tabular}
 	\end{center}
 \end{table}
-
+Even though the measured values seemed to be accurate and well set during the experiment, it can be inferred that there could be some probing error.
 \subsection{Step 2}
-In Step 2, the circuit diagram given in the Figure 5 is constructed in the LTspice environment. Measurement probe nodes are indicated with texts on the figure.
+In Step 2, the circuit diagram given in Figure 5 is constructed in the LTspice environment. Measurement probe nodes are indicated with texts on the figure.
 \begin{figure}[H] \centering{
 	\includegraphics[scale=0.45]{2a_sch.pdf}}
 	\caption{The circuit diagram for the Step 2}
@@ -112,7 +111,7 @@ In this step, signal generator and oscilloscope instruments are used. The circui
    \caption{\(V_{in}\) versus time \((s)\) }
 \end{figure}  
 
-Before connecting the signal generator to the circuit , the terminals are directly connected to the oscilloscope probes. Then the observations are made ,and the output is given in the Figure 8. The \(V{pp}\) is measured as 3 volts.
+Before connecting the signal generator to the circuit, the terminals are directly connected to the oscilloscope probes. Then the observations are made, and the output is given in Figure 8. The \(V{pp}\) is measured as 3 volts.
 
 \begin{figure}[H]
 	\centering
@@ -120,13 +119,13 @@ Before connecting the signal generator to the circuit , the terminals are direct
    \caption{\(V_{in}\) versus time \((s)\) }
 \end{figure}  
 
-The signal generator is connected to the circuit. The measurements are displayed on the screen of DSO. Then the data  plotted are given in the Figure 9.
+The signal generator is connected to the circuit. The measurements are displayed on the screen of DSO. Then the data plotted are given in Figure 9.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{3b.png}
    \caption{\(V_{in}\) versus time \((s)\) }
 \end{figure}  
-As a result , it can  be seen that the drops in the amplitude is stemmed from the non-ideal behavior of the signal generator. It is said that the signal generator has a 50 \(\Omega\)  internal resistance, so when a comparable resisance is connected the voltage is divided. It can be seen from the Figure 9, amplitude is dropped to 3 volts.
+As a result, it can be seen that the drops in the amplitude are stemmed from the non-ideal behavior of the signal generator. It is said that the signal generator has a 50 \(\Omega\)  internal resistance, so when a comparable resistance is connected, the voltage is divided. It can be seen from Figure 9; the amplitude is dropped to 2 volts.
 
 
 \subsection{Step 4}
@@ -138,7 +137,7 @@ In this step, the circuits given in the Figure 10 are set. And the source voltag
 \end{figure}  
 
 \subsubsection{a}
-The  range of the analog multimeter is set to 5 V DC. The internal resistance of the analog multimeter is measured via digital multimeters resistance mode. The obtained internal resistance is "99.705k\(\Omega\)". All the voltage measurements are made using analog multimeter.
+The range of the analog multimeter is set to 5 V DC. The internal resistance of the analog multimeter is measured via digital multimeters resistance mode. The obtained internal resistance is "99.705k\(\Omega\)". All the voltage measurements are made using analog multimeter.
 \subsubsection{b}
 All the measurements are repeated and recorded using digital multimeter. For the comparison, the readings of the analog and digital multimeters are given in the Table 2.
 \begin{table}[H]
@@ -160,7 +159,7 @@ All the measurements are repeated and recorded using digital multimeter. For the
 		\end{tabular}
 	\end{center}
 \end{table}
-There are two results can be inferred. Firstly, the analog multimeters measurements are quite inconsistent especially for the second circuit. This can be stemmed from the fact that the internal resistance of the analog multimeter is measured as a comparable value to the equivalent resistance of the second circuit. Secondly, the digital multimeter measures more accurate than the analog multimeter. The reason is that the digital multimeter can adjust its internal resistance so that the measurements are made properly.  
+There are two results that can be inferred. Firstly, the analog multimeters measurements are quite inconsistent, especially for the second circuit. This can be stemmed from the fact that the internal resistance of the analog multimeter is measured as a comparable value to the equivalent resistance of the second circuit. Secondly, the digital multimeter measures more accurate than the analog multimeter. The reason is that the digital multimeter can adjust its internal resistance so that the measurements are made properly.  
 
 \subsection{Step 5}
 \subsubsection{a}
@@ -192,7 +191,7 @@ The simulation is rerun, the data is fetched from the LTspice and plotted at the
    \includegraphics[width=1\textwidth]{5b.png}
    \caption{i versus v plot}
 \end{figure}  
-We can conclude from the plot that the equivalent resistance changes when the voltage direction change. The non ideal behavior is stemmed from 0.7 V tolerance of the diodes.
+We can conclude from the plot that the equivalent resistance changes when the voltage direction change. The nonideal behavior is stemmed from the 0.7 V tolerance of the diodes.
 
 
 \subsection{Step 6}
@@ -202,16 +201,16 @@ In this step the Wheatstone Bridge circuit in the Figure 15 is set.
    \includegraphics[width=0.6\textwidth]{6.png}
    \caption{Circuit diagram for Step 6}
 \end{figure}  
-For R1 and R2 1.2K\(\Omega\) resistors are used. For R3 6.8k\(\Omega\) resistor is used. Then 10k\(\Omega\) pot is properly adjusted so that the voltage between nodes b and c equals to 0. To learn the value of R3 the potentiometer is unplugged from the breadboard and its resistance is measured as "6.907k\(\Omega\)".
+For R1 and R2 1.2K\(\Omega\) resistors are used. For R3 6.8k\(\Omega\) resistor is used. Then 10k\(\Omega\) pot is properly adjusted so that the voltage between nodes b and c equals 0. To learn the value of R3, the potentiometer is unplugged from the breadboard, and its resistance is measured as "6.907k\(\Omega\)".
 
 \section{Conclusion}
-In conclusion, in experiment 3, "Introduction to Voltage, Current, and Resistance Measurements", as students, we have learned how to use different kinds of multimeters and potentiometers in general. The experiment was conducted in 7 steps. To determine the resistance of an unknown resistor, color code reading and multimeters measurement techniques are used. The resistance values of various potentiometers are obtained across different terminals and commented on. The internal batteries voltages of the analog and digital multimeters are measured, and it concluded that digital multimeters have higher measurement accuracy. The city line AC voltage is measured with analog multimeter. Voltage and current measurements are made on a circuit. The terminal characteristics of linear and non-linear resistors are observed. The properties of a potentiometer are explored on a resistive circuit. Current and voltage measurements are made for the diode on a circuit. The non-linear behavior of the diode component is observed in the data.  In this experiment, as students, we have experimented with how to use different kinds of multimeters for measurements and how to work with potentiometer components.
+In conclusion, in experiment 4, "Resistive Circuits," as students, we have learned how the resistive elements and some laboratory equipment behave in general. The experiment was conducted in 6 steps. Firstly, the grounding setup of the oscilloscope is observed on a resistive circuit with two sources. Then LTspice simulations are made and observed for 2 resistors in the series circuit. Then the nonideal behavior of the signal generator due to its internal resistance has experimented. Also, the internal resistance effect to the analog multimeter is observed, and its accuracy is compared to the digital multimeter. I versus v characteristics are observed on simulations of different set circuits. Lastly, we have learned how to determine the value of an unknown resistor using the Wheatstone Bridge circuit.  In this experiment, as students, we have experimented with different characteristics of resistive circuits and laboratory instruments and we have learned how to work with an LTspice simulation environment.
 \section*{Appendix I}
 Total time spent on/during:
 \begin{itemize}
-	\item Pre-lab preparation: 1 hours (including the preliminary work and simulations) 
+	\item Pre-lab preparation: 2 hours (including the preliminary work and simulations) 
 	\item Experimental work: 2 hours (hours spent in lab)
-	\item Report writing: 4.5 hours 
+	\item Report writing: 8 hours 
 \end{itemize}
 %++++++++++++++++++++++++++++++++++++++++
 % References section will be created automatically 
