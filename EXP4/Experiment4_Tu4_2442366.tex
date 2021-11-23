@@ -1,0 +1,152 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage{tabularx} % extra features for tabular environment
+\usepackage{amsmath}  % improve math presentation
+\usepackage{float}
+\usepackage{graphicx} % takes care of graphic including machinery
+\graphicspath{ {./figures/} }
+\usepackage[margin=1in,letterpaper]{geometry} % decreases margins
+\usepackage{cite} % takes care of citations
+\usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
+\hypersetup{
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=blue,        % color of internal links
+	citecolor=blue,        % color of links to bibliography
+	filecolor=magenta,     % color of file links
+	urlcolor=blue         
+}
+
+%++++++++++++++++++++++++++++++++++++++++
+
+
+\begin{document}
+
+\title{Experiment 4 \protect\\Resistive Circuits}
+\author{Ahmet Akman 2442366 \protect\\ Assistant : Şirin Yazar}
+\date{\today}
+\maketitle
+
+%\begin{abstract}
+%abstract
+%\end{abstract}
+
+
+\section{Introduction} 
+In this experiment, as students, we are expected to experiment with how to use measure voltage, current, and resistance by completing the steps described in the third experiment laboratory manual. Throughout these steps, how to determine the resistance via reading resistor color codes and using a multimeter is expected to be learned. As students, we are expected to discriminate the analog and digital multimeters by considering their internal voltage sources. It is observed how to measure the AC line voltage. How to measure DC current and voltage, how the potentiometer works, the characteristics of linear and non-linear resistors, and equivalent resistances are observed by connecting the multimeters directly to each other and the circuit. The results of the steps were noted and plotted for further comments.
+\section{Experimental Results}
+In this section, the results of Experiment 3 are discussed.
+\subsection{Step 1}
+In this step, the resistances of the three resistors are read and measured. 
+\subsubsection{a} 
+The resistances of the resistors are noted after reading them using the color code convention. In Table 1, the values are given. 
+
+\subsubsection{b} 
+The resistances of the resistors are measured using a digital multimeter. The measurements are given in Table 2.
+
+
+It is observed that the actual value of the resistances can be different from their expected value. This difference could be stemmed from environmental factors as well as probing. Although there is a precision factor, the tolerance values are verified. 
+\subsection{Step 2}
+In Step 2, the digital multimeter instrument is used only. Using the resistance measurement feature of the multimeter, the resistance value of the opposing ends of the 1K and 10K potentiometers are measured. Then The maximum and minimum resistance values between their middle terminals and other terminals are recorded.
+The recorded resistance values are provided in Table 3.
+
+It can be inferred that the resistance does not change when we connect the measurement probes to the opposing ends because there is a static resistance between those terminals which approximately corresponds to the maximum value of the dynamic terminal.  
+\subsection{Step 3}
+In this step, the internal battery voltages of the analog and digital multimeters are measured and compared.
+\subsubsection{a}
+Analog multimeter is set for resistance measurement. Then the digital multimeter is set to voltage measurement, and its probes are connected to the probes of the analog multimeter. As a result, even though the ohmmeter scale is different, the measured voltage is observed as constant. The measurements are given in Table 4.
+
+\subsubsection{b}
+Digital multimeter is set for resistance measurement. Then the analog multimeter is set to voltage measurement, and its probes are connected to the probes of the digital multimeter. So, the internal battery voltage differs when the digital multimeter is set to different ohmmeter scales. The measurements are given in Table 5.
+
+
+This result shows us that digital multimeters are able to adjust their internal voltage when they are measuring resistances in different scales. It can be concluded that digital multimeters have higher precision in measurement.
+
+\subsection{Step 4}
+In this step, the line voltage is measured using analog multimeter. Multimeters range is set "500V AC". The measurement is stated in Table 6.
+
+
+\subsection{Step 5}
+In Step 5, power supply and digital multimeter instruments are used. The circuit in Figure 1 is constructed on the breadboard. 
+
+Then the required voltage and current measurements are made. The measurements are given in Table 7.
+
+
+\subsection{Step 6}
+In this step, power supply, analog multimeter, and digital multimeter instruments are used. The circuit illustrated in Figure 2 is set. 
+
+
+The resistor with resistance "R" is selected as "4.7k\(\Omega\)". The potentiometer is adjusted so that the voltage value becomes 9, 7, 5, 0 volts. For all cases, the current \emph{i} is measured and recorded.
+
+\subsubsection{a}
+The current and voltage measurements are made and plotted in MATLAB. The Figure 3 shows  \emph{i} versus \emph{v}. The resistor with resistance "R" is measured as approximately "4.602k\(\Omega\)" using the equation " R  = \(\frac{V}{I}\) ".
+
+
+
+\subsubsection{b}
+
+The resistor with resistance "R" is measured as approximately "4k\(\Omega\)" using analog multimeter.
+\subsubsection{c}
+
+The resistor with resistance "R" is measured as  "4.60k\(\Omega\)" using digital multimeter.
+
+\subsubsection{d}
+It can be seen from Figure 3 that the plot is approximately linear. This is because the equation of  \emph{ R (constant) = \(\frac{V}{I}\) } . Also, the measurements from the analog and digital multimeters practically show that the digital multimeters have higher resolution, whose measurement is approximately the same as the experimental and given resistance data.
+\subsection{Step 7}
+In step 7, the circuit given in Figure 3 is set up. The analog multimeter is set as a voltmeter, and the digital multimeter is set as an ampermeter.  
+
+
+After all the connections are made, 100k\(\Omega\) pot is used for the first three measurements. The 10k\(\Omega\) pot is used for the following two measurements, and the 1k\(\Omega\) is used for the last two measurements. This procedure is done by different potentiometers in order not to burn the circuit. The measurements are given in Table 8. The measurements are made by adjusting the pot slowly with respect to amperemeter readings.
+
+The plot of \emph{i versus v} is given in the Figure 4.
+
+It can be inferred that the component called "diode" is not a linear component. The Z shape in the figure might occur due to the analog multimeters' precision loss. 
+
+\section{Conclusion}
+In conclusion, in experiment 3, "Introduction to Voltage, Current, and Resistance Measurements", as students, we have learned how to use different kinds of multimeters and potentiometers in general. The experiment was conducted in 7 steps. To determine the resistance of an unknown resistor, color code reading and multimeters measurement techniques are used. The resistance values of various potentiometers are obtained across different terminals and commented on. The internal batteries voltages of the analog and digital multimeters are measured, and it concluded that digital multimeters have higher measurement accuracy. The city line AC voltage is measured with analog multimeter. Voltage and current measurements are made on a circuit. The terminal characteristics of linear and non-linear resistors are observed. The properties of a potentiometer are explored on a resistive circuit. Current and voltage measurements are made for the diode on a circuit. The non-linear behavior of the diode component is observed in the data.  In this experiment, as students, we have experimented with how to use different kinds of multimeters for measurements and how to work with potentiometer components.
+\section*{Appendix I}
+Total time spent on/during:
+\begin{itemize}
+	\item Pre-lab preparation: 1 hours (including the preliminary work and simulations) 
+	\item Experimental work: 2 hours (hours spent in lab)
+	\item Report writing: 4.5 hours 
+\end{itemize}
+%++++++++++++++++++++++++++++++++++++++++
+% References section will be created automatically 
+% with inclusion of "thebibliography" environment
+% as it shown below. See text starting with line
+% \begin{thebibliography}{99}
+% Note: with this approach it is YOUR responsibility to put them in order
+% of appearance.
+
+%\begin{thebibliography}{99}
+
+%https://tr.overleaf.com/latex/templates/sample-lab-report-for-u-of-r-phys-349/pgsyqngcyjxk
+
+%\end{thebibliography}
+
+
+\end{document}
+
+
+\begin{table}[H]
+	\begin{center}
+		\caption{Resistance reading by color code convention.}
+		\vspace{2mm}
+		\begin{tabular}{||c | c | c||} 
+		 \hline
+		 Color Order & Value & Tolerance \\ [0.5ex] 
+		 \hline\hline
+		 Brown / Black / Red / Gold & 1k\( \Omega \) & \( \% \) 5  \\ 
+		 \hline
+		 Yellow / Violet / Red / Gold & 4.7k\( \Omega \) & \( \% \) 5   \\
+		 \hline
+		 Brown / Grey / Orange / Gold & 18k\( \Omega \) & \( \% \) 5  \\ [1ex] 
+		 \hline
+		\end{tabular}
+	\end{center}
+	\end{table}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{5.png}
+		\caption{Circuit schematic for the step 5}
+	\end{figure} 
