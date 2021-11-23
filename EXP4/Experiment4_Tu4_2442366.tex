@@ -37,7 +37,7 @@ In this experiment, as students, we are expected to experiment with how to use m
 \section{Experimental Results}
 In this section, the results of Experiment 4 are discussed.
 \subsection{Step 1}
-\subsubsection{a} In this step, the circuit given in Figure 1 is constructed. The \(V_{pp}\) is selected as 12 and the frequency is adjusted as 50 Hz. The channel 2 of the oscilloscope is connected to the terminals of rightmost resistor. 
+\subsubsection{a} In this step, power supply, signal generator and oscilloscope instruments are used. The circuit given in Figure 1 is constructed. The \(V_{pp}\) is selected as 12 and the frequency is adjusted as 50 Hz. The channel 2 of the oscilloscope is connected to the terminals of rightmost resistor. 
 \begin{figure}[H]
 	\centering
    \includegraphics[width=0.6\textwidth]{1a_sch.png}
@@ -126,53 +126,83 @@ The signal generator is connected to the circuit. The measurements are displayed
    \includegraphics[width=1\textwidth]{3b.png}
    \caption{\(V_{in}\) versus time \((s)\) }
 \end{figure}  
-As a result , it can  be seen that the drops in the amplitude is stemmed from the non-ideal behavior of the signal generator. It is said that the signal generator has a 50 \(Omega\)  internal resistance, so when a comparable resisance is connected the voltage is divided. It can be seen from the Figure 9, amplitude is dropped to 3 volts.
+As a result , it can  be seen that the drops in the amplitude is stemmed from the non-ideal behavior of the signal generator. It is said that the signal generator has a 50 \(\Omega\)  internal resistance, so when a comparable resisance is connected the voltage is divided. It can be seen from the Figure 9, amplitude is dropped to 3 volts.
 
 
 \subsection{Step 4}
 In this step, the circuits given in the Figure 10 are set. And the source voltage is measured as 5 volts. 
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{4_sch.png}
+   \caption{The circuit diagrams for the Step 4}
+\end{figure}  
+
 \subsubsection{a}
-The  range of the analog multimeter is set to 5 V DC. The internal resistance of the analog multimeter is measured via digital multimeters resistance mode. The obtained internal resistance is "99.705k\(Omega\)". All the voltage measurements are made using analog multimeter.
+The  range of the analog multimeter is set to 5 V DC. The internal resistance of the analog multimeter is measured via digital multimeters resistance mode. The obtained internal resistance is "99.705k\(\Omega\)". All the voltage measurements are made using analog multimeter.
 \subsubsection{b}
 All the measurements are repeated and recorded using digital multimeter. For the comparison, the readings of the analog and digital multimeters are given in the Table 2.
-  
+\begin{table}[H]
+	\begin{center}
+		\caption{Analog and digital measurements}
+		\vspace{2mm}
+		\begin{tabular}{||c | c | c||} 
+		 \hline 
+		 X & Analog Reading (V) & Digital Reading (V) \\ [0.5ex] 
+		 \hline\hline
+		 \(V_{11}\) & 1.4 & 1.594  \\ 
+		 \hline
+		 \(V_{12}\) & 3.1 & 3.406  \\
+		 \hline
+		 \(V_{21}\) & 0.87 & 1.539  \\ 
+		 \hline
+		 \(V_{22}\) & 1.95 & 3.430  \\
+		 \hline
+		\end{tabular}
+	\end{center}
+\end{table}
+There are two results can be inferred. Firstly, the analog multimeters measurements are quite inconsistent especially for the second circuit. This can be stemmed from the fact that the internal resistance of the analog multimeter is measured as a comparable value to the equivalent resistance of the second circuit. Secondly, the digital multimeter measures more accurate than the analog multimeter. The reason is that the digital multimeter can adjust its internal resistance so that the measurements are made properly.  
 
 \subsection{Step 5}
-In Step 5, power supply and digital multimeter instruments are used. The circuit in Figure 1 is constructed on the breadboard. 
+\subsubsection{a}
+In Step 2, the circuit diagram given in the Figure 11 is constructed in the LTspice environment.
+\begin{figure}[H] \centering{
+	\includegraphics[scale=0.25]{5a.pdf}}
+	\caption{The LTspice diagram for Step 5 part a }
+\end{figure}
+The resistance values are selected as 1K , 5K and 10K. Then the simulation is run, the data is fetched from the LTspice and plotted at the MATLAB. The plot can be seen from the Figure 12.
 
-Then the required voltage and current measurements are made. The measurements are given in Table 7.
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{5a.png}
+   \caption{i versus v plot}
+\end{figure}  
+We can obtain the resistance values from the slope of the i-v lines. We can get the  current throught unknown R via directly CH2 measurement. We had to invert the CH1 to get i versus v characteristic in XY mode.
+
+\subsubsection{b}
+In the part b, the circuit diagram given in the Figure 13 is constructed in the LTspice environment.
+
+\begin{figure}[H] \centering{
+	\includegraphics[scale=0.65]{5b.pdf}}
+	\caption{The LTspice diagram for Step 5 part b}
+\end{figure}
+The simulation is rerun, the data is fetched from the LTspice and plotted at the MATLAB. The plot can be seen from the Figure 14.
+
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{5b.png}
+   \caption{i versus v plot}
+\end{figure}  
+We can conclude from the plot that the equivalent resistance changes when the voltage direction change. The non ideal behavior is stemmed from 0.7 V tolerance of the diodes.
 
 
 \subsection{Step 6}
-In this step, power supply, analog multimeter, and digital multimeter instruments are used. The circuit illustrated in Figure 2 is set. 
-
-
-The resistor with resistance "R" is selected as "4.7k\(\Omega\)". The potentiometer is adjusted so that the voltage value becomes 9, 7, 5, 0 volts. For all cases, the current \emph{i} is measured and recorded.
-
-\subsubsection{a}
-The current and voltage measurements are made and plotted in MATLAB. The Figure 3 shows  \emph{i} versus \emph{v}. The resistor with resistance "R" is measured as approximately "4.602k\(\Omega\)" using the equation " R  = \(\frac{V}{I}\) ".
-
-
-
-
-\subsubsection{b}
-
-The resistor with resistance "R" is measured as approximately "4k\(\Omega\)" using analog multimeter.
-\subsubsection{c}
-
-The resistor with resistance "R" is measured as  "4.60k\(\Omega\)" using digital multimeter.
-
-\subsubsection{d}
-It can be seen from Figure 3 that the plot is approximately linear. This is because the equation of  \emph{ R (constant) = \(\frac{V}{I}\) } . Also, the measurements from the analog and digital multimeters practically show that the digital multimeters have higher resolution, whose measurement is approximately the same as the experimental and given resistance data.
-\subsection{Step 7}
-In step 7, the circuit given in Figure 3 is set up. The analog multimeter is set as a voltmeter, and the digital multimeter is set as an ampermeter.  
-
-
-After all the connections are made, 100k\(\Omega\) pot is used for the first three measurements. The 10k\(\Omega\) pot is used for the following two measurements, and the 1k\(\Omega\) is used for the last two measurements. This procedure is done by different potentiometers in order not to burn the circuit. The measurements are given in Table 8. The measurements are made by adjusting the pot slowly with respect to amperemeter readings.
-
-The plot of \emph{i versus v} is given in the Figure 4.
-
-It can be inferred that the component called "diode" is not a linear component. The Z shape in the figure might occur due to the analog multimeters' precision loss. 
+In this step the Wheatstone Bridge circuit in the Figure 15 is set.  
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=0.6\textwidth]{6.png}
+   \caption{Circuit diagram for Step 6}
+\end{figure}  
+For R1 and R2 1.2K\(\Omega\) resistors are used. For R3 6.8k\(\Omega\) resistor is used. Then 10k\(\Omega\) pot is properly adjusted so that the voltage between nodes b and c equals to 0. To learn the value of R3 the potentiometer is unplugged from the breadboard and its resistance is measured as "6.907k\(\Omega\)".
 
 \section{Conclusion}
 In conclusion, in experiment 3, "Introduction to Voltage, Current, and Resistance Measurements", as students, we have learned how to use different kinds of multimeters and potentiometers in general. The experiment was conducted in 7 steps. To determine the resistance of an unknown resistor, color code reading and multimeters measurement techniques are used. The resistance values of various potentiometers are obtained across different terminals and commented on. The internal batteries voltages of the analog and digital multimeters are measured, and it concluded that digital multimeters have higher measurement accuracy. The city line AC voltage is measured with analog multimeter. Voltage and current measurements are made on a circuit. The terminal characteristics of linear and non-linear resistors are observed. The properties of a potentiometer are explored on a resistive circuit. Current and voltage measurements are made for the diode on a circuit. The non-linear behavior of the diode component is observed in the data.  In this experiment, as students, we have experimented with how to use different kinds of multimeters for measurements and how to work with potentiometer components.
