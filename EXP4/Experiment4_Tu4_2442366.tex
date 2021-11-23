@@ -2,6 +2,8 @@
 \usepackage{tabularx} % extra features for tabular environment
 \usepackage{amsmath}  % improve math presentation
 \usepackage{float}
+\usepackage{pdfpages}
+
 \usepackage{graphicx} % takes care of graphic including machinery
 \graphicspath{ {./figures/} }
 \usepackage[margin=1in,letterpaper]{geometry} % decreases margins
@@ -12,10 +14,11 @@
 	linkcolor=blue,        % color of internal links
 	citecolor=blue,        % color of links to bibliography
 	filecolor=magenta,     % color of file links
-	urlcolor=blue         
+	urlcolor =blue         
 }
 
-%++++++++++++++++++++++++++++++++++++++++
+%
+
 
 
 \begin{document}
@@ -29,40 +32,110 @@
 %abstract
 %\end{abstract}
 
-
 \section{Introduction} 
 In this experiment, as students, we are expected to experiment with how to use measure voltage, current, and resistance by completing the steps described in the third experiment laboratory manual. Throughout these steps, how to determine the resistance via reading resistor color codes and using a multimeter is expected to be learned. As students, we are expected to discriminate the analog and digital multimeters by considering their internal voltage sources. It is observed how to measure the AC line voltage. How to measure DC current and voltage, how the potentiometer works, the characteristics of linear and non-linear resistors, and equivalent resistances are observed by connecting the multimeters directly to each other and the circuit. The results of the steps were noted and plotted for further comments.
 \section{Experimental Results}
-In this section, the results of Experiment 3 are discussed.
+In this section, the results of Experiment 4 are discussed.
 \subsection{Step 1}
-In this step, the resistances of the three resistors are read and measured. 
-\subsubsection{a} 
-The resistances of the resistors are noted after reading them using the color code convention. In Table 1, the values are given. 
+\subsubsection{a} In this step, the circuit given in Figure 1 is constructed. The \(V_{pp}\) is selected as 12 and the frequency is adjusted as 50 Hz. The channel 2 of the oscilloscope is connected to the terminals of rightmost resistor. 
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=0.6\textwidth]{1a_sch.png}
+   \caption{Circuit schematic for the step 1 section \(a\)}
+\end{figure} 
+As a result the \(V_2(t)\) is observed and plottted. The plotting is given in the Figure 2. 
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{1a.png}
+   \caption{\(V_2\) versus time\((s)\) }
+\end{figure} 
+
 
 \subsubsection{b} 
-The resistances of the resistors are measured using a digital multimeter. The measurements are given in Table 2.
+In this step, the circuit given in in Figure 1 is used. As measurement setup, probes of the channel 1 is connected additionally. The setup is given in Figure 3. 
 
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=0.6\textwidth]{1b_sch.png}
+   \caption{Circuit schematic for the step 1 section \(b\)}
+\end{figure} 
 
-It is observed that the actual value of the resistances can be different from their expected value. This difference could be stemmed from environmental factors as well as probing. Although there is a precision factor, the tolerance values are verified. 
+As a result the values of \(V_1\) and \(V_2\) are observed and plotted. The plotting is given in Figure 4. 
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{1b.png}
+   \caption{\(V_1\) \(V_2\) versus time\((s)\) }
+\end{figure} 
+
+As it can be seen from the plot channel 2 is approximately corresponds to "0" value , although it is not supposed to be so. The measurement probe of the second channel is connected between two ground terminals of the oscilloscope. This result demonstares that grounding configuration of the oscilloscope may prevent the accurate observations. 
+
+For comparison the values measured and calculated therotically are given in the Table 1.
+\begin{table}[H]
+	\begin{center}
+		\caption{Calculated values and measured values.}
+		\vspace{2mm}
+		\begin{tabular}{||c | c | c||} 
+		 \hline 
+		 X & Calculated (V) & Measured (V) \\ [0.5ex] 
+		 \hline\hline
+		 \(V_1\) & \( \frac{9}{5} \sin {100 \pi t } -3 \) & 1.5275  \\ 
+		 \hline
+		 \(V_2\) & \( \frac{3}{4} \sin {100 \pi t } +3 \) & 7.477  \\
+		 \hline
+		\end{tabular}
+	\end{center}
+\end{table}
+
 \subsection{Step 2}
-In Step 2, the digital multimeter instrument is used only. Using the resistance measurement feature of the multimeter, the resistance value of the opposing ends of the 1K and 10K potentiometers are measured. Then The maximum and minimum resistance values between their middle terminals and other terminals are recorded.
-The recorded resistance values are provided in Table 3.
+In Step 2, the circuit diagram given in the Figure 5 is constructed in the LTspice environment. Measurement probe nodes are indicated with texts on the figure.
+\begin{figure}[H] \centering{
+	\includegraphics[scale=0.45]{2a_sch.pdf}}
+	\caption{The circuit diagram for the Step 2}
+\end{figure}
 
-It can be inferred that the resistance does not change when we connect the measurement probes to the opposing ends because there is a static resistance between those terminals which approximately corresponds to the maximum value of the dynamic terminal.  
-\subsection{Step 3}
-In this step, the internal battery voltages of the analog and digital multimeters are measured and compared.
 \subsubsection{a}
-Analog multimeter is set for resistance measurement. Then the digital multimeter is set to voltage measurement, and its probes are connected to the probes of the analog multimeter. As a result, even though the ohmmeter scale is different, the measured voltage is observed as constant. The measurements are given in Table 4.
+For the drawn circuit, \(V_{in}\) is set as 50 Hz and 5 \(V{pp}\). As a result the plot given in Figure 6 is obtained.
+\begin{figure}[H] \centering{
+	\includegraphics[scale=0.45]{2a_plot.pdf}}
+	\caption{The plot of \(V{in}\) \(V_0\) \(V_1\) versus time(ms) }
+\end{figure},
 
 \subsubsection{b}
-Digital multimeter is set for resistance measurement. Then the analog multimeter is set to voltage measurement, and its probes are connected to the probes of the digital multimeter. So, the internal battery voltage differs when the digital multimeter is set to different ohmmeter scales. The measurements are given in Table 5.
+When the \(V_{in}\)  is displayed only it can be said that \(V{pp}\) is equal to "2" volts which is the same amplitude we found in part a. 
 
 
-This result shows us that digital multimeters are able to adjust their internal voltage when they are measuring resistances in different scales. It can be concluded that digital multimeters have higher precision in measurement.
+\subsection{Step 3}
+In this step, signal generator and oscilloscope instruments are used. The circuit given in the Figure 7 is constructed.
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=0.5\textwidth]{3_sch.png}
+   \caption{\(V_{in}\) versus time \((s)\) }
+\end{figure}  
+
+Before connecting the signal generator to the circuit , the terminals are directly connected to the oscilloscope probes. Then the observations are made ,and the output is given in the Figure 8. The \(V{pp}\) is measured as 3 volts.
+
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{3a.png}
+   \caption{\(V_{in}\) versus time \((s)\) }
+\end{figure}  
+
+The signal generator is connected to the circuit. The measurements are displayed on the screen of DSO. Then the data  plotted are given in the Figure 9.
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{3b.png}
+   \caption{\(V_{in}\) versus time \((s)\) }
+\end{figure}  
+As a result , it can  be seen that the drops in the amplitude is stemmed from the non-ideal behavior of the signal generator. It is said that the signal generator has a 50 \(Omega\)  internal resistance, so when a comparable resisance is connected the voltage is divided. It can be seen from the Figure 9, amplitude is dropped to 3 volts.
+
 
 \subsection{Step 4}
-In this step, the line voltage is measured using analog multimeter. Multimeters range is set "500V AC". The measurement is stated in Table 6.
-
+In this step, the circuits given in the Figure 10 are set. And the source voltage is measured as 5 volts. 
+\subsubsection{a}
+The  range of the analog multimeter is set to 5 V DC. The internal resistance of the analog multimeter is measured via digital multimeters resistance mode. The obtained internal resistance is "99.705k\(Omega\)". All the voltage measurements are made using analog multimeter.
+\subsubsection{b}
+All the measurements are repeated and recorded using digital multimeter. For the comparison, the readings of the analog and digital multimeters are given in the Table 2.
+  
 
 \subsection{Step 5}
 In Step 5, power supply and digital multimeter instruments are used. The circuit in Figure 1 is constructed on the breadboard. 
@@ -78,6 +151,7 @@ The resistor with resistance "R" is selected as "4.7k\(\Omega\)". The potentiome
 
 \subsubsection{a}
 The current and voltage measurements are made and plotted in MATLAB. The Figure 3 shows  \emph{i} versus \emph{v}. The resistor with resistance "R" is measured as approximately "4.602k\(\Omega\)" using the equation " R  = \(\frac{V}{I}\) ".
+
 
 
 
@@ -146,7 +220,13 @@ Total time spent on/during:
 	\end{table}
 
 	\begin{figure}[H]
-		\centering
+ 		\centering
 		\includegraphics[width=0.6\textwidth]{5.png}
 		\caption{Circuit schematic for the step 5}
 	\end{figure} 
+
+	\begin{figure}[htp] \centering{
+		\includegraphics[scale=0.25]{2a_plot.pdf}}
+		\caption{Experiment 2}
+\end{figure}
+	
