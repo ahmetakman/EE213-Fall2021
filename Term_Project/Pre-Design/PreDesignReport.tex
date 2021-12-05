@@ -3,11 +3,10 @@
 \usepackage{amsmath}  % improve math presentation
 \usepackage{float}
 \usepackage{pdfpages}
-
 \usepackage{graphicx} % takes care of graphic including machinery
 \graphicspath{ {./figures/} }
 \usepackage[margin=1in,letterpaper]{geometry} % decreases margins
-\usepackage{cite} % takes care of citations
+ % takes care of citations
 \usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
 \hypersetup{
 	colorlinks=true,       % false: boxed links; true: colored links
@@ -17,7 +16,6 @@
 	urlcolor =blue         
 }
 
-%
 
 
 
@@ -65,7 +63,7 @@ The fundamentals of physics state that the light intensity caused by a single li
 \begin{figure}[H]
 	\centering
    \includegraphics[width=0.5\textwidth]{light_intensity_vs_distance.png}
-   \caption{The visual illustration of the light intensity distance relation (Source:NASA)}
+   \caption{The visual illustration of the light intensity distance relation (Source:\hyperref[sec:ref]{NASA})}
 \end{figure} 
 
 This relation also mathematically modelled by the equation:
@@ -76,7 +74,7 @@ The Light Dependent Resistor(frequently abbreviated as LDR) is a semiconductor c
 \begin{figure}[H]
 	\centering
    \includegraphics[width=0.8\textwidth]{resistance-illum.png}
-   \caption{Resistance versus illumination for an LDR. (1 ftc = 10.764 lumens)}
+   \caption{Resistance versus illumination for an LDR. (1 ftc = 10.764 lumens) \hyperref[sec:ref]{Source: components101}}
 \end{figure} 
 Although it seems this linear curve makes the process pretty straightforward, it is not so. The real-life conditions (in which we can not omit ambient light) makes the calibration phase more crucial.
 \subsection{Preliminary Measurements}
@@ -137,10 +135,10 @@ The Time of Flight approach, usually abbreviated as ToF, is a widely used techni
 %%%%%%%%%%%%%%%%%%%%%%Figure 10 sensor structure.
 \begin{figure}[H] \centering{
 	\includegraphics[scale=0.60]{tof-simplified-diagram.pdf}}
-	\caption{Simplified diagram of ToF measurement sensors (Source:Analog Devices)}
+	\caption{Simplified diagram of ToF measurement sensors (Source:\hyperref[sec:ref]{Analog Devices} )}
 \end{figure}
 A pulsed signal is propagated from the laser, and the sensor detects the returning beam. Then the phase shift or time difference between the transmitted and received pulse is used to calculate the distance by the equation.
-In real-world products, this approach is pretty useful, requires a lot less time to calibrate, and measures quite accurately. In this report, the indirect ToF method is meant. The equation used for this calculation is; 
+In real-world products, this approach is pretty useful, requires a lot less time to calibrate, and measures quite accurately. In this report, the indirect ToF method is meant \hyperref[sec:ref]{(Ref: Texas Instruments)}. The equation used for this calculation is; 
 %%%%%%%%%%%%%%%%%%%%%% Equation for the real sensors
 \[distance = \frac{  c(speed-of-light)  \varphi (phase-shift)  }{4 \pi f_m (frequency)}\]
 Since the phase shift may not be measureable by certain range the maximum range is described by;
@@ -259,20 +257,17 @@ To summarize this approach and the experiment sequence, a student will use the s
 In conclusion, two proposed measurement methods are discussed in terms of preliminary measurements and inferences. Both methods have pros and cons. The first method is easier to build, but its accuracy is a matter of question since it is directly related to the resistance value. The second method seems more complicated, but it promises accuracy and includes proper laboratory work. On the contrary, the requirement for the precise time intervals method has the possibility to fail in laboratory conditions. There are strong light source dependencies for both methods, but the second method includes the elimination of this dependency in a sense. Further investigations will be done, and one of the methods will be chosen for the laboratory manual. To sum up, there are proposed two different approaches for the measurement of the distance of a light source, and they are evaluated.   
 
 
-%++++++++++++++++++++++++++++++++++++++++
-% References section will be created automatically 
-% with inclusion of "thebibliography" environment
-% as it shown below. See text starting with line
-% \begin{thebibliography}{99}
-% Note: with this approach it is YOUR responsibility to put them in order
-% of appearance.
 
-%\begin{thebibliography}{99}
 
-%https://tr.overleaf.com/latex/templates/sample-lab-report-for-u-of-r-phys-349/pgsyqngcyjxk
+\section*{References}
+\label{sec:ref}
+components101 : \url{https://components101.com/sites/default/files/component_datasheet/LDR\%20Datasheet.pdf} \\
 
-%\end{thebibliography}
+NASA : \url{https://imagine.gsfc.nasa.gov/features/yba/M31_velocity/lightcurve/more.html} \\
 
+Analog Devices: \url{https://www.analog.com/en/applications/technology/3d-time-of-flight.html} \\
+
+Texas Instruments : \url{https://www.ti.com/lit/an/sbau305b/sbau305b.pdf} \\
 
 \end{document}
 
@@ -306,3 +301,10 @@ In conclusion, two proposed measurement methods are discussed in terms of prelim
 		\caption{Experiment 2}
 \end{figure}
 	
+https://components101.com/sites/default/files/component_datasheet/LDR\%20Datasheet.pdf \\
+
+https://imagine.gsfc.nasa.gov/features/yba/M31_velocity/lightcurve/more.html \\
+
+https://www.analog.com/en/applications/technology/3d-time-of-flight.html \\
+
+https://www.ti.com/lit/an/sbau305b/sbau305b.pdf \\
