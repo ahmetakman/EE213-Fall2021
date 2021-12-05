@@ -80,22 +80,60 @@ The Light Dependent Resistor(frequently abbrevieted as LDR), is a semiconductor 
 \end{figure} 
 Although it seems this linear curve makes process pretty straightforward, it is not so. The real life conditions (which we can not omit ambient light) makes the calibration phase more crucial.
 \subsection{Preliminary Measurements}
-Preliminary measurements constitues the base for the Equation given in the  section 2.3 . The setup given in the Figure 2 is set. Then bunch of different resistance measurements are done while the light source is placed on the known distance. Then obtained data plotted. The plot is given in the Figure 5.
+Preliminary measurements constitues the base for the equations given in the  section 2.3 . The setup given in the Figure 2 is set. Then different resistance measurements are made on two different ambient light setup while the light source is placed on the known distance. The distance increased gradually while measuring. Then obtained data plotted. The plot is given in the Figure 5.
 %%%%%%%%%%%% Plot figure 5
-An equation is fitted to this curve. The equation variables are analyzed then the calibration parameters are determined. The equation is given in the section 2.2. 
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{figure5.png}
+   \caption{Plot of measurements made at two different setup}
+\end{figure} 
+Then different equations are fitted to these curves. Second degree polynomial fits are given in Figure 6 and Figure 7.
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{2open_fit.png}
+   \caption{Second degree polynomial fit for first setup}
+\end{figure} 
+Equation of the Figure 6 is,
+\[-0.2807 x^2 + 0.6648x + 2.672\]
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{2closed_fit.png}
+   \caption{Second degree polynomial fit for second setup}
+\end{figure} 
+Equation of the Figure 7 is,
+\[-0.3206 x^2 + 1.032x + 3.251\]
+Third degree polynomial fits are given in Figure 8 and Figure 9
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{open_fit.png}
+   \caption{Third degree polynomial fit for first setup}
+\end{figure} 
+Equation of the Figure 8 is,
+\[0.1407 x^3 -0.2941 x^2 +0.416 x + 2.679\]
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{closed_fit.png}
+   \caption{Third degree polynomial fit for second setup}
+\end{figure} 
+Equation of the Figure 9 is,
+\[0.07847 x^3 -0.3281 x^2 + 0.8929x + 3.254\]
+Then the equation variables are analyzed then the calibration parameters are determined. The best generalization is looked like the third degree polynomial fit of the second setup.
 \subsection{Calibration Proccess}
-This measurement technique requires a calibration procedure since the light source conditions may differ as well as surrounding light conditions. So, for this process a ruler is needed. Using a ruler the light source should be placed a certain point (e.g. 10 centimeter, this value needed to be fixed before lab manual preperation) and the measurement should be made and recorded using multimeter. This value probably would not match the original calculation plot. So the necessary shift needed to be done to continue the measurement only with resistance value.
-\subsection{Distance Measurement Calculations}
-The measurements are ready to be made after necessary data is collected in the calibration phase. Distance data can be obtained from the  equation.
-%%%%%%%%%%%% EQUATION
+This measurement technique requires a calibration procedure since the light source conditions may differ as well as surrounding light conditions. So, for this process a ruler is needed. Using a ruler the light source should be placed a certain point (e.g. 30 centimeter, this value needed to be fixed before lab manual preperation) and the measurement should be made and recorded using multimeter. This value probably would not match the original calculation plot. So the necessary shift needed to be done to continue the measurement only with resistance value. Therefore the calibration parameter \(\alpha\) needed to be adjusted on the equation.
+\[0.07847 x^3 -0.3281 x^2 + 0.8929x + \alpha\]
 
+\subsection{Distance Measurement Calculations}
+The measurements are ready to be made after necessary data is collected in the calibration phase. Distance data can be obtained from the  equation. The x value corresponds the distance. Since the third degree polynamial might be hard to solve, the equation can be plotted and the plot can be used as measurement map. On the other hand all these approximations may done again to have an equation which results direcly the distance in centimeters (a.k.a. inverted plot and new equation fit).  
+%%%%%%%%%%%% EQUATION
+\[0.07847 x^3 -0.3281 x^2 + 0.8929x + \alpha\]
+On the other hand all these approximations may done again to have an equation which results direcly the distance in centimeters (a.k.a. inverted plot and new equation fit). 
 
 
 \section{Proposal 2}
 In this section the second proposal is described.
 \subsection{Time of Flight Approach}
-The Time of Flight approach ,usually abbrevieted as ToF, is a widely used technique in industrial object distance detection sensors. Those sensors includes a laser light source and a photodiode (or another type of fastswitching photodetector sensor). The illustration for the sensors is given in the Figure 6.
-%%%%%%%%%%%%%%%%%%%%%%Figure 6 sensor structure.
+The Time of Flight approach ,usually abbrevieted as ToF, is a widely used technique in industrial object distance detection sensors. Those sensors includes a laser light source and a photodiode (or another type of fastswitching photodetector sensor). The illustration for the sensors is given in the Figure 10.
+%%%%%%%%%%%%%%%%%%%%%%Figure 10 sensor structure.
 \begin{figure}[H] \centering{
 	\includegraphics[scale=0.60]{tof-simplified-diagram.pdf}}
 	\caption{Simplified diagram of ToF measurement sensors (Source:Analog Devices)}
@@ -117,8 +155,8 @@ There are plenty of different limitations that makes this approach tricky to ada
 \[distance = \frac{  \tau (time-constant)  \varphi (phase-shift)  }{2 \pi f_m (frequency)}\]
 
 \subsection{Preliminary Results}
-To create an experiment setup with the approach of Time of Flight, the circuit given in the Fİgure 7 is constructed.
-%%%%%%%%%%%%%%%%%%%%%% The circuit setup. Figure 7
+To create an experiment setup with the approach of Time of Flight, the circuit given in the Fİgure 11 is constructed.
+%%%%%%%%%%%%%%%%%%%%%% The circuit setup. Figure 11
 \begin{figure}[H]
 	\centering
    \includegraphics[width=0.8\textwidth]{circuit2.png}
@@ -127,8 +165,8 @@ To create an experiment setup with the approach of Time of Flight, the circuit g
 
 A square waveform or ,if possible, pulses needed to supplied by signal generator. 
 To obtain signal representaions and test the circuit,  data are captured with different distances and resistances. Because of the time limitation in laboratory only square waveform is used. In these measurements 5mm red LED is used as light source.  
-The plot of first capture is given in the Figure 8.
-%%%%%%%%%%%%%%%%%%%%% Figure 8 capture 1
+The plot of first capture is given in the Figure 12.
+%%%%%%%%%%%%%%%%%%%%% Figure 12 capture 1
 \begin{figure}[H]
 	\centering
    \includegraphics[width=0.8\textwidth]{capture1_ss 0.png}
@@ -149,8 +187,8 @@ The variables of the first capture is given in the Table 1.
 		\end{tabular}
 	\end{center}
 	\end{table}
-The plot of second capture is given in the Figure 9.
-%%%%%%%%%%%%%%%%%%%%% Figure 9 capture 2
+The plot of second capture is given in the Figure 13.
+%%%%%%%%%%%%%%%%%%%%% Figure 12 capture 2
 \begin{figure}[H]
 	\centering
    \includegraphics[width=0.8\textwidth]{capture2_ss 0.png}
@@ -171,8 +209,8 @@ The variables of the second capture is given in the Table 2.
 		\end{tabular}
 	\end{center}
 	\end{table}
-The plot of third capture is given in the Figure 10.
-%%%%%%%%%%%%%%%%%%%%% Figure 10 capture 3
+The plot of third capture is given in the Figure 14.
+%%%%%%%%%%%%%%%%%%%%% Figure 14 capture 3
 \begin{figure}[H]
 	\centering
    \includegraphics[width=0.8\textwidth]{capture3_ss 0.png}
@@ -193,7 +231,7 @@ The variables of the third capture is given in the Table 3.
 		\end{tabular}
 	\end{center}
 	\end{table}
-These preliminary results shows us that to compare the generated signal with the obtained signal a filter should be applied because the amplitude and the waveform of the received signal is variable. So using matlab a threshold which equates the  lower values to 0 and the higher values to \(V_{peak}\) of the signal generator output needed to be used in order to have a proper square waveform. Half of the sum of minimum and maximum values can be used as the threshold value of one distance measurement. As an example filtered plot of capture 1 is given in the Figure 10.
+These preliminary results shows us that to compare the generated signal with the obtained signal a filter should be applied because the amplitude and the waveform of the received signal is variable. So using matlab a threshold which equates the  lower values to 0 and the higher values to \(V_{peak}\) of the signal generator output needed to be used in order to have a proper square waveform. Half of the sum of minimum and maximum values can be used as the threshold value of one distance measurement. As an example filtered plot of capture 1 is given in the Figure 15.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{filtered_data_plot.png}
@@ -217,8 +255,7 @@ After the calibration step, the setup is ready to measure the distance of a ligh
 
 To summarize this approach and the experiment sequence, student will use the signal generator , oscilloscope , computer and the MATLAB instruments and will have a chance to characterize LDR component. 
 \section{Conclusion}
-To conclude,
-The responsive wavelength spectral response.
+In conclusion, two proposed measurement methods are discussed in terms of preliminary measurements and inferences. Both methods have pros and cons. First method is easier to build ,but since it is direcly related to the resistance value its accuracy is matter of question. Second method seems more complicated ,but it is not only promise accuracy but also includes proper laboratory work. On the contrary, due to requirement for the precise time intervals method have possibility to fail in laboratory conditions. There are strong light source dependency for the both methods, but second method includes the elimination of this dependency in a sense. The further investigations will be done and one of the methods will be chosen for the laboratory manual. To sum up, there are proposed two different approaches for the measurement of the distance of a light source and they are evaluated.   
 
 
 %++++++++++++++++++++++++++++++++++++++++
