@@ -39,6 +39,11 @@
 \section{Introduction and Project Objective}
 In this document, the design aprroaches proposed for given term project of EE213. The term-project requirements can be basically summarized that, students are expected to design an experiment to measure the distance of a light source. It is given that the component "LDR (Light Dependent Resistor)" will be used as the sensor element. Also the basic passive components, Op-Amps and laboratory equipments are in the scope of use. The physical appearence of a photoresistor is given in the Figure 1. 
 %%%%%%%%%%%%%%%%%%%%%Figure 1 LDR photo
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=0.5\textwidth]{LDR_photo.png}
+   \caption{The phsysical appearance of the LDR component}
+\end{figure} 
 As students, we are expected to prepare a proper experiment procedure including Pre-Lab work and testing phases. 
 There are two measurement solutions to be proposed. The first one is constructed on the basic working principle of the photoresistor and properties of constant light sources. The second one is based on modified version of the Time of Flight solution which widely used in industrial distance measurement devices. Both proposals share the same objective of to be able to characterize light dependent resistor. Also the preliminary measurements and experiment results for the both approach is reported.
 
@@ -48,15 +53,32 @@ In this section the first proposal is described.
 \subsection{Linear Approach}
 In this approach, the linear behavior of the LDR component against light intensity is aimed to be used. The setup simply includes a light source , an LDR and a multimeter connected to that LDR. The circuit schematic is given in the Figure 2.
 %%%%%%%%%%%%%%%%%%%%%%%% FİGURE 2 circuit schematic
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=0.8\textwidth]{circuit1.png}
+   \caption{The circuit constructed for the proposal 1}
+\end{figure} 
+
 \subsubsection{Light Intensity and Distance Relation}
 From the fundamentals of physics it is stated that the the light intensity caused by a single light source drops by inverse square of its distance. This is also illustrated in Figure 3.
 %%%%%%%%%%%%%%%%%%%%%%% Figure 3 light intensity drops
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=0.5\textwidth]{light_intensity_vs_distance.png}
+   \caption{The visual illustration of the light intensity distance relation (Source:NASA)}
+\end{figure} 
+
 This relation also mathematically modelled by the equation:
 \[light intensity  = \frac{1}{distance^2}\]
 \subsubsection{The LDR Component}
 The Light Dependent Resistor(frequently abbrevieted as LDR), is a semiconductor component so that its  resistance changes when the illumination on its surface change. The resistance curve of an LDR is given in the Figure 4.
 %%%%%%%%%%%%%%%%%%%%%%%%%%Figure 4 curve resistance
-Although it seems this linear curve makes process pretty straightforward, real life conditions (which we can not omit the daylight and ambient light) makes the calibration process crucial.
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=0.8\textwidth]{resistance-illum.png}
+   \caption{Resistance versus illumination for an LDR. (1 ftc = 10.764 lumens)}
+\end{figure} 
+Although it seems this linear curve makes process pretty straightforward, it is not so. The real life conditions (which we can not omit ambient light) makes the calibration phase more crucial.
 \subsection{Preliminary Measurements}
 Preliminary measurements constitues the base for the Equation given in the  section 2.3 . The setup given in the Figure 2 is set. Then bunch of different resistance measurements are done while the light source is placed on the known distance. Then obtained data plotted. The plot is given in the Figure 5.
 %%%%%%%%%%%% Plot figure 5
@@ -74,53 +96,129 @@ In this section the second proposal is described.
 \subsection{Time of Flight Approach}
 The Time of Flight approach ,usually abbrevieted as ToF, is a widely used technique in industrial object distance detection sensors. Those sensors includes a laser light source and a photodiode (or another type of fastswitching photodetector sensor). The illustration for the sensors is given in the Figure 6.
 %%%%%%%%%%%%%%%%%%%%%%Figure 6 sensor structure.
-A pulsed signal is propagated from the laser and the returning beam is detected by the sensor. Then the time difference between the transmitted and received pulse is used to calculate the distance by the equation.
-In real world products, this approach is pretty useful , requires a lot less time to calibrate ,and measures quite accurately.
+\begin{figure}[H] \centering{
+	\includegraphics[scale=0.60]{tof-simplified-diagram.pdf}}
+	\caption{Simplified diagram of ToF measurement sensors (Source:Analog Devices)}
+\end{figure}
+A pulsed signal is propagated from the laser and the returning beam is detected by the sensor. Then the phase shift or time difference  between the transmitted and received pulse is used to calculate the distance by the equation.
+In real world products, this approach is pretty useful , requires a lot less time to calibrate ,and measures quite accurately. In this report indirect ToF method is meant. The equation used for this calculation is; 
 %%%%%%%%%%%%%%%%%%%%%% Equation for the real sensors
+\[distance = \frac{  c(speed-of-light)  \varphi (phase-shift)  }{4 \pi f_m (frequency)}\]
+Since the phase shift may not be measureable by certain range the maximum range is described by;
+\[maxrange = \frac{c}{2 f_m}\]
 \subsubsection{Different Case}
-Since we need to create an experiment which students measures the distance of the light source, not the object that reflects light, it is necessary not using same equation. The new equation is now became,
+Since we need to create an experiment which students measures the distance of the light source, not the object that reflects light, it is necessary not using same equation. The new equation which multiplied with 2 is now became,
 %%%%%%%%%%%%%%%%%%%% The new equation.
+\[distance = \frac{  c(speed-of-light)  \varphi (phase-shift)  }{2 \pi f_m (frequency)}\]
 
 \subsubsection{Limitations}
-There are plenty of different limitations that makes this approach tricky to adapt. Firstly, the LDR component is not a fast switching, responsive component. Secondly, the LDR component is working with visible light which makes the ambient light important for the measurements. Those limitations needed to be eliminated. Therefore the signal needed to be processed and speed of light parameter in the calculation needed to be converted a time constant that should be pinned in the calibration procedure. The new equation is now became,
+There are plenty of different limitations that makes this approach tricky to adapt. Firstly, the LDR component is not a fast switching, responsive component because of the delay caused by the capacitance of the LDR. Secondly, the LDR component is working with visible light which makes the ambient light important for the measurements. Those limitations needed to be eliminated. Therefore the signal needed to be processed and speed of light parameter in the calculation needed to be converted a time constant that should be pinned in the calibration procedure. The new equation is now became,
 %%%%%%%%%%%%%%%%%%%%%% The new new equation  
+\[distance = \frac{  \tau (time-constant)  \varphi (phase-shift)  }{2 \pi f_m (frequency)}\]
+
 \subsection{Preliminary Results}
 To create an experiment setup with the approach of Time of Flight, the circuit given in the Fİgure 7 is constructed.
 %%%%%%%%%%%%%%%%%%%%%% The circuit setup. Figure 7
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=0.8\textwidth]{circuit2.png}
+   \caption{Circuit constructed for the proposal 2}
+\end{figure} 
 
-To obtain best signal representaions and test the circuit,  data are captured with different distances and resistances.  
+A square waveform or ,if possible, pulses needed to supplied by signal generator. 
+To obtain signal representaions and test the circuit,  data are captured with different distances and resistances. Because of the time limitation in laboratory only square waveform is used. In these measurements 5mm red LED is used as light source.  
 The plot of first capture is given in the Figure 8.
 %%%%%%%%%%%%%%%%%%%%% Figure 8 capture 1
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=0.8\textwidth]{capture1_ss 0.png}
+   \caption{First capture}
+\end{figure} 
 The variables of the first capture is given in the Table 1.
 %%%%%%%%%%%%%%%%% Table 1
-
+\begin{table}[H]
+	\begin{center}
+		\caption{Variables of the first capture}
+		\vspace{2mm}
+		\begin{tabular}{||c | c | c | c||} 
+		 \hline
+		 Distance & Frequency & Resistor & Voltage Source\\ [0.5ex] 
+		 \hline\hline
+		  5mm & 20Hz &  100\( \Omega \) & 5V  \\ 
+		 \hline
+		\end{tabular}
+	\end{center}
+	\end{table}
 The plot of second capture is given in the Figure 9.
 %%%%%%%%%%%%%%%%%%%%% Figure 9 capture 2
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=0.8\textwidth]{capture2_ss 0.png}
+   \caption{Second capture}
+\end{figure} 
 The variables of the second capture is given in the Table 2.
 %%%%%%%%%%%%%%%%% Table 2
-
+\begin{table}[H]
+	\begin{center}
+		\caption{Variables of the first capture}
+		\vspace{2mm}
+		\begin{tabular}{||c | c | c | c||} 
+		 \hline
+		 Distance & Frequency & Resistor & Voltage Source\\ [0.5ex] 
+		 \hline\hline
+		  5mm & 20Hz &  1k\( \Omega \) & 5V  \\ 
+		 \hline
+		\end{tabular}
+	\end{center}
+	\end{table}
 The plot of third capture is given in the Figure 10.
 %%%%%%%%%%%%%%%%%%%%% Figure 10 capture 3
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=0.8\textwidth]{capture3_ss 0.png}
+   \caption{Third capture}
+\end{figure} 
 The variables of the third capture is given in the Table 3.
 %%%%%%%%%%%%%%%%% Table 3
-
-These preliminary results shows us that to compare the generated signal with the obtained signal a filter should be applied because the amplitude and the waveform of the received signal is variable. So using matlab a threshold which equates the  lower values to 0 and the higher values to \(V_{peak}\) of the signal generator output needed to be used in order to have a proper square waveform. Half of the sum of minimum and maximum values can be used as the threshold value of one distance measurement. 
-\subsubsection{Time Difference}
-To calculate time difference, the time difference of the falling edges of the both signal needed to be calculated on the processed signal via MATLAB.
+\begin{table}[H]
+	\begin{center}
+		\caption{Variables of the first capture}
+		\vspace{2mm}
+		\begin{tabular}{||c | c | c | c||} 
+		 \hline
+		 Distance & Frequency & Resistor & Voltage Source\\ [0.5ex] 
+		 \hline\hline
+		  5 cm & 20Hz &  1k\( \Omega \) & 5V  \\ 
+		 \hline
+		\end{tabular}
+	\end{center}
+	\end{table}
+These preliminary results shows us that to compare the generated signal with the obtained signal a filter should be applied because the amplitude and the waveform of the received signal is variable. So using matlab a threshold which equates the  lower values to 0 and the higher values to \(V_{peak}\) of the signal generator output needed to be used in order to have a proper square waveform. Half of the sum of minimum and maximum values can be used as the threshold value of one distance measurement. As an example filtered plot of capture 1 is given in the Figure 10.
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{filtered_data_plot.png}
+   \caption{Filtered plot of first capture}
+\end{figure} 
+\subsubsection{Phase Shift/Time Difference}
+To calculate phase shift the phase shift of the falling edges (or raising edges) of the both signal needed to be calculated on the processed signal via MATLAB. On the other hand cursors of the oscilloscope can also be used.
 \subsection{Calibration Process}
 This calibration process includes two parts. The first one is the time constant calibration the second one is the circuit supply voltages. 
 \subsubsection{Time Constant Calibration}
-The light source should be placed using a ruler. Then the time difference should be obtained via MATLAB. Then using the equation, the time constant should be determined.
+The light source should be placed using a ruler. Then the phase shift should be obtained via MATLAB. Then using the equation, the time constant should be determined.
 %%%%%%%%%%%%%%%%%%%%% Equation for calibration.
+\[ \tau (calibration-parameter-time-constant)  = \frac{ d(known-distance) 2 \pi f_m (frequency)   }{ \varphi (phase-shift)}\]
 
 \subsubsection{Supply Voltages and Resistances Calibration}
 This calibration procedure is not a proper step. Once the values are determined by the instructor the values can be fixed. The supply voltage and the pot value of the resistive circuit should be adjusted so that the voltage portion of LDR relatable with the \(V_{peak}\) of the signal generator output  in order to compare it visually in oscilloscope screen. Also  \(V_{peak}\) of the signal generator output should be adjusted so that the light source (LED) is at its maximum power setting, so the illumination on the LDR would be maximum. 
 \subsection{Distance Measurement Calculations}
 After the calibration step, the setup is ready to measure the distance of a light source using the equation,
 %%%%%%%%%%%%%%%%%%%%%%%%% Final Equation
+\[distance = \frac{  \tau (time-constant)  \varphi (phase-shift)  }{2 \pi f_m (frequency)}\]
+
 To summarize this approach and the experiment sequence, student will use the signal generator , oscilloscope , computer and the MATLAB instruments and will have a chance to characterize LDR component. 
 \section{Conclusion}
 To conclude,
+The responsive wavelength spectral response.
 
 
 %++++++++++++++++++++++++++++++++++++++++
