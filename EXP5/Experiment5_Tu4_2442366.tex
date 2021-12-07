@@ -35,12 +35,12 @@
 %\end{abstract}
 
 \section{Introduction} 
-In this experiment, as students, we are expected to experiment with different kinds of Op-Amp circuits by completing the steps described in the fifth experiment laboratory manual. Throughout these steps, the basic characteristics of Op-Amps and the behavior of the Op-Amp circuits are expected to be learned. The output versus input characteristics is observed by connecting the signal generator to the oscilloscope and the circuit. The nonideal behavior of the componets are compared with the ideal simulation plots. The results of the steps were recorded and plotted for further comments.
+In this experiment, as students, we are expected to experiment with different kinds of Op-Amp circuits by completing the steps described in the fifth experiment laboratory manual. Throughout these steps, the basic characteristics of Op-Amps and the behavior of the Op-Amp circuits are expected to be learned. The output versus input characteristics is observed by connecting the signal generator to the oscilloscope and the circuit. The non-ideal behavior of the components is compared with the ideal simulation plots. The results of the steps were recorded and plotted for further comments.
 \section{Experimental Results}
-In this section, the results of Experiment 5 are discussed. Before the experiment begins neccessary adjustments are done on DC power supply. LM 741 operational amplifier integrated circuit is used in this experiment.
+In this section, the results of Experiment 5 are discussed. Before the experiment begins, necessary adjustments are made to the DC power supply. LM 741 operational amplifier integrated circuit is used in this experiment.
 \subsection{Step 1}
 %description script
-In this step, circuits given in the laboratory manual are constructed and observations are made on them. The results of the experimental work are compared with simulation results done for preliminary work.  \(V_{in (t)}\) is taken as \(3sin(1000\pi)\) Volts for this step.
+In this step, circuits given in the laboratory manual are constructed, and observations are made on them. The results of the experimental work are compared with simulation results done for preliminary work.  \(V_{in (t)}\) is taken as \(3sin(1000\pi)\) Volts for this step.
 \subsubsection{a.}
 %description script
 The basic comparator circuit given in Figure 1 is constructed on a breadboard.
@@ -50,14 +50,14 @@ The basic comparator circuit given in Figure 1 is constructed on a breadboard.
    \includegraphics[width=0.4\textwidth]{circuit1.png}
    \caption{Circuit schematic for the Step 1 part a}
 \end{figure} 
-Then the \(V_{o} \) vs \( V_{in}\) ,given in Figure 2, plotted.
+Then the \(V_{o} \) versus \( V_{in}\) graph ,given in Figure 2, plotted.
 %Figure 2 basic comparator plot
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{e_1_a.png}
    \caption{\(V_{o} \) vs \( V_{in}\)}
 \end{figure} 
-It can be said that this Op-Amp configuration compares (with ground) and amplifies the signal propageted to non-inverting terminal. From plot, there is an unexpected gap at the linear region which is stemmed by the non-ideal behavior of the Op-Amp. 
+It can be said that this Op-Amp configuration compares (with the ground) and amplifies the signal propagated to a non-inverting terminal. From the plot, there is an unexpected gap at the linear region, which is stemmed from the non-ideal behavior of the Op-Amp. 
 
 %Figure 3 comparison simulation res
 Basic comparator circuit is constructed in LTSpice environment as a part of preliminary work. The schematic is given in the Figure 3.
@@ -73,7 +73,7 @@ Then plot given in Figure 4 is obtained.
    \includegraphics[width=1\textwidth]{3a_vs_vin.png}
    \caption{\(V_o\) vs \(V{in}\)}
 \end{figure}
-This result show us the opamp model in the LTSpice simulation environment operates almost like an ideal Op-Amp. The difference between an ideal and a non-ideal Op-Amp can also be observed from Figures 2  and 4.
+This result shows us the opamp model in the LTSpice simulation environment operates almost like an ideal Op-Amp. The difference between an ideal and a non-ideal Op-Amp can also be observed from Figures 2  and 4 so that the internal capacitance of the op-amp affects the linear region.
 
 \subsubsection{b.}
 %description script
@@ -91,9 +91,9 @@ The \(V_{o} \) vs \( V_{in}\) plot is obtained.
    \includegraphics[width=1\textwidth]{e_1_b.png}
    \caption{\(V_{o} \) vs \( V_{in}\)}
 \end{figure} 
-As it can be seen from the plot, buffer circuit directly transfer the input voltage to its output terminal. This application can be used to isolate two circuit in order to prevent voltage drop at the source circuit since there is no flowing current . This example is explained in the Step 3. 
+As can be seen from the plot, the buffer circuit directly transfers the input voltage to its output terminal. This application can be used to isolate two circuits in order to prevent voltage drop at the source circuit since there is no flowing current. This is explained in Step 3 with an example. 
 
-%Figure 6 comparison simulation res
+%Figure 7 comparison simulation res
 Buffer circuit is constructed in LTSpice environment. The schematic is given in the Figure 7.
 \begin{figure}[H]
 	\centering
@@ -107,7 +107,7 @@ Then plot given in Figure 8 is obtained.
    \includegraphics[width=1\textwidth]{3b_vs_vin.png}
    \caption{\(V_0\) vs \(V{in}\)}
 \end{figure}
-It can be said that the simulation plot is consistent with the real world experiment plot for the buffer configuration.
+It can be said that the simulation plot is quite consistent with the real-world experiment plot for the buffer configuration.
 \subsubsection{c.}
 %description script
 The non-inverting amplifier circuit is set on a breadboard at the laboratory. The schematic given in Figure 9 is taken as the reference.  
@@ -119,7 +119,7 @@ The non-inverting amplifier circuit is set on a breadboard at the laboratory. Th
    \includegraphics[width=0.6\textwidth]{circuit4.png}
    \caption{Circuit schematic for the Step 1 part c}
 \end{figure} 
-Then using both channel oscilloscope probes, measurements taken at the nodes \(V_{o} \) and \( V_{in}\). The plot is given in Figure 10.
+Then using both channel oscilloscope probes, measurements are made at the nodes \(V_{o} \) and \( V_{in}\). The plot is given in Figure 10.
 %Figure 10 non-inverting plot 
 
 \begin{figure}[H]
@@ -127,7 +127,7 @@ Then using both channel oscilloscope probes, measurements taken at the nodes \(V
    \includegraphics[width=1\textwidth]{e_1_c.png}
    \caption{\(V_{o} \) vs \( V_{in}\)}
 \end{figure} 
-The amplification rate can be measured by looking at the slope of the linear region. The slope is read as 11. It can be concluded that non-inverting configuration directly amplifies the signal at the non-inverting terminal according to the relation \[\frac{V{out}}{V{in}} = \frac{R_2}{R_1}\] in linear region as expected.
+The amplification rate can be measured by looking at the slope of the linear region. The slope is read as 11. It can be concluded that non-inverting configuration directly amplifies the signal at the non-inverting terminal according to the relation \[\frac{V{out}}{V{in}} =1+ \frac{R_2}{R_1}\] in linear region as expected.
 %Figure 11 comparison simulation res
 Non-inverting amplifier circuit is constructed in LTSpice environment. The schematic is given in the Figure 11.
 \begin{figure}[H]
@@ -143,7 +143,7 @@ Then plot given in Figures 12 is obtained from simulation environment.
    \includegraphics[width=1\textwidth]{3d_vs_vin.png}
    \caption{\(V_0\) vs \(V{in}\)}
 \end{figure}
-The amplification rate can be measured by looking at the slope of the linear region. The slope is read sa 11. By looking at the shape of Figure 10 and Figure 11, it can be said that the behavior is consistent. But, the negative saturation region of the real circuit is slightly greater. This is predicted to be stemmed from the non-ideality of the either LM741 component or the negative power line of the power supply.
+By looking at the shape of Figure 10 and Figure 11, it can be said that the behavior is consistent. But, the negative saturation region of the real circuit is slightly greater. This is predicted to be stemmed from the non-ideality of either the LM741 component or the negative power line of the power supply.
 \subsection{Step 2}
 %description script
 The inverting amplifier circuit is constructed at the laboratory according to the schematic given in Figure 13.  
@@ -161,7 +161,7 @@ The measurement are made using first and second channels of oscilloscope instrum
    \includegraphics[width=1\textwidth]{e_2.png}
    \caption{\(V_{o} \) vs \( V_{in}\)}
 \end{figure} 
-It can be inferred that the amplifier amplifies the signal at the inverting channel by inverting. To obtain the expression relating the output voltage \(V_0 (t)\) to the input voltage \(V_{in} (t)\) of a inverting amplifier setup, the circuit in Figure 13 is taken as the reference. Then current throught input terminals and the voltage of those terminals are taken as 0 since it is ideal amplifier. So the circuit simplifies to 2 terminals and 2 resistors. Then the following simplifications are followed.
+It can be inferred that the operational amplifier amplifies the signal at the inverting channel by inverting. To obtain the expression relating the output voltage \(V_0 (t)\) to the input voltage \(V_{in} (t)\) of an inverting amplifier setup, the circuit in Figure 13 is taken as the reference. Then current through input terminals and the voltage of those terminals are taken as 0 since it is an ideal amplifier. So the circuit simplifies into two terminals and two resistors. Then the following simplifications are followed.
 \[\frac{V{in} - 0 }{R_1} = i\]
 \[\frac{0 - V{o} }{R_2} = i\]
 So, the relation becomes as,
@@ -184,7 +184,7 @@ Then plot given in Figure  16 is obtained.
 By evaluating the results of Figure 10 and Figure 11, it can be said that the behavior is consistent.
 \subsection{Step 3}
 %description script
-In step 3 the circuit given in the Figure 17 is constructed. But since there was only one signal generator two signals with different amplitutes needed to be obtained using a circuitry.
+In step 3, the circuit given in Figure 17 is constructed. But since there was only one signal generator, two signals with different amplitudes needed to be obtained using circuitry.
 %Figure 17 summing+buffer circuit
 \begin{figure}[H]
 	\centering
@@ -192,14 +192,14 @@ In step 3 the circuit given in the Figure 17 is constructed. But since there was
    \caption{Circuit schematic for the Step 3}
 \end{figure} 
 \subsubsection{Voltage Divider and Buffer Circuit}
-Since there is need of getting the half of the signal voltage divider circuit is set. The general illustration of a voltage divider is given in Figure 18.
+Since there is a need to get half of the signal voltage divider circuit is set. The general illustration of a voltage divider is given in Figure 18.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=0.6\textwidth]{voltage_divider.png}
    \caption{General voltage divider diagram}
 \end{figure} 
 The relation between \(V{in}\) and \(V{out}\) can be derived from the basic electric circuit relation. Whic is \(V{out}\) = \(V{in} \times \frac{R_2}{R_1+R_2}\) . So the have half of the voltage two of the 1k\(\Omega\) resistor is used.
-As a result voltage is divided but to hold this relation the current coming from the branch of \(R_1\) should be equal to the current going through the branch of \(R_2\). If we directly connect this output terminal to the summing configuration current would go through the \(R_2\) and \(R_f\) resistors  of the summing circuit. Therefore it is needed to isolate those circuits. The buffer circuit explained in the step 2 part b is set. 
+As a result, voltage is divided, but to hold this relation, the current coming from the branch of \(R_1\) should be equal to the current going through the branch of \(R_2\). If we directly connect this output terminal to the summing configuration, the current would go through the \(R_2\) and \(R_f\) resistors of the summing circuit. Therefore it is needed to isolate those circuits. The buffer circuit explained in part b of step 2  is set. 
 \subsubsection{a.}
 %description script
 Using the voltage divider and buffer circuitry, the signal is propagated to the summing circuit. The plot of \(V_{a} , V_{b} , V_{o} \) against \( Time\) is obtained using the signal value of \(V_{a}(t) = 2 V_{b}(t) = 4sin(1000\pi t) V\) . The plot is obtained as given in Figure 19.
@@ -209,7 +209,7 @@ Using the voltage divider and buffer circuitry, the signal is propagated to the 
    \includegraphics[width=1\textwidth]{e_3_a.png}
    \caption{\(V_{a} , V_{b} , V_{o} \) vs \( Time\)}
 \end{figure} 
-As a result it can be said that the signals are summed and amplified. But, after excessing linear region output signal is saturated.
+As a result, it can be said that the signals are summed and amplified. But, after excessing the linear region, output signal is saturated. Which means the voltage given from the supply pins determines the saturation regions.
 
 \subsubsection{b.}
 %description script
@@ -220,7 +220,7 @@ Using the voltage divider and buffer circuitry, the signal is supplied to the su
    \includegraphics[width=1\textwidth]{e_3_b.png}
    \caption{\(V_{a} , V_{b} , V_{o} \) vs \( Time\)}
 \end{figure} 
-As a result it can be said that the signals are summed and amplified. But, in this setup the output signal is not saturated.
+As a result, it can be said that the signals are summed and amplified. But, in this setup, the output signal is not saturated.
 
 %Figure 21 comparison simulation res
 Summing amplifier circuit is constructed in LTSpice environment with the values of \(V_{a}(t) = 2 V_{b}(t) = 4sin(1000\pi t) V\) . The schematic is given in the Figure 21. 
@@ -235,11 +235,11 @@ Then plot given in Figure 22 is obtained.
    \includegraphics[width=1\textwidth]{4a_vs_t.png}
    \caption{\(V_0\) vs t}
 \end{figure}
-As a result we obtained the behavior of \(V_0\) quite close to the Figure 19.  Yet, the negative saturation region of the real circuit is slightly greater. This is expected to be stemmed from the non-ideality of the either LM741 component or the negative power line of the power supply.
+As a result, we obtained the behavior of \(V_0\) quite close to Figure 19.  Yet, the negative saturation region of the real circuit is slightly greater. This is expected to be stemmed from the non-ideality of either the LM741 component or the negative power line of the power supply.
 
 
 \section{Conclusion}
-In conclusion, in experiment 5, "Operational Amplifiers," as students, we have learned how basic circuit setups of Op-Amps can be constructed. Preliminary laboratory work is done via simulations of the basic Op-Amp circuits in LTSpice environment. As students, we have observed different characteristics of Op-Amp comparator , buffer , non-inverting , inverting and summing configurations and we have learned how voltage divider should be used when there is a load to the output terminal. To sum up,in this experiment, as students, we have experimented with how operates different kinds of operational amplifier circuits and how to work with voltage dividers. 
+In conclusion, in experiment 5, "Operational Amplifiers," as students, we have learned how basic circuit setups of Op-Amps can be constructed. Preliminary laboratory work is done via simulations of the basic Op-Amp circuits in an LTSpice environment. As students, we have observed different characteristics of Op-Amp comparator, buffer, non-inverting, inverting, and summing configurations, and we have learned how voltage divider should be used when there is a load to the output terminal. To sum up,in this experiment, as students, we have experimented with how operates different kinds of operational amplifier circuits and how to work with voltage dividers. 
 \section*{Appendix I}
 Total time spent on/during:
 \begin{itemize}
@@ -247,6 +247,8 @@ Total time spent on/during:
 	\item Experimental work: 2 hours (hours spent in lab)
 	\item Report writing: 6 hours 
 \end{itemize}
+\section*{Appendix II}
+The outputs of the simulations are fetched from LTSpice and plotted in MATLAB.
 %++++++++++++++++++++++++++++++++++++++++
 % References section will be created automatically 
 % with inclusion of "thebibliography" environment

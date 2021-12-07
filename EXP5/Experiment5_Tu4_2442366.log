@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  7 DEC 2021 20:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  8 DEC 2021 00:29
 entering extended mode
 **"c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP5/Experiment5_Tu4_2442366.tex"
 (c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP5/Experiment5_Tu4_2442366.tex
@@ -437,70 +437,69 @@ File: ./figures//e_1_b.png Graphic file (type png)
 <use ./figures//e_1_b.png>
 Package pdftex.def Info: ./figures//e_1_b.png  used on input line 91.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
-
+ [6 <./figures//circuit2.png> <./figures//e_1_b.png (PNG copy)>]
 
 pdfTeX warning: pdflatex (file ./figures//Buffer_SCH.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//Buffer_SCH.pdf, id=108, 845.07724pt x 597.55246pt>
+<./figures//Buffer_SCH.pdf, id=114, 845.07724pt x 597.55246pt>
 File: ./figures//Buffer_SCH.pdf Graphic file (type pdf)
 <use ./figures//Buffer_SCH.pdf>
 Package pdftex.def Info: ./figures//Buffer_SCH.pdf  used on input line 100.
 (pdftex.def)             Requested size: 375.80544pt x 265.73221pt.
-[6 <./figures//circuit2.png> <./figures//e_1_b.png (PNG copy)>]
 <./figures//3b_vs_vin.png, id=115, 1445.4pt x 704.6325pt>
 File: ./figures//3b_vs_vin.png Graphic file (type png)
 <use ./figures//3b_vs_vin.png>
 Package pdftex.def Info: ./figures//3b_vs_vin.png  used on input line 107.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
- [7 <./figures//Buffer_SCH.pdf> <./figures//3b_vs_vin.png (PNG copy)>]
-<./figures//circuit4.png, id=135, 932.283pt x 570.33075pt>
+[7 <./figures//Buffer_SCH.pdf>]
+<./figures//circuit4.png, id=134, 932.283pt x 570.33075pt>
 File: ./figures//circuit4.png Graphic file (type png)
 <use ./figures//circuit4.png>
 Package pdftex.def Info: ./figures//circuit4.png  used on input line 119.
 (pdftex.def)             Requested size: 281.85587pt x 172.43202pt.
-<./figures//e_1_c.png, id=136, 1445.4pt x 704.6325pt>
+<./figures//e_1_c.png, id=135, 1445.4pt x 704.6325pt>
 File: ./figures//e_1_c.png Graphic file (type png)
 <use ./figures//e_1_c.png>
 Package pdftex.def Info: ./figures//e_1_c.png  used on input line 127.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
- [8 <./figures//circuit4.png> <./figures//e_1_c.png (PNG copy)>]
+ [8 <./figures//3b_vs_vin.png (PNG copy)> <./figures//circuit4.png>]
 
 pdfTeX warning: pdflatex (file ./figures//non-inverting_SCH.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//non-inverting_SCH.pdf, id=143, 845.07724pt x 597.55246pt>
+<./figures//non-inverting_SCH.pdf, id=142, 845.07724pt x 597.55246pt>
 File: ./figures//non-inverting_SCH.pdf Graphic file (type pdf)
 <use ./figures//non-inverting_SCH.pdf>
 Package pdftex.def Info: ./figures//non-inverting_SCH.pdf  used on input line 135.
 (pdftex.def)             Requested size: 375.80544pt x 265.73221pt.
-<./figures//3d_vs_vin.png, id=144, 1445.4pt x 704.6325pt>
+[9 <./figures//e_1_c.png (PNG copy)>]
+<./figures//3d_vs_vin.png, id=148, 1445.4pt x 704.6325pt>
 File: ./figures//3d_vs_vin.png Graphic file (type png)
 <use ./figures//3d_vs_vin.png>
 Package pdftex.def Info: ./figures//3d_vs_vin.png  used on input line 143.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
-[9 <./figures//non-inverting_SCH.pdf>]
-<./figures//circuit3.png, id=167, 914.81775pt x 402.303pt>
+ [10 <./figures//non-inverting_SCH.pdf> <./figures//3d_vs_vin.png (PNG copy)>]
+<./figures//circuit3.png, id=172, 914.81775pt x 402.303pt>
 File: ./figures//circuit3.png Graphic file (type png)
 <use ./figures//circuit3.png>
 Package pdftex.def Info: ./figures//circuit3.png  used on input line 154.
 (pdftex.def)             Requested size: 281.85587pt x 123.9453pt.
-<./figures//e_2.png, id=168, 1445.4pt x 704.6325pt>
+<./figures//e_2.png, id=173, 1445.4pt x 704.6325pt>
 File: ./figures//e_2.png Graphic file (type png)
 <use ./figures//e_2.png>
 Package pdftex.def Info: ./figures//e_2.png  used on input line 161.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
- [10 <./figures//3d_vs_vin.png (PNG copy)> <./figures//circuit3.png>]
+ [11 <./figures//circuit3.png> <./figures//e_2.png (PNG copy)>]
 
 pdfTeX warning: pdflatex (file ./figures//Inverting_SCH.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//Inverting_SCH.pdf, id=175, 845.07724pt x 597.55246pt>
+<./figures//Inverting_SCH.pdf, id=180, 845.07724pt x 597.55246pt>
 File: ./figures//Inverting_SCH.pdf Graphic file (type pdf)
 <use ./figures//Inverting_SCH.pdf>
 Package pdftex.def Info: ./figures//Inverting_SCH.pdf  used on input line 174.
 (pdftex.def)             Requested size: 469.75502pt x 332.16525pt.
-[11 <./figures//e_2.png (PNG copy)>]
-<./figures//3c_vs_vin.png, id=182, 1445.4pt x 704.6325pt>
+<./figures//3c_vs_vin.png, id=181, 1445.4pt x 704.6325pt>
 File: ./figures//3c_vs_vin.png Graphic file (type png)
 <use ./figures//3c_vs_vin.png>
 Package pdftex.def Info: ./figures//3c_vs_vin.png  used on input line 181.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
- [12 <./figures//Inverting_SCH.pdf>]
+[12 <./figures//Inverting_SCH.pdf>]
 <./figures//circuit5.png, id=200, 1093.686pt x 483.60675pt>
 File: ./figures//circuit5.png Graphic file (type png)
 <use ./figures//circuit5.png>
@@ -523,35 +522,35 @@ File: ./figures//e_3_b.png Graphic file (type png)
 <use ./figures//e_3_b.png>
 Package pdftex.def Info: ./figures//e_3_b.png  used on input line 220.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
- [15 <./figures//e_3_a.png (PNG copy)> <./figures//e_3_b.png (PNG copy)>]
+ [15 <./figures//e_3_a.png (PNG copy)>]
 
 pdfTeX warning: pdflatex (file ./figures//summing_SCH.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//summing_SCH.pdf, id=223, 845.07724pt x 597.55246pt>
+<./figures//summing_SCH.pdf, id=222, 845.07724pt x 597.55246pt>
 File: ./figures//summing_SCH.pdf Graphic file (type pdf)
 <use ./figures//summing_SCH.pdf>
 Package pdftex.def Info: ./figures//summing_SCH.pdf  used on input line 229.
 (pdftex.def)             Requested size: 375.80544pt x 265.73221pt.
-<./figures//4a_vs_t.png, id=224, 1445.4pt x 704.6325pt>
+<./figures//4a_vs_t.png, id=223, 1445.4pt x 704.6325pt>
 File: ./figures//4a_vs_t.png Graphic file (type png)
 <use ./figures//4a_vs_t.png>
 Package pdftex.def Info: ./figures//4a_vs_t.png  used on input line 235.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
-[16 <./figures//summing_SCH.pdf>] [17 <./figures//4a_vs_t.png (PNG copy)>] (Experiment5_Tu4_2442366.aux)
+[16 <./figures//e_3_b.png (PNG copy)> <./figures//summing_SCH.pdf>] [17 <./figures//4a_vs_t.png (PNG copy)>] [18] (Experiment5_Tu4_2442366.aux)
 Package rerunfilecheck Info: File `Experiment5_Tu4_2442366.out' has not changed.
 (rerunfilecheck)             Checksum: 2F9D8BB9963BCDD81B9D6F9BD211624A;1249.
  ) 
 Here is how much of TeX's memory you used:
- 10496 strings out of 479334
- 157719 string characters out of 2854709
+ 10498 strings out of 479334
+ 157736 string characters out of 2854709
  466664 words of memory out of 3000000
  27726 multiletter control sequences out of 15000+200000
  410060 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,7n,88p,777b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 83i,7n,88p,779b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\AhmetAkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Experiment5_Tu4_2442366.pdf (17 pages, 1288623 bytes).
+Output written on Experiment5_Tu4_2442366.pdf (18 pages, 1289926 bytes).
 PDF statistics:
- 298 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
  207 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1638896605 "c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP5/Experiment5_Tu4_2442366.tex" "Experiment5_Tu4_2442366.pdf" "Experiment5_Tu4_2442366" 1638896609
+["pdflatex"] 1638912569 "c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP5/Experiment5_Tu4_2442366.tex" "Experiment5_Tu4_2442366.pdf" "Experiment5_Tu4_2442366" 1638912577
   "C:/Users/AhmetAkman/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1619465436 14064 a310038d9d6a6b5947a4d45aefaa2858 ""
   "C:/Users/AhmetAkman/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1619464012 9409838 bf0436d81a1249172f6f80bd318dd4f4 ""
   "C:/Users/AhmetAkman/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1638724320 124156 de4f0dc6dcfe89740754b66581735726 ""
@@ -89,11 +89,11 @@
   "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575571282 9715 b051d5b493d9fe5f4bc251462d039e5f ""
   "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
-  "Experiment5_Tu4_2442366.aux" 1638896608 5288 a1a60585178ca060994f886433e64f00 "pdflatex"
-  "Experiment5_Tu4_2442366.out" 1638896608 1249 2f9d8bb9963bcdd81b9d6f9bd211624a "pdflatex"
-  "Experiment5_Tu4_2442366.tex" 1638896605 15004 ccc8a8e3f2b75897050b2b58572df601 ""
-  "Experiment5_Tu4_2442366.toc" 1638896608 932 cfdabaffbb2a1e7044fffcc4a142266b "pdflatex"
-  "c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP5/Experiment5_Tu4_2442366.tex" 1638896605 15004 ccc8a8e3f2b75897050b2b58572df601 ""
+  "Experiment5_Tu4_2442366.aux" 1638912576 5289 19fe169c145490b6d68871b3aec22b75 "pdflatex"
+  "Experiment5_Tu4_2442366.out" 1638912576 1249 2f9d8bb9963bcdd81b9d6f9bd211624a "pdflatex"
+  "Experiment5_Tu4_2442366.tex" 1638912560 15229 9558cea3a9381e9a479d8bcaf5cb4172 ""
+  "Experiment5_Tu4_2442366.toc" 1638912577 932 179b0a67a7ff84f873834e3dcf561a30 "pdflatex"
+  "c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP5/Experiment5_Tu4_2442366.tex" 1638912560 15229 9558cea3a9381e9a479d8bcaf5cb4172 ""
   "figures//3a_vs_vin.png" 1638814431 15139 8cdd83628ea51b1eeb6b4721cddbbc36 ""
   "figures//3b_vs_vin.png" 1638814481 21810 4f8c806c5fb2959b11598c28fa457843 ""
   "figures//3c_vs_vin.png" 1638814309 19324 6d381ca8579b9113e4a126136fb1c4cf ""
@@ -117,8 +117,8 @@
   "figures//summing_SCH.pdf" 1638792805 155841 9f75bbde735f7ae777c83cd510b0f6b7 ""
   "figures//voltage_divider.png" 1638894205 13779 7048368fd8cdab75c84a14a551c710cb ""
   (generated)
-  "Experiment5_Tu4_2442366.aux"
-  "Experiment5_Tu4_2442366.toc"
-  "Experiment5_Tu4_2442366.out"
   "Experiment5_Tu4_2442366.log"
+  "Experiment5_Tu4_2442366.out"
+  "Experiment5_Tu4_2442366.toc"
+  "Experiment5_Tu4_2442366.aux"
   "Experiment5_Tu4_2442366.pdf"
