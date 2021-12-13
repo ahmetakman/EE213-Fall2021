@@ -36,11 +36,11 @@
 %\end{abstract}
 
 \section{Introduction} 
-In this experiment, as students, we are expected to experiment with different kinds of Op-Amp circuits by completing the steps described in the sixth experiment laboratory manual. Throughout these steps, the basic characteristics of Op-Amps and the behavior of the Op-Amp circuits are expected to be learned. The output versus input characteristics is observed by connecting the signal generator to the oscilloscope and the circuit. The non-ideal behavior of the components is compared with the ideal simulation plots. The results of the steps were recorded and plotted for further comments.
+In this experiment, as students, we are expected to experiment with different kinds of Op-Amp circuits by completing the steps described in the sixth experiment laboratory manual. Throughout these steps, the some characteristics of Op-Amps and the behavior of the Op-Amp circuits are expected to be learned. The output versus input characteristics is observed by connecting the signal generator to the oscilloscope and the circuit. The non-ideal behavior of the components is compared with the ideal simulation plots. Also some measurements are expected to be finalized via manipulating the output. The results of the steps were recorded and plotted for further comments.
 \section{Experimental Results}
-In this section, the results of Experiment 6 are discussed. Before the experiment begins, necessary adjustments are made to the DC power supply. LM 741 operational amplifier integrated circuit is used in this experiment.
+In this section, the results of Experiment 6 are discussed. Before the experiment begins, necessary adjustments are made to the DC power supply. LM 741 operational amplifier integrated circuit is used in this experiment. Capacitors are placed to the power line in order to prevent unstable supply behavior by compansating the line for short time intevals.
 \subsection{Step 1}
-
+In this step, circuit shown in the Figure 1  is constructed. 
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{circuit_1.png}
@@ -48,39 +48,42 @@ In this section, the results of Experiment 6 are discussed. Before the experimen
 \end{figure}
 
 \subsubsection{a)}
-
+In the circuit given in Figure 1 , \(V_{in}\) is selected as \(0.4sin(1000\pi)\) V. Then, \(V_{out}\) versus \(V_{in}\) characteristic is plotted and shown in Figure 2. 
 
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{1a_1.png}
    \caption{\(V_{o}\) vs \(V_{in}\)}
 \end{figure}
-
+The \(V_o\) , \(V_{in}\) waveforms are observed and plotted in MATLAB shown in Figure 3.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{1a_2.png}
    \caption{\(V_{o}\) , \(V_{in}\) vs time (s) }
 \end{figure}
-
+It can be said that , this circuit stays in linear region with this setup. The input signal is inverted and amplified. 
 \paragraph{Comparison with the simulation results}
  \mbox{}
 \\
-asdasdasdasd
+The simulation is run in preliminary work according to the circuit shown in Figure 4.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{Pre1.png}
    \caption{LTSpice schematic for the simulation 1a }
 \end{figure}
-
+Then the plot given in Figure 5 is obtained.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{Pre_1a.png}
    \caption{\(V_{o}\) vs \(V_{in}\)}
 \end{figure}
-
+So, it can be concluded that the therotical result obtained in preliminary work is quite consistent with the simulation and real world data. The expression relating \(V_o\) and \(V_in\) is;
+\[V_{in} = V_o(\frac{-1}{10} + \frac{-5}{121})\]
+There is a little offset of signal in the real plot. This is predicted to be stemmed from the non-ideality of either the LM741 component or the power line of the power supply.
 
 
 \subsubsection{b)}
+In the circuit given in Figure 1 , \(V_{in}\) is kept as \(0.4sin(1000\pi)\) V. Then \(R3\) is removed from the circuit. The \(V_{out}\) versus \(V_{in}\) characteristic is plotted and shown in Figure 6. 
 
 
 \begin{figure}[H]
@@ -88,29 +91,39 @@ asdasdasdasd
    \includegraphics[width=1\textwidth]{1b_1.png}
    \caption{\(V_{o}\) vs \(V_{in}\)}
 \end{figure}
-
+The \(V_o\) , \(V_{in}\) waveforms are also observed and plotted in MATLAB shown in Figure 7.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{1b_2.png}
    \caption{\(V_{o}\) , \(V_{in}\) vs time (s) }
 \end{figure}
-
-
+It can be stated that in this configuration the first opamp is not propageted with negative feedback from the \(V_o\) , so the signal is amplfied more.  
+\paragraph{Comparison with the simulation results}
+ \mbox{}
+\\
+The simulation is run in preliminary work according to the circuit shown in Figure 4 by removing R3 connection. So the \(V_{o}\) vs \(V_{in}\) result is shown in Figure 8.
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{Pre_1b.png}
+   \caption{\(V_{o}\) vs \(V_{in}\)}
+\end{figure}
+It can be concluded that the laboratary results and simulation results are quite consistent. The relation found in preliminary work seem to be hold which is;
+\[V_{in} = \frac{-5 V_o}{121} \]
+Also, there is a shift towards the negative side in laboratary plot. This is predicted to be sourced from the non-ideality of either the LM741 component or the power line of the power supply.
 \subsubsection{c)}
-
-
+The circuit setup is conserved in this section. The \(V_{in}\) is selected as \(1sin(200\pi)\) V this time. \(V_{o}\) vs \(V_{in}\) is obtained as shown in Figure 9.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{1c_1.png}
    \caption{\(V_{o}\) vs \(V_{in}\)}
 \end{figure}
-
+The waveforms \(V_0\) and \(V_{in}\) are observed and plotted in time domain is given in Figure 10.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{1c_2.png}
    \caption{\(V_{o}\) , \(V_{in}\) vs time (s) }
 \end{figure}
-
+As a result it can be stated that, when the signal amplitude increases the opamp(s) may not stay at their linear region can be saturated. This circuit setup in principle always inverts the signal and inverts it.
 \subsection{Step 2}
 \begin{figure}[H]
 	\centering
