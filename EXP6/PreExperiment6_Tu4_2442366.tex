@@ -23,7 +23,7 @@
 
 \begin{document}
 
-\title{Experiment 5 Preliminary Work \protect\\ Operational Amplifiers}
+\title{Experiment 6 Preliminary Work \protect\\ Operational Amplifiers - II}
 \author{Ahmet Akman 2442366 \protect\\}
 \date{\today}
 \maketitle
@@ -33,158 +33,126 @@
 %\end{abstract}
 
 \section{Introduction} 
-In preliminary work of the Experiment 5 , the steps for the pre-experiment are conducted and presented.
+In preliminary work of the Experiment 6 , the steps for the pre-experiment are conducted and presented.
 \section{Step 1}
-Videos in  ODTUCLASS related to this experiment is watched and observations are noted.
-\section{Step 2}
-"Notes on Op-Amps" document is studied.
-\section{Step 3}
-In this step following 4 op-amp circuits are constructed in the LTSpice environment and simulated. \(V_{in (t)}\) is taken as \(3sin(1000\pi)\) Volts. Then data are fetched from LTSpice and plotted in MATLAB.
+For this step circuit given in Figure 1 is taken as the reference.
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=0.8\textwidth]{circuit_1.png}
+   \caption{Circuit schematic for the step 1}
+\end{figure} 
+
 \subsection{a)}
-Basic comparator circuit is constructed in LTSpice environment. The schematic is given in the Figure 1.
+The expression relating \(V_o(t)\) to \(V_{in}\) is obtained via hand calculations which is given in Figure 2.
+
 \begin{figure}[H]
 	\centering
-   \includegraphics[width=0.8\textwidth]{BasicComparator_SCH.pdf}
-   \caption{Circuit schematic for the basic comparator.}
+   \includegraphics[width=0.6\textwidth]{1_hand.jpeg}
+   \caption{Hand calculations for the expression relating \(V_o(t)\) to \(V_{in}\)}
 \end{figure} 
-Then plots given in Figures 2,3 and 4 are obtained.
+\(V_o(t) vs V_{in}\) is sketched in the Figure 3 according to the calculations in Figure 2.
 \begin{figure}[H]
 	\centering
-   \includegraphics[width=1\textwidth]{3a_vs_t.png}
-   \caption{\(V_0\) vs t}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-   \includegraphics[width=1\textwidth]{3a_vs_vin.png}
-   \caption{\(V_0\) vs \(V{in}\)}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-   \includegraphics[width=1\textwidth]{3a_i.png}
-   \caption{\(i\) vs t}
-\end{figure}
-
+   \includegraphics[width=0.6\textwidth]{1_a_sketch.jpeg}
+   \caption{\(V_o(t) vs V_{in}\) sketch}
+\end{figure} 
 \subsection{b)}
-Buffer circuit is constructed in LTSpice environment. The schematic is given in the Figure 5.
+
+The expression relating \(V_o(t)\) to \(V_{in}\) without R3 is obtained via hand calculations which is given in Figure 2.
+\(V_o(t) vs V_{in}\) is sketched in the Figure 4 according to the calculations in Figure 2.
 \begin{figure}[H]
 	\centering
-   \includegraphics[width=0.8\textwidth]{Buffer_SCH.pdf}
-   \caption{Circuit schematic for the buffer.}
+   \includegraphics[width=0.6\textwidth]{2_b_sketch.jpeg}
+   \caption{\(V_o(t) vs V_{in}\) sketch}
 \end{figure} 
-Then plots given in Figures 6 , 7 and 8 are obtained.
-\begin{figure}[H]
-	\centering
-   \includegraphics[width=1\textwidth]{3b_vs_t.png}
-   \caption{\(V_0\) vs t}
-\end{figure}
 
-\begin{figure}[H]
-	\centering
-   \includegraphics[width=1\textwidth]{3b_vs_vin.png}
-   \caption{\(V_0\) vs \(V{in}\)}
-\end{figure}
+\section{Step 2}
 
+For this step circuit given in Figure 5 is taken as the reference.
 \begin{figure}[H]
 	\centering
-   \includegraphics[width=0.8\textwidth]{3b_i.png}
-   \caption{\(i\) vs t}
-\end{figure}
-
-\subsection{c)}
-Inverting amplifier circuit is constructed in LTSpice environment. The schematic is given in the Figure 9.
-\begin{figure}[H]
-	\centering
-   \includegraphics[width=1\textwidth]{Inverting_SCH.pdf}
-   \caption{Circuit schematic for the inverting amplifier.}
+   \includegraphics[width=0.6\textwidth]{circuit_2.png}
+   \caption{Circuit for Step 2}
 \end{figure} 
-Then plots given in Figures 10,11 and 12 are obtained.
-\begin{figure}[H]
-	\centering
-   \includegraphics[width=1\textwidth]{3c_vs_t.png}
-   \caption{\(V_0\) vs t}
-\end{figure}
 
+Then \(V_o vs V{in}\) is plotted given in Figure 6 with its calculations.
 \begin{figure}[H]
 	\centering
-   \includegraphics[width=1\textwidth]{3c_vs_vin.png}
-   \caption{\(V_0\) vs \(V{in}\)}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-   \includegraphics[width=1\textwidth]{3c_i.png}
-   \caption{\(i\) vs t}
-\end{figure}
-
-\subsection{d)}
-Non-inverting amplifier circuit is constructed in LTSpice environment. The schematic is given in the Figure 13.
-\begin{figure}[H]
-	\centering
-   \includegraphics[width=0.8\textwidth]{non-inverting_SCH.pdf}
-   \caption{Circuit schematic for the basic comparator.}
+   \includegraphics[width=0.6\textwidth]{2_hand.jpeg}
+   \caption{\(V_o(t) vs V_{in}\) sketch}
 \end{figure} 
-Then plots given in Figures 14,15 and 16 are obtained.
-\begin{figure}[H]
-	\centering
-   \includegraphics[width=1\textwidth]{3d_vs_t.png}
-   \caption{\(V_0\) vs t}
-\end{figure}
 
+\section{Step 3}
+\subsection{a) Darkness Sensor}
+The circuit given in Figure 7 is taken as the reference.
 \begin{figure}[H]
 	\centering
-   \includegraphics[width=1\textwidth]{3d_vs_vin.png}
-   \caption{\(V_0\) vs \(V{in}\)}
-\end{figure}
-
+   \includegraphics[width=0.8\textwidth]{darkness.png}
+   \caption{Darkness sensor circuit for the Step 3}
+\end{figure} 
+The relation that express \(V_o(t) vs R_{LDR}\) can be derived using voltage divider equations as follows.
+\[V_+ is equal to 6 Volts
+\]\[
+V_- = 12\frac{R_3}{R_3+R_{LDR}}
+\]
+so;
+\[ 
+if (6-12\frac{R_3}{R_3+R_{LDR}} > 0, V_o = +12V)
+\]\[ 
+if (6-12\frac{R_3}{R_3+R_{LDR}} < 0, V_o = -12V)
+\]
+\subsection{b) Lightness Sensor}
+The lightness sensor can be designed via swapping the inverting and non-inverting terminals of Op-Amp  in the circuit given in Figure 6. So the resulting circuit is given in the Figure 7.
 \begin{figure}[H]
 	\centering
-   \includegraphics[width=1\textwidth]{3d_i.png}
-   \caption{\(i\) vs t}
-\end{figure}
+   \includegraphics[width=1\textwidth]{lightness.png}
+   \caption{Lightness sensor circuit for the Step 3}
+\end{figure} 
 
 \section{Step 4}
-In this step following 2 op-amp circuits are constructed in the LTSpice environment and simulated. \(V_{a}\) is taken as \(4sin(1000\pi)\) Volts. \(V_{b}\) is taken as \(2sin(1000\pi)\) Volts. Then data are fetched from LTSpice and plotted in MATLAB.
-
-\subsection{a)}
-Summing amplifier circuit is constructed in LTSpice environment. The schematic is given in the Figure 17.
+The circuit in the Figure 1 is constructed in LTSpice environment, given in Figure 8.
 \begin{figure}[H]
 	\centering
-   \includegraphics[width=0.8\textwidth]{summing_SCH.pdf}
-   \caption{Circuit schematic for the summing amplifier.}
+   \includegraphics[width=1\textwidth]{Pre1.png}
+   \caption{LTSpice schematic for two stage amplifier}
 \end{figure} 
-Then plot given in Figure 18 is obtained.
+
+Then the plot, \(V_o\) vs \(V_{in}\) is obtained and illustrated in Figure 9.
 \begin{figure}[H]
 	\centering
-   \includegraphics[width=1\textwidth]{4a_vs_t.png}
-   \caption{\(V_0\) vs t}
-\end{figure}
-
-
-\subsection{b)}
-Difference amplifier circuit is constructed in LTSpice environment. The schematic is given in the Figure 19.
-\begin{figure}[H]
-	\centering
-   \includegraphics[width=0.8\textwidth]{difference_SCH.pdf}
-   \caption{Circuit schematic for the difference amplifier.}
+   \includegraphics[width=1\textwidth]{Pre_1a.png}
+   \caption{\(V_o\) vs \(V_{in}\)}
 \end{figure} 
-Then plot given in Figure 20 is obtained.
+for the part b) of the Step 1 plot given in Figure 10 is obtained.
 \begin{figure}[H]
 	\centering
-   \includegraphics[width=1\textwidth]{4b_vs_t.png}
-   \caption{\(V_0\) vs t}
-\end{figure}
-\section{Step 5}
-To obtain the expression relating the output voltage \(V_0 (t)\) to the input voltage \(V_{in} (t)\) of a inverting amplifier setup, the circuit in Figure 8 is taken as the reference. Then current throught input terminals and the voltage of those terminals are taken as 0 since it is ideal amplifier. So the circuit simplifies to 2 terminals and 2 resistors. Then the following simplifications are followed.
-\[\frac{V{in} - 0 }{R_1} = i\]
-\[\frac{0 - V{o} }{R_2} = i\]
-So, the relation becomes as,
-\[\frac{V{out}}{V{in}} = -\frac{R_2}{R_1}\]
-Therefore it seems linear region of the plot given in Figure 11 approximately corresponds our findings.
+   \includegraphics[width=1\textwidth]{Pre_1b.png}
+   \caption{\(V_o\) vs \(V_{in}\)}
+\end{figure} 
+ 
+By comparing the sketch in the Figure 3, it can be said that simulation result is consistent with our theoretical result.
+
+The circuit in the Figure 5 is constructed in LTSpice environment, given in Figure 12.
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{Pre2.png}
+   \caption{LTSpice schematic for Step 2 circuit}
+\end{figure} 
+
+
+Then the plot, \(V_o\) vs \(V_{in}\) is obtained and illustrated in Figure 13.
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{Pre_2.png}
+   \caption{\(V_o\) vs \(V_{in}\)}
+\end{figure} 
+
+
+By comparing the sketch in the Figure 6, it can be said that simulation result is consistent with our theoretical findings.
 
 \section{Conclusion}
-In conclusion, in preliminary work of experiment 5, "Operational Amplifiers"  needed simulation are made and necesseray data are plotted. Then the expreession for the inverting amplifier obtained and compared.
+In conclusion, in preliminary work of experiment 6, "Operational Amplifiers-II"  needed the expressions for the amplifier circuits are obtained and necessary data are plotted. Then and simulations are made and compared with theoretical results.
+
 %++++++++++++++++++++++++++++++++++++++++
 % References section will be created automatically 
 % with inclusion of "thebibliography" environment
