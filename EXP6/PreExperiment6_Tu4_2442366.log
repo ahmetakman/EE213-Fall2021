@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  13 DEC 2021 19:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  13 DEC 2021 20:01
 entering extended mode
 **"c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP6/PreExperiment6_Tu4_2442366.tex"
 (c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP6/PreExperiment6_Tu4_2442366.tex
@@ -395,97 +395,102 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write3
 \openout3 = `PreExperiment6_Tu4_2442366.out'.
 
-<./figures//circuit_1.png, id=43, 714.2685pt x 363.759pt>
-File: ./figures//circuit_1.png Graphic file (type png)
-<use ./figures//circuit_1.png>
-Package pdftex.def Info: ./figures//circuit_1.png  used on input line 41.
-(pdftex.def)             Requested size: 375.80544pt x 191.39262pt.
-<./figures//1_hand.jpeg, id=44, 1172.38pt x 1606.0pt>
-File: ./figures//1_hand.jpeg Graphic file (type jpg)
-<use ./figures//1_hand.jpeg>
-Package pdftex.def Info: ./figures//1_hand.jpeg  used on input line 50.
-(pdftex.def)             Requested size: 281.85587pt x 386.08502pt.
  [1
 
-{C:/Users/AhmetAkman/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./figures//circuit_1.png>]
-<./figures//1_a_sketch.jpeg, id=56, 1606.0pt x 1114.1625pt>
+{C:/Users/AhmetAkman/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (PreExperiment6_Tu4_2442366.toc)
+\tf@toc=\write4
+\openout4 = `PreExperiment6_Tu4_2442366.toc'.
+
+ [2]
+<./figures//circuit_1.png, id=66, 714.2685pt x 363.759pt>
+File: ./figures//circuit_1.png Graphic file (type png)
+<use ./figures//circuit_1.png>
+Package pdftex.def Info: ./figures//circuit_1.png  used on input line 43.
+(pdftex.def)             Requested size: 375.80544pt x 191.39262pt.
+<./figures//1_hand.jpeg, id=67, 1172.38pt x 1606.0pt>
+File: ./figures//1_hand.jpeg Graphic file (type jpg)
+<use ./figures//1_hand.jpeg>
+Package pdftex.def Info: ./figures//1_hand.jpeg  used on input line 52.
+(pdftex.def)             Requested size: 281.85587pt x 386.08502pt.
+ [3 <./figures//circuit_1.png>]
+<./figures//1_a_sketch.jpeg, id=75, 1606.0pt x 1114.1625pt>
 File: ./figures//1_a_sketch.jpeg Graphic file (type jpg)
 <use ./figures//1_a_sketch.jpeg>
-Package pdftex.def Info: ./figures//1_a_sketch.jpeg  used on input line 56.
+Package pdftex.def Info: ./figures//1_a_sketch.jpeg  used on input line 58.
 (pdftex.def)             Requested size: 281.85587pt x 195.52538pt.
- [2 <./figures//1_hand.jpeg>]
-<./figures//2_b_sketch.jpeg, id=62, 1526.70375pt x 1461.46pt>
+ [4 <./figures//1_hand.jpeg>]
+<./figures//2_b_sketch.jpeg, id=81, 1526.70375pt x 1461.46pt>
 File: ./figures//2_b_sketch.jpeg Graphic file (type jpg)
 <use ./figures//2_b_sketch.jpeg>
-Package pdftex.def Info: ./figures//2_b_sketch.jpeg  used on input line 65.
+Package pdftex.def Info: ./figures//2_b_sketch.jpeg  used on input line 67.
 (pdftex.def)             Requested size: 281.85587pt x 269.80836pt.
-<./figures//circuit_2.png, id=63, 585.98924pt x 280.6485pt>
+<./figures//circuit_2.png, id=82, 585.98924pt x 280.6485pt>
 File: ./figures//circuit_2.png Graphic file (type png)
 <use ./figures//circuit_2.png>
-Package pdftex.def Info: ./figures//circuit_2.png  used on input line 74.
+Package pdftex.def Info: ./figures//circuit_2.png  used on input line 76.
 (pdftex.def)             Requested size: 281.85587pt x 134.99237pt.
- [3 <./figures//1_a_sketch.jpeg> <./figures//2_b_sketch.jpeg>]
-<./figures//2_hand.jpeg, id=70, 1330.9725pt x 1606.0pt>
+ [5 <./figures//1_a_sketch.jpeg> <./figures//2_b_sketch.jpeg>]
+<./figures//2_hand.jpeg, id=89, 1330.9725pt x 1606.0pt>
 File: ./figures//2_hand.jpeg Graphic file (type jpg)
 <use ./figures//2_hand.jpeg>
-Package pdftex.def Info: ./figures//2_hand.jpeg  used on input line 81.
+Package pdftex.def Info: ./figures//2_hand.jpeg  used on input line 83.
 (pdftex.def)             Requested size: 281.85587pt x 340.0881pt.
-<./figures//darkness.png, id=71, 961.191pt x 424.58624pt>
+<./figures//darkness.png, id=90, 961.191pt x 424.58624pt>
 File: ./figures//darkness.png Graphic file (type png)
 <use ./figures//darkness.png>
-Package pdftex.def Info: ./figures//darkness.png  used on input line 90.
+Package pdftex.def Info: ./figures//darkness.png  used on input line 92.
 (pdftex.def)             Requested size: 375.80544pt x 166.0026pt.
- [4 <./figures//circuit_2.png> <./figures//2_hand.jpeg>]
-<./figures//lightness.png, id=78, 839.5365pt x 387.849pt>
+ [6 <./figures//circuit_2.png> <./figures//2_hand.jpeg>]
+<./figures//lightness.png, id=97, 839.5365pt x 387.849pt>
 File: ./figures//lightness.png Graphic file (type png)
 <use ./figures//lightness.png>
-Package pdftex.def Info: ./figures//lightness.png  used on input line 108.
+Package pdftex.def Info: ./figures//lightness.png  used on input line 110.
 (pdftex.def)             Requested size: 469.75502pt x 217.0164pt.
- [5 <./figures//darkness.png>]
-<./figures//Pre1.png, id=87, 526.96875pt x 464.937pt>
+ [7 <./figures//darkness.png>]
+<./figures//Pre1.png, id=107, 526.96875pt x 464.937pt>
 File: ./figures//Pre1.png Graphic file (type png)
 <use ./figures//Pre1.png>
-Package pdftex.def Info: ./figures//Pre1.png  used on input line 116.
+Package pdftex.def Info: ./figures//Pre1.png  used on input line 118.
 (pdftex.def)             Requested size: 469.75502pt x 414.48077pt.
- [6 <./figures//lightness.png>]
-<./figures//Pre_1a.png, id=93, 1445.4pt x 704.6325pt>
+ [8 <./figures//lightness.png>]
+<./figures//Pre_1a.png, id=113, 1445.4pt x 704.6325pt>
 File: ./figures//Pre_1a.png Graphic file (type png)
 <use ./figures//Pre_1a.png>
-Package pdftex.def Info: ./figures//Pre_1a.png  used on input line 123.
+Package pdftex.def Info: ./figures//Pre_1a.png  used on input line 125.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
- [7 <./figures//Pre1.png>]
-<./figures//Pre_1b.png, id=100, 1445.4pt x 704.6325pt>
+ [9 <./figures//Pre1.png>]
+<./figures//Pre_1b.png, id=119, 1445.4pt x 704.6325pt>
 File: ./figures//Pre_1b.png Graphic file (type png)
 <use ./figures//Pre_1b.png>
-Package pdftex.def Info: ./figures//Pre_1b.png  used on input line 129.
+Package pdftex.def Info: ./figures//Pre_1b.png  used on input line 131.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
-<./figures//Pre2.png, id=101, 558.888pt x 479.391pt>
+<./figures//Pre2.png, id=120, 558.888pt x 479.391pt>
 File: ./figures//Pre2.png Graphic file (type png)
 <use ./figures//Pre2.png>
-Package pdftex.def Info: ./figures//Pre2.png  used on input line 138.
+Package pdftex.def Info: ./figures//Pre2.png  used on input line 140.
 (pdftex.def)             Requested size: 469.75502pt x 402.94171pt.
- [8 <./figures//Pre_1a.png (PNG copy)> <./figures//Pre_1b.png (PNG copy)>]
-<./figures//Pre_2.png, id=108, 1445.4pt x 704.6325pt>
+ [10 <./figures//Pre_1a.png (PNG copy)> <./figures//Pre_1b.png (PNG copy)>]
+<./figures//Pre_2.png, id=127, 1445.4pt x 704.6325pt>
 File: ./figures//Pre_2.png Graphic file (type png)
 <use ./figures//Pre_2.png>
-Package pdftex.def Info: ./figures//Pre_2.png  used on input line 146.
+Package pdftex.def Info: ./figures//Pre_2.png  used on input line 148.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
- [9 <./figures//Pre2.png>] [10 <./figures//Pre_2.png (PNG copy)>] (PreExperiment6_Tu4_2442366.aux)
+ [11 <./figures//Pre2.png>] [12 <./figures//Pre_2.png (PNG copy)>] (PreExperiment6_Tu4_2442366.aux)
 Package rerunfilecheck Info: File `PreExperiment6_Tu4_2442366.out' has not changed.
 (rerunfilecheck)             Checksum: AFE9D98A78DA1ABE5061076F178B88B1;958.
  ) 
 Here is how much of TeX's memory you used:
- 10411 strings out of 479334
- 155632 string characters out of 2854709
+ 10420 strings out of 479334
+ 155855 string characters out of 2854709
  465675 words of memory out of 3000000
- 27673 multiletter control sequences out of 15000+200000
- 409416 words of font info for 48 fonts, out of 3000000 for 9000
+ 27676 multiletter control sequences out of 15000+200000
+ 409723 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,7n,88p,364b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on PreExperiment6_Tu4_2442366.pdf (10 pages, 852786 bytes).
+Output written on PreExperiment6_Tu4_2442366.pdf (12 pages, 856722 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
