@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  13 DEC 2021 22:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  13 DEC 2021 22:50
 entering extended mode
-**"c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP6/PreExperiment6_Tu4_2442366.tex"
-(c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP6/PreExperiment6_Tu4_2442366.tex
+**"c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP6/Experiment6_Tu4_2442366.tex"
+(c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP6/Experiment6_Tu4_2442366.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> xparse <2020-03-03> (C:\Users\AhmetAkman\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -300,27 +300,27 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 18.
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box55
-) (PreExperiment6_Tu4_2442366.aux)
-\openout1 = `PreExperiment6_Tu4_2442366.aux'.
+) (Experiment6_Tu4_2442366.aux)
+\openout1 = `Experiment6_Tu4_2442366.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
  (C:\Users\AhmetAkman\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count287
@@ -378,7 +378,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 24.
+Package hyperref Info: Link coloring ON on input line 25.
 (C:\Users\AhmetAkman\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\AhmetAkman\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -388,109 +388,173 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count293
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
- (PreExperiment6_Tu4_2442366.out) (PreExperiment6_Tu4_2442366.out)
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
+ (Experiment6_Tu4_2442366.out) (Experiment6_Tu4_2442366.out)
 \@outlinefile=\write3
-\openout3 = `PreExperiment6_Tu4_2442366.out'.
+\openout3 = `Experiment6_Tu4_2442366.out'.
 
  [1
 
-{C:/Users/AhmetAkman/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (PreExperiment6_Tu4_2442366.toc)
+{C:/Users/AhmetAkman/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (Experiment6_Tu4_2442366.toc)
 \tf@toc=\write4
-\openout4 = `PreExperiment6_Tu4_2442366.toc'.
+\openout4 = `Experiment6_Tu4_2442366.toc'.
 
  [2]
-<./figures//circuit_1.png, id=66, 714.2685pt x 363.759pt>
+<./figures//circuit_1.png, id=116, 714.2685pt x 363.759pt>
 File: ./figures//circuit_1.png Graphic file (type png)
 <use ./figures//circuit_1.png>
-Package pdftex.def Info: ./figures//circuit_1.png  used on input line 43.
-(pdftex.def)             Requested size: 375.80544pt x 191.39262pt.
-<./figures//1_hand.jpeg, id=67, 1172.38pt x 1606.0pt>
-File: ./figures//1_hand.jpeg Graphic file (type jpg)
-<use ./figures//1_hand.jpeg>
-Package pdftex.def Info: ./figures//1_hand.jpeg  used on input line 52.
-(pdftex.def)             Requested size: 281.85587pt x 386.08502pt.
+Package pdftex.def Info: ./figures//circuit_1.png  used on input line 46.
+(pdftex.def)             Requested size: 469.75502pt x 239.238pt.
+<./figures//1a_1.png, id=117, 1445.4pt x 704.6325pt>
+File: ./figures//1a_1.png Graphic file (type png)
+<use ./figures//1a_1.png>
+Package pdftex.def Info: ./figures//1a_1.png  used on input line 55.
+(pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
  [3 <./figures//circuit_1.png>]
-<./figures//1_a_sketch.jpeg, id=75, 1606.0pt x 1114.1625pt>
-File: ./figures//1_a_sketch.jpeg Graphic file (type jpg)
-<use ./figures//1_a_sketch.jpeg>
-Package pdftex.def Info: ./figures//1_a_sketch.jpeg  used on input line 58.
-(pdftex.def)             Requested size: 281.85587pt x 195.52538pt.
- [4 <./figures//1_hand.jpeg>]
-<./figures//2_b_sketch.jpeg, id=81, 1526.70375pt x 1461.46pt>
-File: ./figures//2_b_sketch.jpeg Graphic file (type jpg)
-<use ./figures//2_b_sketch.jpeg>
-Package pdftex.def Info: ./figures//2_b_sketch.jpeg  used on input line 67.
-(pdftex.def)             Requested size: 281.85587pt x 269.80836pt.
-<./figures//circuit_2.png, id=82, 585.98924pt x 280.6485pt>
-File: ./figures//circuit_2.png Graphic file (type png)
-<use ./figures//circuit_2.png>
-Package pdftex.def Info: ./figures//circuit_2.png  used on input line 76.
-(pdftex.def)             Requested size: 281.85587pt x 134.99237pt.
- [5 <./figures//1_a_sketch.jpeg> <./figures//2_b_sketch.jpeg>]
-<./figures//2_hand.jpeg, id=89, 1330.9725pt x 1606.0pt>
-File: ./figures//2_hand.jpeg Graphic file (type jpg)
-<use ./figures//2_hand.jpeg>
-Package pdftex.def Info: ./figures//2_hand.jpeg  used on input line 83.
-(pdftex.def)             Requested size: 281.85587pt x 340.0881pt.
- [6 <./figures//circuit_2.png> <./figures//2_hand.jpeg>]
-<./figures//darkness.png, id=97, 961.191pt x 424.58624pt>
-File: ./figures//darkness.png Graphic file (type png)
-<use ./figures//darkness.png>
-Package pdftex.def Info: ./figures//darkness.png  used on input line 92.
-(pdftex.def)             Requested size: 375.80544pt x 166.0026pt.
-<./figures//lightness.png, id=98, 839.5365pt x 387.849pt>
-File: ./figures//lightness.png Graphic file (type png)
-<use ./figures//lightness.png>
-Package pdftex.def Info: ./figures//lightness.png  used on input line 110.
-(pdftex.def)             Requested size: 469.75502pt x 217.0164pt.
- [7 <./figures//darkness.png>]
-<./figures//Pre1.png, id=107, 526.96875pt x 464.937pt>
+<./figures//1a_2.png, id=123, 1445.4pt x 704.6325pt>
+File: ./figures//1a_2.png Graphic file (type png)
+<use ./figures//1a_2.png>
+Package pdftex.def Info: ./figures//1a_2.png  used on input line 61.
+(pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
+<./figures//Pre1.png, id=124, 526.96875pt x 464.937pt>
 File: ./figures//Pre1.png Graphic file (type png)
 <use ./figures//Pre1.png>
-Package pdftex.def Info: ./figures//Pre1.png  used on input line 118.
+Package pdftex.def Info: ./figures//Pre1.png  used on input line 71.
 (pdftex.def)             Requested size: 469.75502pt x 414.48077pt.
- [8 <./figures//lightness.png>]
-<./figures//Pre_1a.png, id=113, 1445.4pt x 704.6325pt>
+ [4 <./figures//1a_1.png (PNG copy)> <./figures//1a_2.png (PNG copy)>]
+<./figures//Pre_1a.png, id=133, 1445.4pt x 704.6325pt>
 File: ./figures//Pre_1a.png Graphic file (type png)
 <use ./figures//Pre_1a.png>
-Package pdftex.def Info: ./figures//Pre_1a.png  used on input line 125.
+Package pdftex.def Info: ./figures//Pre_1a.png  used on input line 77.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
- [9 <./figures//Pre1.png>]
-<./figures//Pre_1b.png, id=119, 1445.4pt x 704.6325pt>
-File: ./figures//Pre_1b.png Graphic file (type png)
-<use ./figures//Pre_1b.png>
-Package pdftex.def Info: ./figures//Pre_1b.png  used on input line 131.
+ [5 <./figures//Pre1.png>]
+<./figures//1b_1.png, id=139, 1445.4pt x 704.6325pt>
+File: ./figures//1b_1.png Graphic file (type png)
+<use ./figures//1b_1.png>
+Package pdftex.def Info: ./figures//1b_1.png  used on input line 88.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
-<./figures//Pre2.png, id=120, 558.888pt x 479.391pt>
+<./figures//1b_2.png, id=140, 1445.4pt x 704.6325pt>
+File: ./figures//1b_2.png Graphic file (type png)
+<use ./figures//1b_2.png>
+Package pdftex.def Info: ./figures//1b_2.png  used on input line 94.
+(pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
+ [6 <./figures//Pre_1a.png (PNG copy)> <./figures//1b_1.png (PNG copy)>]
+<./figures//1c_1.png, id=147, 1445.4pt x 704.6325pt>
+File: ./figures//1c_1.png Graphic file (type png)
+<use ./figures//1c_1.png>
+Package pdftex.def Info: ./figures//1c_1.png  used on input line 104.
+(pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
+<./figures//1c_2.png, id=148, 1445.4pt x 704.6325pt>
+File: ./figures//1c_2.png Graphic file (type png)
+<use ./figures//1c_2.png>
+Package pdftex.def Info: ./figures//1c_2.png  used on input line 110.
+(pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
+ [7 <./figures//1b_2.png (PNG copy)> <./figures//1c_1.png (PNG copy)>]
+<./figures//circuit_2.png, id=156, 585.98924pt x 280.6485pt>
+File: ./figures//circuit_2.png Graphic file (type png)
+<use ./figures//circuit_2.png>
+Package pdftex.def Info: ./figures//circuit_2.png  used on input line 117.
+(pdftex.def)             Requested size: 469.75502pt x 224.98587pt.
+<./figures//2_1.png, id=157, 1445.4pt x 704.6325pt>
+File: ./figures//2_1.png Graphic file (type png)
+<use ./figures//2_1.png>
+Package pdftex.def Info: ./figures//2_1.png  used on input line 123.
+(pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
+ [8 <./figures//1c_2.png (PNG copy)> <./figures//circuit_2.png>]
+<./figures//2_2.png, id=164, 1445.4pt x 704.6325pt>
+File: ./figures//2_2.png Graphic file (type png)
+<use ./figures//2_2.png>
+Package pdftex.def Info: ./figures//2_2.png  used on input line 129.
+(pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
+<./figures//Pre2.png, id=165, 558.888pt x 479.391pt>
 File: ./figures//Pre2.png Graphic file (type png)
 <use ./figures//Pre2.png>
-Package pdftex.def Info: ./figures//Pre2.png  used on input line 140.
+Package pdftex.def Info: ./figures//Pre2.png  used on input line 136.
 (pdftex.def)             Requested size: 469.75502pt x 402.94171pt.
- [10 <./figures//Pre_1a.png (PNG copy)> <./figures//Pre_1b.png (PNG copy)>]
-<./figures//Pre_2.png, id=127, 1445.4pt x 704.6325pt>
+ [9 <./figures//2_1.png (PNG copy)> <./figures//2_2.png (PNG copy)>]
+<./figures//Pre_2.png, id=172, 1445.4pt x 704.6325pt>
 File: ./figures//Pre_2.png Graphic file (type png)
 <use ./figures//Pre_2.png>
-Package pdftex.def Info: ./figures//Pre_2.png  used on input line 148.
+Package pdftex.def Info: ./figures//Pre_2.png  used on input line 142.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
- [11 <./figures//Pre2.png>] [12 <./figures//Pre_2.png (PNG copy)>] (PreExperiment6_Tu4_2442366.aux)
-Package rerunfilecheck Info: File `PreExperiment6_Tu4_2442366.out' has not changed.
-(rerunfilecheck)             Checksum: AFE9D98A78DA1ABE5061076F178B88B1;958.
+ [10 <./figures//Pre2.png>]
+<./figures//circuit_5.png, id=178, 783.52725pt x 393.8715pt>
+File: ./figures//circuit_5.png Graphic file (type png)
+<use ./figures//circuit_5.png>
+Package pdftex.def Info: ./figures//circuit_5.png  used on input line 150.
+(pdftex.def)             Requested size: 469.75502pt x 236.14441pt.
+<./figures//3a_1.png, id=179, 1445.4pt x 704.6325pt>
+File: ./figures//3a_1.png Graphic file (type png)
+<use ./figures//3a_1.png>
+Package pdftex.def Info: ./figures//3a_1.png  used on input line 158.
+(pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
+ [11 <./figures//Pre_2.png (PNG copy)> <./figures//circuit_5.png>]
+<./figures//3a_2.png, id=186, 1445.4pt x 704.6325pt>
+File: ./figures//3a_2.png Graphic file (type png)
+<use ./figures//3a_2.png>
+Package pdftex.def Info: ./figures//3a_2.png  used on input line 164.
+(pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
+<./figures//3b_1.png, id=187, 1445.4pt x 704.6325pt>
+File: ./figures//3b_1.png Graphic file (type png)
+<use ./figures//3b_1.png>
+Package pdftex.def Info: ./figures//3b_1.png  used on input line 173.
+(pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
+ [12 <./figures//3a_1.png (PNG copy)> <./figures//3a_2.png (PNG copy)>]
+<./figures//3b_2.png, id=194, 1445.4pt x 704.6325pt>
+File: ./figures//3b_2.png Graphic file (type png)
+<use ./figures//3b_2.png>
+Package pdftex.def Info: ./figures//3b_2.png  used on input line 179.
+(pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
+<./figures//3c_1.png, id=195, 1445.4pt x 704.6325pt>
+File: ./figures//3c_1.png Graphic file (type png)
+<use ./figures//3c_1.png>
+Package pdftex.def Info: ./figures//3c_1.png  used on input line 187.
+(pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
+ [13 <./figures//3b_1.png (PNG copy)> <./figures//3b_2.png (PNG copy)>]
+<./figures//3c_2.png, id=203, 1445.4pt x 704.6325pt>
+File: ./figures//3c_2.png Graphic file (type png)
+<use ./figures//3c_2.png>
+Package pdftex.def Info: ./figures//3c_2.png  used on input line 193.
+(pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
+<./figures//darkness.png, id=204, 961.191pt x 424.58624pt>
+File: ./figures//darkness.png Graphic file (type png)
+<use ./figures//darkness.png>
+Package pdftex.def Info: ./figures//darkness.png  used on input line 201.
+(pdftex.def)             Requested size: 469.75502pt x 207.49838pt.
+ [14 <./figures//3c_1.png (PNG copy)> <./figures//3c_2.png (PNG copy)>]
+<./figures//lightness.png, id=211, 839.5365pt x 387.849pt>
+File: ./figures//lightness.png Graphic file (type png)
+<use ./figures//lightness.png>
+Package pdftex.def Info: ./figures//lightness.png  used on input line 209.
+(pdftex.def)             Requested size: 469.75502pt x 217.0164pt.
+<./figures//circuit_6.png, id=212, 775.698pt x 271.61475pt>
+File: ./figures//circuit_6.png Graphic file (type png)
+<use ./figures//circuit_6.png>
+Package pdftex.def Info: ./figures//circuit_6.png  used on input line 218.
+(pdftex.def)             Requested size: 469.75502pt x 164.48698pt.
+<./figures//buffer.png, id=213, 399.29175pt x 217.41225pt>
+File: ./figures//buffer.png Graphic file (type png)
+<use ./figures//buffer.png>
+Package pdftex.def Info: ./figures//buffer.png  used on input line 223.
+(pdftex.def)             Requested size: 469.75502pt x 255.78452pt.
+ [15 <./figures//darkness.png> <./figures//lightness.png>] [16 <./figures//circuit_6.png> <./figures//buffer.png>] [17] (Experiment6_Tu4_2442366.aux)
+Package rerunfilecheck Info: File `Experiment6_Tu4_2442366.out' has not changed.
+(rerunfilecheck)             Checksum: FB933CCA09629A4F16878517BD807F19;2116.
  ) 
 Here is how much of TeX's memory you used:
- 10420 strings out of 479334
- 155855 string characters out of 2854709
- 466675 words of memory out of 3000000
- 27676 multiletter control sequences out of 15000+200000
- 409723 words of font info for 49 fonts, out of 3000000 for 9000
+ 10534 strings out of 479334
+ 157842 string characters out of 2854709
+ 468673 words of memory out of 3000000
+ 27749 multiletter control sequences out of 15000+200000
+ 410060 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,7n,88p,528b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on PreExperiment6_Tu4_2442366.pdf (12 pages, 857800 bytes).
+ 83i,7n,88p,779b,355s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\AhmetAkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Experiment6_Tu4_2442366.pdf (17 pages, 1264809 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 270 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
+ 286 words of extra memory for PDF output out of 10000 (max. 10000000)
 
