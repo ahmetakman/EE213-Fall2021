@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  13 DEC 2021 20:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  13 DEC 2021 20:37
 entering extended mode
 **"c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP6/PreExperiment6_Tu4_2442366.tex"
 (c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP6/PreExperiment6_Tu4_2442366.tex
@@ -435,13 +435,13 @@ File: ./figures//2_hand.jpeg Graphic file (type jpg)
 <use ./figures//2_hand.jpeg>
 Package pdftex.def Info: ./figures//2_hand.jpeg  used on input line 83.
 (pdftex.def)             Requested size: 281.85587pt x 340.0881pt.
-<./figures//darkness.png, id=90, 961.191pt x 424.58624pt>
+ [6 <./figures//circuit_2.png> <./figures//2_hand.jpeg>]
+<./figures//darkness.png, id=97, 961.191pt x 424.58624pt>
 File: ./figures//darkness.png Graphic file (type png)
 <use ./figures//darkness.png>
 Package pdftex.def Info: ./figures//darkness.png  used on input line 92.
 (pdftex.def)             Requested size: 375.80544pt x 166.0026pt.
- [6 <./figures//circuit_2.png> <./figures//2_hand.jpeg>]
-<./figures//lightness.png, id=97, 839.5365pt x 387.849pt>
+<./figures//lightness.png, id=98, 839.5365pt x 387.849pt>
 File: ./figures//lightness.png Graphic file (type png)
 <use ./figures//lightness.png>
 Package pdftex.def Info: ./figures//lightness.png  used on input line 110.
@@ -486,9 +486,9 @@ Here is how much of TeX's memory you used:
  27676 multiletter control sequences out of 15000+200000
  409723 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,7n,88p,364b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 83i,7n,88p,390b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on PreExperiment6_Tu4_2442366.pdf (12 pages, 856722 bytes).
+Output written on PreExperiment6_Tu4_2442366.pdf (12 pages, 857642 bytes).
 PDF statistics:
  176 PDF objects out of 1000 (max. 8388607)
  37 named destinations out of 1000 (max. 500000)
