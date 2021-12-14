@@ -15,6 +15,6 @@
 \contentsline {subsection}{\numberline {2.4}Step 4}{17}{subsection.2.4}%
 \contentsline {subsubsection}{\numberline {2.4.1}a)}{18}{subsubsection.2.4.1}%
 \contentsline {subsubsection}{\numberline {2.4.2}b)}{18}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}c)}{18}{subsubsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.5}Step 5}{18}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Conclusion}{20}{section.3}%
+\contentsline {subsubsection}{\numberline {2.4.3}c)}{19}{subsubsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.5}Step 5}{19}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Conclusion}{21}{section.3}%
