@@ -61,7 +61,7 @@ The \(V_o\) , \(V_{in}\) waveforms are observed and plotted in MATLAB shown in F
    \includegraphics[width=1\textwidth]{1a_2.png}
    \caption{\(V_{o}\) , \(V_{in}\) vs time (s) }
 \end{figure}
-It can be said that , this circuit stays in linear region with this setup. The input signal is inverted and amplified. 
+It can be said that , this circuit stays in linear region with this setup. The input signal is inverted and amplified. In this setup one inverting and one non-inverting amplifier circuits are combined. So the output is inverting. 
 \paragraph{Comparison with the simulation results}
  \mbox{}
 \\
@@ -125,39 +125,49 @@ The waveforms \(V_0\) and \(V_{in}\) are observed and plotted in time domain is 
 \end{figure}
 As a result it can be stated that, when the signal amplitude increases the opamp(s) may not stay at their linear region can be saturated. This circuit setup in principle always inverts the signal and inverts it.
 \subsection{Step 2}
+In this step the non-linear inverting amplifier circuit given in Figure 11 is set. 
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{circuit_2.png}
    \caption{Circuit schematic for Step 2}
 \end{figure}
+The \(V_{o}\) versus \(V_{in}\) data is plotted and shown in Figure 12. 
 
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{2_1.png}
    \caption{\(V_{o}\) vs \(V_{in}\)}
 \end{figure}
-
+The waveforms \(V_{o}\) and \(V_{in}\) are plotted in the same graph given in Figure 13.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{2_2.png}
    \caption{\(V_{o}\) , \(V_{in}\) vs time (s) }
 \end{figure}
-
+As a result, the comment can be made such that amplifier stays in linear region and when diode is on negative feedback resistance is lower than the situation diode is off. So, the slopes of the negative and positive areas are different.
 \subsubsection{Comparison with the simulation results}
+The circuit given in Figure 14 is constructed in LTSpice environment.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{Pre2.png}
    \caption{LTSpice schematic for the simulation 2 }
 \end{figure}
-
+Then \(V_{o}\) versus \(V_{in}\) is obtained and shown in Figure 15. 
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{Pre_2.png}
    \caption{\(V_{o}\) vs \(V_{in}\)}
 \end{figure}
+It can be concluded that the measurements are consistent with the simulation and the equation obtained in the preliminary work. The equation is,
 
-
+\begin{center}
+if \(V_- > V_o\),  \(-2V_o = V_{in}\) \\
+	if \(V_- < V_o\),  \(-V_o = V_{in}\)
+\\
+\end{center}
+So the results are also consistent with the therotical calculations.Also, there is a shift towards the negative y axis in laboratary plot. This is predicted to be sourced from the non-ideality of either the LM741 component or the diode component.
 \subsection{Step 3}
+In this step , the circuit called negative resistance converter which is shown in Figure 16 is constructed.  
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{circuit_5.png}
@@ -165,13 +175,21 @@ As a result it can be stated that, when the signal amplitude increases the opamp
 \end{figure}
 
 \subsubsection{a)}
-
+Figure 17 shows the \(V_{o}\) versus \(V_{in}\) characteristic obtained. 
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{3a_1.png}
    \caption{\(V_{o}\) vs \(V_{in}\)}
 \end{figure}
+In order to plot \(i_{in}\) versus \(V_{in}\) , the same data can be used. If we subtract \(V_{in}\) from \(V_o\) and divide it by \(R_f\) we can get the \(V_{in}\) value and plot it. So the resulting plot is given in Figure 18.
 
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{3a_1_new.png}
+   \caption{\(i_{in}\) vs \(V_{in}\)  }
+\end{figure}
+
+In figure 19 the waveforms \(V_{o}\) , \(V_{in}\) plotted against time. 
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{3a_2.png}
@@ -180,65 +198,67 @@ As a result it can be stated that, when the signal amplitude increases the opamp
 
 
 \subsubsection{b)}
-
+In this part, circuit setup is consevrved except signal generator input. a 1 \(\mu F\) capacitor is connected across the terminals a and b.  
+The data of capacitor voltage \(V_c\) and output voltage \(V_o\) is obtained and plotted which is shown in Figure 20. 
 \begin{figure}[H]
 	\centering
-   \includegraphics[width=1\textwidth]{3b_1.png}
-   \caption{\(V_{o}\) vs \(V_{in}\)}
+   \includegraphics[width=1\textwidth]{3b_1_new.png}
+   \caption{\(V_{c}\) , \(V_{in}\) vs time (s) }
 \end{figure}
-
-\begin{figure}[H]
-	\centering
-   \includegraphics[width=1\textwidth]{3b_2.png}
-   \caption{\(V_{o}\) , \(V_{in}\) vs time (s) }
-\end{figure}
-
+The result shows us capacitor behaves as a signal generator which supplies sawtooth like signal. When measured the frequency is found as approximately "212 Hz". The signal supplied by capacitor is amplified by the non-inverting operational amplifier configuration and the output can be observed saturated. 
 \subsubsection{c)}
 
+In this part, circuit setup is conserved except a parallel resistor of 2.2k\(\Omega\) is connected to \(R_f\). 
+The data of capacitor voltage \(V_c\) and output voltage \(V_o\) is obtained and plotted which is shown in Figure 21. 
 \begin{figure}[H]
 	\centering
-   \includegraphics[width=1\textwidth]{3c_1.png}
-   \caption{\(V_{o}\) vs \(V_{in}\)}
+   \includegraphics[width=1\textwidth]{3c_1_new.png}
+   \caption{\(V_{c}\) , \(V_{in}\) vs time (s) }
 \end{figure}
-
-\begin{figure}[H]
-	\centering
-   \includegraphics[width=1\textwidth]{3c_2.png}
-   \caption{\(V_{o}\) , \(V_{in}\) vs time (s) }
-\end{figure}
-\subsubsection{d)}
+The result shows us capacitor behaves as a signal generator which supplies sawtooth like signal. Different than previous part measured frequency is found as approximately "413 Hz". The signal supplied by capacitor is amplified by the non-inverting operational amplifier configuration and the output can be observed saturated. We can observe that the frequency of the signal supplied by the capacitor depends on the resistance connected to it. 
 
 \subsection{Step 4}
+In this step, the darkness sensor circuit given in Figure 22 is constructed.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{darkness.png}
    \caption{Circuit schematic for Step 4}
 \end{figure}
 \subsubsection{a)}
-
+The circuit is an example of a comparator, the opamp compares the voltage between its inverting and non-inverting terminals. At the non-inverting terminal 6 Volts is supplied with a voltage divider setup. At the inverting terminal, a voltage divider setup is constructer via an LDR and pot. When the LDR is in dark the led is on, so the system senses the darkness.
 \subsubsection{b)}
+For the , the lightness sensor proposed circuit given in Figure 23 is set. 
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{lightness.png}
    \caption{Lightness sensor circuit schematic for Step 4 part b}
 \end{figure}
-
+The circuit is an example of a comparator, the opamp compares the voltage between its inverting and non-inverting terminals. At the inverting terminal 6 Volts is supplied with a voltage divider setup. At the non-inverting terminal, a voltage divider setup is constructer via an LDR and pot. When the LDR is getting sufficient light the led is on, so the system senses the lightness. The system can be tuned via adjusting the pot.
 \subsubsection{c)}
-
-\subsection{5}
+Only difference between darkness and the lighness sensor is the terminals of the opamp is swapped. So the result of comparison also swapped. Which means the comparison reference is the only difference and the polarity of the output determines whether led is on or off.
+\subsection{Step 5}
+In this step the circuit in Figure 24 is constructed.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{circuit_6.png}
    \caption{Difference amplifier circuit schematic for Step 5}
 \end{figure}
+In order to supply two different signals with one signal generator, voltage is divided with three 1k\(\Omega\) resistors. Then to prevent voltage drop and let the voltage divider work properly a buffer circuit is used as given in Figure 25.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{buffer.png}
    \caption{Buffer circuit schematic for Step 5}
 \end{figure}
-
+So the \(V_a(t)\) = 3\(V_b(t)\) = \(4.5 sin(1000\pi t)\) signals are supplied to the circuit succesfully.
+As a result the input and output waveforms are plotted in MATLAB ,given in Figure 26.
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{5.png}
+   \caption{\(V_{a}\), \(V_{b}\) , \(V_{o}\) vs time (s)}
+\end{figure}
+It can be stated that, the resulting signal is the inverted version of the difference of the \(V_a\) and \(V_b\) whose amplitude is equal to approximately "3 Volts". Also, since the amplifier is set to invert, resulting signal has the phase difference of \(\pi \) radians with respect to the \(V_a\) and \(V_b\). 
 \section{Conclusion}
-In conclusion, in experiment 5, "Operational Amplifiers," as students, we have learned how basic circuit setups of Op-Amps can be constructed. Preliminary laboratory work is done via simulations of the basic Op-Amp circuits in an LTSpice environment. As students, we have observed different characteristics of Op-Amp comparator, buffer, non-inverting, inverting, and summing configurations, and we have learned how voltage divider should be used when there is a load to the output terminal. To sum up,in this experiment, as students, we have experimented with how operates different kinds of operational amplifier circuits and how to work with voltage dividers. 
+In conclusion, in experiment 5, "Operational Amplifiers-II" as students, we have learned how some circuit setups of Op-Amps can be constructed. Preliminary laboratory work is done via simulations of the Op-Amp circuits in an LTSpice environment. As students, we have observed   BLA BLA BLA.To sum up,in this experiment, as students, we have experimented with how operates different kinds of operational amplifier circuits. 
 \section*{Appendix I}
 Total time spent on/during:
 \begin{itemize}
