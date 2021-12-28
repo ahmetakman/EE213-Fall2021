@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  28 DEC 2021 15:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  28 DEC 2021 18:33
 entering extended mode
 **"c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP7/Experiment7_Tu4_2442366.tex"
 (c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP7/Experiment7_Tu4_2442366.tex
@@ -410,74 +410,82 @@ Package pdftex.def Info: ./figures//half_vave_sch.png  used on input line 46.
 <./figures//1a_plot.png, id=98, 1445.4pt x 704.6325pt>
 File: ./figures//1a_plot.png Graphic file (type png)
 <use ./figures//1a_plot.png>
-Package pdftex.def Info: ./figures//1a_plot.png  used on input line 52.
+Package pdftex.def Info: ./figures//1a_plot.png  used on input line 53.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
  [3 <./figures//half_vave_sch.png>]
 <./figures//full_vave_sch.png, id=105, 631.76025pt x 190.91325pt>
 File: ./figures//full_vave_sch.png Graphic file (type png)
 <use ./figures//full_vave_sch.png>
-Package pdftex.def Info: ./figures//full_vave_sch.png  used on input line 59.
+Package pdftex.def Info: ./figures//full_vave_sch.png  used on input line 64.
 (pdftex.def)             Requested size: 469.75502pt x 141.95816pt.
 <./figures//2a_plot.png, id=106, 1445.4pt x 704.6325pt>
 File: ./figures//2a_plot.png Graphic file (type png)
 <use ./figures//2a_plot.png>
-Package pdftex.def Info: ./figures//2a_plot.png  used on input line 66.
+Package pdftex.def Info: ./figures//2a_plot.png  used on input line 72.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
  [4 <./figures//1a_plot.png (PNG copy)> <./figures//full_vave_sch.png>]
-<./figures//PRE3.png, id=114, 751.00575pt x 206.57175pt>
+<./figures//2c_plot.png, id=114, 1445.4pt x 704.6325pt>
+File: ./figures//2c_plot.png Graphic file (type png)
+<use ./figures//2c_plot.png>
+Package pdftex.def Info: ./figures//2c_plot.png  used on input line 83.
+(pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
+ [5 <./figures//2a_plot.png (PNG copy)>]
+<./figures//PRE3.png, id=121, 751.00575pt x 206.57175pt>
 File: ./figures//PRE3.png Graphic file (type png)
 <use ./figures//PRE3.png>
-Package pdftex.def Info: ./figures//PRE3.png  used on input line 76.
+Package pdftex.def Info: ./figures//PRE3.png  used on input line 92.
 (pdftex.def)             Requested size: 469.75502pt x 129.21103pt.
-<./figures//PRE4.png, id=115, 763.653pt x 225.2415pt>
+ [6 <./figures//2c_plot.png (PNG copy)> <./figures//PRE3.png>]
+<./figures//PRE4.png, id=128, 763.653pt x 225.2415pt>
 File: ./figures//PRE4.png Graphic file (type png)
 <use ./figures//PRE4.png>
-Package pdftex.def Info: ./figures//PRE4.png  used on input line 97.
+Package pdftex.def Info: ./figures//PRE4.png  used on input line 140.
 (pdftex.def)             Requested size: 469.75502pt x 138.55878pt.
-<./figures//4_SCH.png, id=116, 661.87276pt x 536.60475pt>
+<./figures//4_SCH.png, id=129, 661.87276pt x 536.60475pt>
 File: ./figures//4_SCH.png Graphic file (type png)
 <use ./figures//4_SCH.png>
-Package pdftex.def Info: ./figures//4_SCH.png  used on input line 102.
+Package pdftex.def Info: ./figures//4_SCH.png  used on input line 146.
 (pdftex.def)             Requested size: 469.75502pt x 380.86102pt.
- [5 <./figures//2a_plot.png (PNG copy)> <./figures//PRE3.png>]
-<./figures//4a_plot.png, id=124, 1445.4pt x 704.6325pt>
+ [7 <./figures//PRE4.png>]
+<./figures//4a_plot.png, id=140, 1445.4pt x 704.6325pt>
 File: ./figures//4a_plot.png Graphic file (type png)
 <use ./figures//4a_plot.png>
-Package pdftex.def Info: ./figures//4a_plot.png  used on input line 107.
+Package pdftex.def Info: ./figures//4a_plot.png  used on input line 152.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
- [6 <./figures//PRE4.png> <./figures//4_SCH.png>]
-<./figures//PRE7.png, id=131, 685.96275pt x 175.857pt>
+ [8 <./figures//4_SCH.png>] [9 <./figures//4a_plot.png (PNG copy)>]
+<./figures//PRE7.png, id=155, 685.96275pt x 175.857pt>
 File: ./figures//PRE7.png Graphic file (type png)
 <use ./figures//PRE7.png>
-Package pdftex.def Info: ./figures//PRE7.png  used on input line 163.
+Package pdftex.def Info: ./figures//PRE7.png  used on input line 240.
 (pdftex.def)             Requested size: 469.75502pt x 120.4318pt.
- [7 <./figures//4a_plot.png (PNG copy)>]
-<./figures//6_SCH.png, id=141, 539.616pt x 440.24475pt>
+ [10]
+<./figures//6_SCH.png, id=163, 539.616pt x 440.24475pt>
 File: ./figures//6_SCH.png Graphic file (type png)
 <use ./figures//6_SCH.png>
-Package pdftex.def Info: ./figures//6_SCH.png  used on input line 170.
+Package pdftex.def Info: ./figures//6_SCH.png  used on input line 248.
 (pdftex.def)             Requested size: 469.75502pt x 383.25839pt.
-<./figures//PRE_7c.png, id=142, 1445.4pt x 704.6325pt>
+ [11 <./figures//PRE7.png> <./figures//6_SCH.png>]
+<./figures//PRE_7c.png, id=170, 1445.4pt x 704.6325pt>
 File: ./figures//PRE_7c.png Graphic file (type png)
 <use ./figures//PRE_7c.png>
-Package pdftex.def Info: ./figures//PRE_7c.png  used on input line 176.
+Package pdftex.def Info: ./figures//PRE_7c.png  used on input line 267.
 (pdftex.def)             Requested size: 469.75502pt x 229.00285pt.
- [8 <./figures//PRE7.png> <./figures//6_SCH.png>] [9 <./figures//PRE_7c.png (PNG copy)>] [10] (Experiment7_Tu4_2442366.aux)
+ [12 <./figures//PRE_7c.png (PNG copy)>] [13] (Experiment7_Tu4_2442366.aux)
 Package rerunfilecheck Info: File `Experiment7_Tu4_2442366.out' has not changed.
 (rerunfilecheck)             Checksum: 1C5D59E7F1BF5F0DD43E1BD1718B755C;1449.
  ) 
 Here is how much of TeX's memory you used:
- 10427 strings out of 479334
- 155838 string characters out of 2854709
- 467667 words of memory out of 3000000
- 27677 multiletter control sequences out of 15000+200000
+ 10439 strings out of 479334
+ 156022 string characters out of 2854709
+ 469667 words of memory out of 3000000
+ 27682 multiletter control sequences out of 15000+200000
  410060 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,9n,88p,971b,355s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\AhmetAkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Experiment7_Tu4_2442366.pdf (10 pages, 488484 bytes).
+ 83i,10n,88p,971b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\AhmetAkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Experiment7_Tu4_2442366.pdf (13 pages, 619932 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 184 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -47,13 +47,18 @@ In this step, circuit shown in the Figure 1  is constructed.
    \caption{Half wave rectifier circuit}
 \end{figure}
 \subsubsection{a)}
+By connecting the channels of the oscilloscope to the CH1 and CH2 nodes, the plot given in Figure 2 is obtained.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{1a_plot.png}
    \caption{Output waveforms}
 \end{figure}
+As a result, it can be said that half wave rectifier is able to allow only positive current to flow.
+
 \subsubsection{b)}
+There is a little difference of maximum values of the waveforms. This can be stemmed from the fact that the diode component do not behave ideally and have an opening voltage. This opening voltage should be passed in order diode to allow current pass through. 
 \subsection{Step 2}
+For this step circuit shown in Figure 3 is set with LEDs. 
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{full_vave_sch.png}
@@ -61,22 +66,33 @@ In this step, circuit shown in the Figure 1  is constructed.
 \end{figure}
 
 \subsubsection{a)}
+The plot given in Figure 4 is obtained using the math function of the DSO. 
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{2a_plot.png}
    \caption{Output waveforms}
 \end{figure}
+To solve the grounding problem oscilloscope probes are connected to the nodes expressed in Figure 3. Then the CH2 signal is subtracted from the CH1 signal to get resulting signal. Also even though the input Vp is 10V the resulting signal have the amplitude of 6V. This difference means diodes have 2V opening voltage (2 volts per diode). 
 
 \subsubsection{b)}
-
+The frequency of the signal generator is adjusted to 1Hz. As a result the LEDs have started to blink visibly. Two of the LEDs blinked at the same time, which means when the voltage is positive two of the diodes are active and when the voltage is negative other two of the diodes are active. When the frequency increases , the blink becomes less noticable.
 \subsubsection{c)}
+The frequency is set to 1kHz and a 0.47\(\mu\)F capacitor is connected parallel to the resistor. The plot given in Figure 5 is obtained.
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=1\textwidth]{2c_plot.png}
+   \caption{Output waveforms}
+\end{figure}
+It can be stated that, when a capacitor is connected the ripple voltage decreases ,and the output look more alike DC. The capacitor discharges when voltage decreasing and helps the node remain its voltage.
+
 \subsection{Step 3}
+The circuit given in Figure 6 is built for the Step 3.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{PRE3.png}
    \caption{Capacitor measurement circuit}
 \end{figure}
-
+Then the RMS voltage measurements are made using digital multimeter. The measurements are given in Table 1.
 
 \begin{table}[H]
 	\begin{center}
@@ -91,25 +107,67 @@ In this step, circuit shown in the Figure 1  is constructed.
 		\end{tabular}
 \end{center}
 \end{table}
+By dividing the voltage of the resistor to its resistance value, the current value is obtained as " 0.00169A".
+Then using the equation,
+\[|z_c| = \frac{1}{\omega C} = \frac{V_{RMS}}{i_{RMS}}\]
+so,
+\[C = \frac{i_{RMS}}{V_{RMS} \omega}
+	\]
+The capacitor value is obtained and the LC meter measurement are given in Table 2ç
+\begin{table}[H]
+	\begin{center}
+		\caption{Measurements for the Capacitor}
+		\vspace{2mm}
+		\begin{tabular}{||c | c | c||} 
+		 \hline
+		   Datasheet & Calculation & LC meter Measurement \\ [0.5ex] 
+		 \hline\hline
+		 0.47\(\mu\)F & 0.4670461 \(\mu\)F & 0.48 \(\mu\)F  \\
+		 \hline
+
+		\end{tabular}
+\end{center}
+\end{table}
+It can be said that the calculations are consistent with the datasheet and LC meter measurement. The deviation might be stemmed from the negleteced resistances of cables and capacitor. Also, the resistor value might not be exactly 1k\(\Omega\).
+
+
+
+
 \subsection{Step 4}
+For Step 4 the circuit given  in Figure 7 is constructed. 
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{PRE4.png}
    \caption{Circuit for the capacitance finding method}
 \end{figure}
+The circuit is reconstructed in LTSPice simulation environment which is shown in Figure 8.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{4_SCH.png}
    \caption{Simulation circuit for the capacitance finding method}
 \end{figure}
+Then the q-v characteristics of the capacitor C is plotted as given in Figure 9.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{4a_plot.png}
    \caption{q-v characteristics}
 \end{figure}
+The plot is obtained using only \(V_2\) measurement and calculations as follows,
+\[ i_2(t) = C_1 \frac{d V_2}{dt} = \frac{V_1(t)}{R_1}
+\]
+\[
+	V_2(t) = \frac{1}{R_i C_i} * \int_{-\infty}^{t} V_1(\tau) \, d\tau
+	\]
+	\[
+		V_2(t) = \frac{R}{R_i C_i} * \int_{-\infty}^{t} i_1(\tau) \, d\tau
+		\]
+So, 
+\[ q(t) = C V_c(t) = \int_{-\infty}^{t} i_1(\tau) \,\tau = \frac{R_i C_i V_2(t)}{R} \]
+This mathematical expression helped us to obtain q-v characteristics of the capacitor C on the circuit given in Figure 8.
+
 %%%% MATHEMATICAL RELATION
 \subsection{Step 5}
-
+For this step the circuit shown in Figure 6 used ,but the only difference is there used an inductor instead of a capacitor. Firstly, the measurements are made using wooden inductor. The measurements are given in Table 3.
 \begin{table}[H]
 	\begin{center}
 		\caption{Measurements for the wooden inductor circuit}
@@ -123,7 +181,7 @@ In this step, circuit shown in the Figure 1  is constructed.
 		\end{tabular}
 \end{center}
 \end{table}
-
+Then measurements are conducted for the compact type inductor which is given in Table 4.
 \begin{table}[H]
 	\begin{center}
 		\caption{Measurements for the compact inductor circuit}
@@ -138,8 +196,7 @@ In this step, circuit shown in the Figure 1  is constructed.
 		\end{tabular}
 \end{center}
 \end{table}
-
-
+Also the inductance and resistance values are measured for both wooden and the compact inductor. For inductance LC meter is used. Resistance is measured via digital multimeter. The results are given in Table 5.
 \begin{table}[H]
 	\begin{center}
 		\caption{Measurements for the inductors}
@@ -156,8 +213,28 @@ In this step, circuit shown in the Figure 1  is constructed.
 \end{center}
 \end{table}
 %%MATHEMATİCAL EXPRESSİON
-
+Therefore the inductance values are calculated using the measurements in Table 7 and the following equation,
+\[|Z_c| = \omega L = \frac{V_{RMS}}{i_{RMS}}\]
+so,
+\[C = \frac{V_{RMS} }{i_{RMS} \omega}
+	\]
+The results are given in Table 6.
+\begin{table}[H]
+	\begin{center}
+		\caption{Calculation result for the inductors}
+		\vspace{2mm}
+		\begin{tabular}{||c | c | c||} 
+		 \hline
+		   & Wooden & Compact \\ [0.5ex] 
+		 \hline\hline
+		Calculation result & 0.1168 H & 00.0998 H \\
+		 \hline
+		\end{tabular}
+\end{center}
+\end{table}
+The results shows that, our approximations are quite consistent with the real world value. The deviation is stemmed from the neglected resistance of the inductors which are given in Table 5. By adding them to the equation , the calculation can be resulted more accurately.
 \subsection{Step 6}
+Circuit given in Figure 10 is set for this step. The variables set as \(V_{in}\) = 10sin(2*\(\pi\) ft) V , f = 5kHz and \(L_1\) = H.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{PRE7.png}
@@ -165,17 +242,32 @@ In this step, circuit shown in the Figure 1  is constructed.
 \end{figure}
 
 \subsubsection{a)}
+The circuit schematic given in Figure 11 is constructed in LTSPice simulation environment.
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{6_SCH.png}
    \caption{Simulation circuit for the inductance finding method}
 \end{figure}
+Then using the following relation obtained in the Preliminary work the plot shown in Figure 12 is obtained.
+\[
+i_1*100 = V_R
+\]
+\[
+	\phi(t) = L i(t) = \frac{L V_R}{100}
+\]
+by the equation given in Figure 10,
+\[V_2 R_i C_i = L i(t)\]
+\[V_2 R_i C_i = \frac{L V_R}{100}\]
+\[L = \frac{100 V_2 R_i C_i}{V_R}\]
+also,
+\[\phi(t) = V_2 R_i C_i\]
 
 \begin{figure}[H]
 	\centering
    \includegraphics[width=1\textwidth]{PRE_7c.png}
    \caption{\(\phi vs i\) characteristics plot}
 \end{figure}
+It can be seen that there is a linear relation between flux and current on an inductor.
 \subsubsection{b)}
 
 \section{Conclusion}
