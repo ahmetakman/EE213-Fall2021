@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  5 JAN 2022 17:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  5 JAN 2022 22:59
 entering extended mode
 **"c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP8/Experiment8_Tu4_2442366.tex"
 (c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP8/Experiment8_Tu4_2442366.tex
@@ -418,22 +418,100 @@ File: ./figures//1a.png Graphic file (type png)
 <use ./figures//1a.png>
 Package pdftex.def Info: ./figures//1a.png  used on input line 81.
 (pdftex.def)             Requested size: 375.80544pt x 183.20013pt.
- [4 <./figures//1_signal.png>] [5 <./figures//1a.png (PNG copy)>] [6] (Experiment8_Tu4_2442366.aux)
+ [4 <./figures//1_signal.png>]
+<./figures//1_plot_data.png, id=73, 956.97525pt x 528.17325pt>
+File: ./figures//1_plot_data.png Graphic file (type png)
+<use ./figures//1_plot_data.png>
+Package pdftex.def Info: ./figures//1_plot_data.png  used on input line 87.
+(pdftex.def)             Requested size: 375.80544pt x 207.41322pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+[5 <./figures//1a.png (PNG copy)> <./figures//1_plot_data.png>]
+<./figures//1a_3.png, id=81, 1445.4pt x 704.6325pt>
+File: ./figures//1a_3.png Graphic file (type png)
+<use ./figures//1a_3.png>
+Package pdftex.def Info: ./figures//1a_3.png  used on input line 110.
+(pdftex.def)             Requested size: 375.80544pt x 183.20013pt.
+<./figures//1_3_plot_data.png, id=82, 1093.08376pt x 529.98pt>
+File: ./figures//1_3_plot_data.png Graphic file (type png)
+<use ./figures//1_3_plot_data.png>
+Package pdftex.def Info: ./figures//1_3_plot_data.png  used on input line 116.
+(pdftex.def)             Requested size: 375.80544pt x 182.20442pt.
+ [6 <./figures//1a_3.png (PNG copy)> <./figures//1_3_plot_data.png>]
+<./figures//1b.png, id=91, 1445.4pt x 704.6325pt>
+File: ./figures//1b.png Graphic file (type png)
+<use ./figures//1b.png>
+Package pdftex.def Info: ./figures//1b.png  used on input line 160.
+(pdftex.def)             Requested size: 375.80544pt x 183.20013pt.
+<./figures//1_b_plot_data.png, id=92, 996.1215pt x 529.37775pt>
+File: ./figures//1_b_plot_data.png Graphic file (type png)
+<use ./figures//1_b_plot_data.png>
+Package pdftex.def Info: ./figures//1_b_plot_data.png  used on input line 166.
+(pdftex.def)             Requested size: 375.80544pt x 199.71973pt.
+ [7 <./figures//1b.png (PNG copy)>]
+<./figures//1b_3.png, id=101, 1445.4pt x 704.6325pt>
+File: ./figures//1b_3.png Graphic file (type png)
+<use ./figures//1b_3.png>
+Package pdftex.def Info: ./figures//1b_3.png  used on input line 189.
+(pdftex.def)             Requested size: 375.80544pt x 183.20013pt.
+<./figures//1_b_3_plot_data.png, id=102, 1015.3935pt x 531.1845pt>
+File: ./figures//1_b_3_plot_data.png Graphic file (type png)
+<use ./figures//1_b_3_plot_data.png>
+Package pdftex.def Info: ./figures//1_b_3_plot_data.png  used on input line 195.
+(pdftex.def)             Requested size: 375.80544pt x 196.59192pt.
+ [8 <./figures//1_b_plot_data.png> <./figures//1b_3.png (PNG copy)>]
+<./figures//2_sch.png, id=110, 944.93025pt x 261.3765pt>
+File: ./figures//2_sch.png Graphic file (type png)
+<use ./figures//2_sch.png>
+Package pdftex.def Info: ./figures//2_sch.png  used on input line 219.
+(pdftex.def)             Requested size: 375.80544pt x 103.95049pt.
+ [9 <./figures//1_b_3_plot_data.png>]
+<./figures//2.png, id=118, 1445.4pt x 704.6325pt>
+File: ./figures//2.png Graphic file (type png)
+<use ./figures//2.png>
+Package pdftex.def Info: ./figures//2.png  used on input line 225.
+(pdftex.def)             Requested size: 375.80544pt x 183.20013pt.
+<./figures//2_plot_data.png, id=119, 976.24725pt x 525.76425pt>
+File: ./figures//2_plot_data.png Graphic file (type png)
+<use ./figures//2_plot_data.png>
+Package pdftex.def Info: ./figures//2_plot_data.png  used on input line 231.
+(pdftex.def)             Requested size: 375.80544pt x 202.39177pt.
+ [10 <./figures//2_sch.png> <./figures//2.png (PNG copy)>]
+<./figures//differentiator.png, id=126, 805.8105pt x 326.4195pt>
+File: ./figures//differentiator.png Graphic file (type png)
+<use ./figures//differentiator.png>
+Package pdftex.def Info: ./figures//differentiator.png  used on input line 265.
+(pdftex.def)             Requested size: 375.80544pt x 152.23674pt.
+ [11 <./figures//2_plot_data.png>]
+<./figures//differentiator_sim.png, id=136, 552.8655pt x 354.123pt>
+File: ./figures//differentiator_sim.png Graphic file (type png)
+<use ./figures//differentiator_sim.png>
+Package pdftex.def Info: ./figures//differentiator_sim.png  used on input line 271.
+(pdftex.def)             Requested size: 375.80544pt x 240.71939pt.
+<./figures//differentiator_1.png, id=137, 1445.4pt x 704.6325pt>
+File: ./figures//differentiator_1.png Graphic file (type png)
+<use ./figures//differentiator_1.png>
+Package pdftex.def Info: ./figures//differentiator_1.png  used on input line 277.
+(pdftex.def)             Requested size: 375.80544pt x 183.20013pt.
+ [12 <./figures//differentiator.png> <./figures//differentiator_sim.png>] [13 <./figures//differentiator_1.png (PNG copy)>] (Experiment8_Tu4_2442366.aux)
 Package rerunfilecheck Info: File `Experiment8_Tu4_2442366.out' has not changed.
 (rerunfilecheck)             Checksum: 6AF65AD28737F6312A1F7F77CEB501E1;716.
  ) 
 Here is how much of TeX's memory you used:
- 10349 strings out of 479334
- 154305 string characters out of 2854709
- 467658 words of memory out of 3000000
- 27629 multiletter control sequences out of 15000+200000
+ 10453 strings out of 479334
+ 156540 string characters out of 2854709
+ 468660 words of memory out of 3000000
+ 27694 multiletter control sequences out of 15000+200000
  410407 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,9n,88p,1024b,328s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\AhmetAkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Experiment8_Tu4_2442366.pdf (6 pages, 198544 bytes).
+ 83i,11n,88p,1024b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\AhmetAkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Experiment8_Tu4_2442366.pdf (13 pages, 935062 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 80 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
