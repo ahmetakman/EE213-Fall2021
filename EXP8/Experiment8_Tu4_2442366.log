@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  3 JAN 2022 16:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  5 JAN 2022 17:26
 entering extended mode
-**"c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP7/Experiment7_Tu4_2442366.tex"
-(c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP7/Experiment7_Tu4_2442366.tex
+**"c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP8/Experiment8_Tu4_2442366.tex"
+(c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP8/Experiment8_Tu4_2442366.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> xparse <2020-03-03> (C:\Users\AhmetAkman\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -300,8 +300,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 18.
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box55
-) (Experiment7_Tu4_2442366.aux)
-\openout1 = `Experiment7_Tu4_2442366.aux'.
+) (Experiment8_Tu4_2442366.aux)
+\openout1 = `Experiment8_Tu4_2442366.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
@@ -391,32 +391,49 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 25.
 LaTeX Info: Redefining \pageref on input line 25.
 LaTeX Info: Redefining \nameref on input line 25.
- (Experiment7_Tu4_2442366.out) (Experiment7_Tu4_2442366.out)
+ (Experiment8_Tu4_2442366.out) (Experiment8_Tu4_2442366.out)
 \@outlinefile=\write3
-\openout3 = `Experiment7_Tu4_2442366.out'.
+\openout3 = `Experiment8_Tu4_2442366.out'.
 
  [1
 
-{C:/Users/AhmetAkman/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (Experiment7_Tu4_2442366.toc)
+{C:/Users/AhmetAkman/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (Experiment8_Tu4_2442366.toc)
 \tf@toc=\write4
-\openout4 = `Experiment7_Tu4_2442366.toc'.
+\openout4 = `Experiment8_Tu4_2442366.toc'.
 
- [2] [3] [4] (Experiment7_Tu4_2442366.aux)
-Package rerunfilecheck Info: File `Experiment7_Tu4_2442366.out' has not changed.
+ [2]
+<./figures//1_sch.png, id=56, 602.85225pt x 346.29375pt>
+File: ./figures//1_sch.png Graphic file (type png)
+<use ./figures//1_sch.png>
+Package pdftex.def Info: ./figures//1_sch.png  used on input line 46.
+(pdftex.def)             Requested size: 375.80544pt x 215.87294pt.
+<./figures//1_signal.png, id=57, 519.1395pt x 304.7385pt>
+File: ./figures//1_signal.png Graphic file (type png)
+<use ./figures//1_signal.png>
+Package pdftex.def Info: ./figures//1_signal.png  used on input line 52.
+(pdftex.def)             Requested size: 375.80544pt x 220.60193pt.
+ [3 <./figures//1_sch.png>]
+<./figures//1a.png, id=64, 1445.4pt x 704.6325pt>
+File: ./figures//1a.png Graphic file (type png)
+<use ./figures//1a.png>
+Package pdftex.def Info: ./figures//1a.png  used on input line 81.
+(pdftex.def)             Requested size: 375.80544pt x 183.20013pt.
+ [4 <./figures//1_signal.png>] [5 <./figures//1a.png (PNG copy)>] [6] (Experiment8_Tu4_2442366.aux)
+Package rerunfilecheck Info: File `Experiment8_Tu4_2442366.out' has not changed.
 (rerunfilecheck)             Checksum: 6AF65AD28737F6312A1F7F77CEB501E1;716.
  ) 
 Here is how much of TeX's memory you used:
- 10316 strings out of 479334
- 153783 string characters out of 2854709
- 468658 words of memory out of 3000000
- 27608 multiletter control sequences out of 15000+200000
- 410060 words of font info for 50 fonts, out of 3000000 for 9000
+ 10349 strings out of 479334
+ 154305 string characters out of 2854709
+ 467658 words of memory out of 3000000
+ 27629 multiletter control sequences out of 15000+200000
+ 410407 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,6n,88p,1024b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\AhmetAkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Experiment7_Tu4_2442366.pdf (4 pages, 61062 bytes).
+ 83i,9n,88p,1024b,328s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\AhmetAkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Experiment8_Tu4_2442366.pdf (6 pages, 198544 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 115 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 80 words of extra memory for PDF output out of 10000 (max. 10000000)
 
