@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  5 JAN 2022 22:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  6 JAN 2022 12:22
 entering extended mode
 **"c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP8/Experiment8_Tu4_2442366.tex"
 (c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP8/Experiment8_Tu4_2442366.tex
@@ -496,22 +496,33 @@ File: ./figures//differentiator_1.png Graphic file (type png)
 <use ./figures//differentiator_1.png>
 Package pdftex.def Info: ./figures//differentiator_1.png  used on input line 277.
 (pdftex.def)             Requested size: 375.80544pt x 183.20013pt.
- [12 <./figures//differentiator.png> <./figures//differentiator_sim.png>] [13 <./figures//differentiator_1.png (PNG copy)>] (Experiment8_Tu4_2442366.aux)
+ [12 <./figures//differentiator.png> <./figures//differentiator_sim.png>]
+<./figures//integrator.png, id=144, 829.9005pt x 407.72325pt>
+File: ./figures//integrator.png Graphic file (type png)
+<use ./figures//integrator.png>
+Package pdftex.def Info: ./figures//integrator.png  used on input line 286.
+(pdftex.def)             Requested size: 375.80544pt x 184.63094pt.
+<./figures//3.png, id=145, 1445.4pt x 704.6325pt>
+File: ./figures//3.png Graphic file (type png)
+<use ./figures//3.png>
+Package pdftex.def Info: ./figures//3.png  used on input line 292.
+(pdftex.def)             Requested size: 375.80544pt x 183.20013pt.
+ [13 <./figures//differentiator_1.png (PNG copy)> <./figures//integrator.png>] [14 <./figures//3.png (PNG copy)>] (Experiment8_Tu4_2442366.aux)
 Package rerunfilecheck Info: File `Experiment8_Tu4_2442366.out' has not changed.
 (rerunfilecheck)             Checksum: 6AF65AD28737F6312A1F7F77CEB501E1;716.
  ) 
 Here is how much of TeX's memory you used:
- 10453 strings out of 479334
- 156540 string characters out of 2854709
+ 10468 strings out of 479334
+ 156827 string characters out of 2854709
  468660 words of memory out of 3000000
- 27694 multiletter control sequences out of 15000+200000
+ 27704 multiletter control sequences out of 15000+200000
  410407 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,11n,88p,1024b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 83i,11n,88p,905b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\AhmetAkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Experiment8_Tu4_2442366.pdf (13 pages, 935062 bytes).
+Output written on Experiment8_Tu4_2442366.pdf (14 pages, 1043630 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

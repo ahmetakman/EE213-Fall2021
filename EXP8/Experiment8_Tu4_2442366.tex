@@ -277,16 +277,30 @@ Then the input versus output characteristics are obtained as given in Figure 16.
    \includegraphics[width=0.8\textwidth]{differentiator_1.png}
    \caption{Differentiator circuit output}
 \end{figure} 
-As a result, it can be said that this circuit configuration is able to differentiate the given signal. 
+As a result, it can be said that this circuit configuration is able to differentiate the given signal. Because of the non-ideality of the components (e.g. internal resistance of the capacitor) the resulting signal is not exactly square wave.  The differentiation of a triangular wave is a square wave as observed. So, the expression relating signal is as follows,
+\[V_{out} = \frac{dV_{in}}{dt}\]
+\newline
+The circuit shown in Figure 17 is constructed.
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=0.8\textwidth]{integrator.png}
+   \caption{Integrator circuit schematic}
+\end{figure} 
+Then the output plot given in Figure 18 is obtained.
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=0.8\textwidth]{3.png}
+   \caption{Integrator circuit output}
+\end{figure} 
+As a result it can be said that this circuit setup integrates the input signal ,so that output signal is oscillating between 0.3 V and 0.3 V approximately. The integration of the square wave is the triangular wave as observed.
 \section{Conclusion}
 
-In conclusion, in experiment 7, "Rectifiers, Capacitors and Inductors," as students, we have learned how various functional circuit setups rectifiers constructed. Preliminary laboratory work is done via simulations of the rectifier, capacitor, and inductor circuits in an LTSpice environment and by mathematical relations. As students, we have seen how half-wave and full wave rectifiers behave. We have inferred the capacitance and inductance values indirectly and compared them with the direct ones. The characteristics of the q-v and \(\phi\)-i are observed with the help of their calculations. Lastly, different inductors and their behaviors are observed, and the mathematical expressions are verified via measurements. To sum up, in this experiment, as students, we have experimented with how different rectifier circuits operate, how we can measure or calculate the inductance and capacitance values. 
+In conclusion, in experiment 8, "First Order Circuits," as students, we have learned how various RC and RL circuit setup constructed. As students, we have seen how the time constant \(\tau\) can be determined from the plot. We have inferred the time constance of RC and RL circuits experimentally and compared them with the theoretical ones. The 5 \(\tau\) method is used and observed when it can not be used. Then, the behavior of a RC circuit with a diode observed and commented on.  Lastly, basic differential circuits and their behaviors are observed, and the mathematical expressions are verified by signal outputs. To sum up, in this experiment, as students, we have experimented with various RC circuits and their responses, then we have compared them with the expected responses. 
 \section*{Appendix I}
 Total time spent on/during:
-\begin{itemize}
-	\item Pre-lab preparation: 5 hours (including the preliminary work and simulations) 
-	\item Experimental work: 2 hours (hours spent in lab)
-	\item Report writing: 5 hours 
+\begin{itemize} 
+
+	\item Report writing: 10 hours 
 \end{itemize}
 \section*{Appendix II}
 The outputs of the simulations are fetched from LTSpice and plotted in MATLAB. 
