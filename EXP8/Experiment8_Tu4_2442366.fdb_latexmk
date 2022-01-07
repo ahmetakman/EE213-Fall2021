@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1641557476 "c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP8/Experiment8_Tu4_2442366.tex" "Experiment8_Tu4_2442366.pdf" "Experiment8_Tu4_2442366" 1641557486
+["pdflatex"] 1641557782 "c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP8/Experiment8_Tu4_2442366.tex" "Experiment8_Tu4_2442366.pdf" "Experiment8_Tu4_2442366" 1641557790
   "C:/Users/AhmetAkman/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1619465436 14064 a310038d9d6a6b5947a4d45aefaa2858 ""
   "C:/Users/AhmetAkman/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1619464012 9409838 bf0436d81a1249172f6f80bd318dd4f4 ""
   "C:/Users/AhmetAkman/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1638724320 124156 de4f0dc6dcfe89740754b66581735726 ""
@@ -20,6 +20,7 @@
   "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti12.tfm" 1136765053 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
+  "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1247596666 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
@@ -94,11 +95,11 @@
   "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575571282 9715 b051d5b493d9fe5f4bc251462d039e5f ""
   "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
-  "Experiment8_Tu4_2442366.aux" 1641557481 5804 5408503215c9af2069d6c0954c5823d4 "pdflatex"
-  "Experiment8_Tu4_2442366.out" 1641557481 716 6af65ad28737f6312a1f7f77ceb501e1 "pdflatex"
-  "Experiment8_Tu4_2442366.tex" 1641557485 18142 c988f3c353961396aefa9f59b44460ee ""
-  "Experiment8_Tu4_2442366.toc" 1641557481 575 3aad711a7d70ffc292c7b4b87ab34105 "pdflatex"
-  "c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP8/Experiment8_Tu4_2442366.tex" 1641557485 18142 c988f3c353961396aefa9f59b44460ee ""
+  "Experiment8_Tu4_2442366.aux" 1641557786 5804 5408503215c9af2069d6c0954c5823d4 "pdflatex"
+  "Experiment8_Tu4_2442366.out" 1641557786 716 6af65ad28737f6312a1f7f77ceb501e1 "pdflatex"
+  "Experiment8_Tu4_2442366.tex" 1641557789 18238 d40cbdace95dfb3dbda2a721a15330f1 ""
+  "Experiment8_Tu4_2442366.toc" 1641557786 575 3aad711a7d70ffc292c7b4b87ab34105 "pdflatex"
+  "c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/EXP8/Experiment8_Tu4_2442366.tex" 1641557789 18238 d40cbdace95dfb3dbda2a721a15330f1 ""
   "figures//1_2_plot_data.png" 1641556340 63119 b66127c767e01a251ac3fdf590ad2263 ""
   "figures//1_3_plot_data.png" 1641399387 61370 d723ccfd25c2dd05821aeddb2657b130 ""
   "figures//1_b_2_plot_data.png" 1641556554 68849 e14c506a6bf699619368d1ee98a61f5a ""
@@ -122,8 +123,8 @@
   "figures//differentiator_sim.png" 1641327808 16727 7d281c7effe51a0a0513c656ab4e58d6 ""
   "figures//integrator.png" 1641220014 74148 7a9a0e91c9ae57f4000a1cbb426f8842 ""
   (generated)
-  "Experiment8_Tu4_2442366.log"
   "Experiment8_Tu4_2442366.out"
   "Experiment8_Tu4_2442366.pdf"
+  "Experiment8_Tu4_2442366.log"
   "Experiment8_Tu4_2442366.aux"
   "Experiment8_Tu4_2442366.toc"
