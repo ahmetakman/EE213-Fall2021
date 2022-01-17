@@ -88,20 +88,25 @@ In this step you are required to measure the distance of a light source using LD
 	\caption{Simple distance measurement with LDR configuration}
 \end{figure}
 It is necessary to align the source with  the surface of the LDR for better measurements. Also, pay attention not to  cause the ambient light to fluctuate with shadows.
-\subsubsection*{a}
-Using ruler make the distance D as "15 centimeter". Then record the resistance value. Using this value solve the following equation. Determine the  constant.
-
-%\begin{abstract}
-%abstract
-%\end{abstract}
-
-\section{Introduction and Project Objective}
-This document presents the design approaches proposed for the given term project of EE213. The term-project requirements can be basically summarized that students are expected to design an experiment to measure the distance of a light source. It is given that the component "LDR (Light Dependent Resistor)" will be used as the sensor element. Also, the basic passive components, Op-Amps, and laboratory equipment are in the scope of use. The physical appearance of a photoresistor is given in Figure 1. 
-\section{Conclusion}
-In conclusion, two proposed measurement methods are discussed in terms of preliminary measurements and inferences. Both methods have pros and cons. The first method is easier to build, but its accuracy is a matter of question since it is directly related to the resistance value. The second method seems more complicated, but it promises accuracy and includes proper laboratory work. On the contrary, the requirement for the precise time intervals method has the possibility to fail in laboratory conditions. There are strong light source dependencies for both methods, but the second method includes the elimination of this dependency in a sense. Further investigations will be done, and one of the methods will be chosen for the laboratory manual. To sum up, there are proposed two different approaches for the measurement of the distance of a light source, and they are evaluated.   
-
-
-
+\subsubsection*{a)}
+Using ruler make the distance D as "15 centimeter". Then record the resistance value. Using this value solve the following equation. Determine the  constant to calibrate the setup. In this equation x stands for distance in centimeters.
+\[resistance   k\Omega = 0.07847 x^3 -0.3281 x^2 + 0.8929x + \alpha\] 
+Plot the resultant equation (in MATLAB). Convey series of arbitrary distances' resistance measurements (at least 5) and record the values. Do not forget to obtain real distance in centimeters with  ruler in order to compare with the results you found. Using the plot you have obtained map the values you recorded to obtain the measured distance. Present  values your found in tabular form in your report. Lastly compare them with the actual ruler measurement and express the deviation by calculation the deviation percentage.\\
+\subsection*{b)}
+As you practiced in preliminary work, LDR component have various manufacturers and different variations. So, only a base created using another LDR might not be as accurate as map prepared for the particular LDR you use and the ambient light you have. Thus, you are required to measure the resistance with 15 different known (via ruler) distance values and record them. \textbf{Hint:} You can mark where the ruler ends and aliging the same ruler the further distances can be measured. Provide data you have obtained in tabular form and plot (in MATLAB) resistance(in kOhm) vs distance (in cm). Fit an equation to this curve (see Appendix) and plot (in MATLAB). Compare the equation you obtained with the given equation in part a . 
+\subsection*{c)}
+Map the values you recorded in part a to the plot in part b and calculate the deviations. Then compare the deviation values.
+\section*{Step 3} 
+Explain the limitations of the method used in Step 2 to measure distance of a light source ,and compare it with the methods you described in the Preliminary Work.
+\section*{Appedix I}
+MATLAB has the feature of fitting curves to the data. You can fit a curve to a data like given in Figure 5.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{appendix.png}
+	\caption{MATLAB fit a curve}
+\end{figure}
+\section*{Appedix II}
+The video link is: \url{www.youtube.com}
 
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  17 JAN 2022 17:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  17 JAN 2022 19:20
 entering extended mode
 **"c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/Term_Project/Final/Experiment_Manual.tex"
 (c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/Term_Project/Final/Experiment_Manual.tex
@@ -391,7 +391,7 @@ LaTeX Info: Redefining \nameref on input line 22.
 \@outlinefile=\write3
 \openout3 = `Experiment_Manual.out'.
 
-<./figures//LDR_photo.png, id=11, 240.9pt x 149.358pt>
+<./figures//LDR_photo.png, id=3, 240.9pt x 149.358pt>
 File: ./figures//LDR_photo.png Graphic file (type png)
 <use ./figures//LDR_photo.png>
 Package pdftex.def Info: ./figures//LDR_photo.png  used on input line 42.
@@ -399,39 +399,49 @@ Package pdftex.def Info: ./figures//LDR_photo.png  used on input line 42.
  [1
 
 {C:/Users/AhmetAkman/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-<./figures//LDR_symbol.png, id=27, 299.61937pt x 289.08pt>
+<./figures//LDR_symbol.png, id=19, 299.61937pt x 289.08pt>
 File: ./figures//LDR_symbol.png Graphic file (type png)
 <use ./figures//LDR_symbol.png>
 Package pdftex.def Info: ./figures//LDR_symbol.png  used on input line 55.
 (pdftex.def)             Requested size: 234.8775pt x 226.61952pt.
  [2 <./figures//LDR_photo.png>]
-<./figures//darkness.png, id=35, 961.191pt x 424.58624pt>
+<./figures//darkness.png, id=27, 961.191pt x 424.58624pt>
 File: ./figures//darkness.png Graphic file (type png)
 <use ./figures//darkness.png>
 Package pdftex.def Info: ./figures//darkness.png  used on input line 61.
 (pdftex.def)             Requested size: 469.75502pt x 207.49838pt.
  [3 <./figures//LDR_symbol.png> <./figures//darkness.png>]
-<./figures//setup.png, id=43, 933.4875pt x 242.9075pt>
+<./figures//setup.png, id=35, 933.4875pt x 242.9075pt>
 File: ./figures//setup.png Graphic file (type png)
 <use ./figures//setup.png>
 Package pdftex.def Info: ./figures//setup.png  used on input line 87.
 (pdftex.def)             Requested size: 469.75502pt x 122.23921pt.
- [4 <./figures//setup.png>] [5] (Experiment_Manual.aux)
+ [4 <./figures//setup.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
+
+ []
+
+<./figures//appendix.png, id=46, 551.05875pt x 210.7875pt>
+File: ./figures//appendix.png Graphic file (type png)
+<use ./figures//appendix.png>
+Package pdftex.def Info: ./figures//appendix.png  used on input line 105.
+(pdftex.def)             Requested size: 469.75502pt x 179.69449pt.
+[5] [6 <./figures//appendix.png>] (Experiment_Manual.aux)
 Package rerunfilecheck Info: File `Experiment_Manual.out' has not changed.
-(rerunfilecheck)             Checksum: D50B7EE396AE05C44DC85D9490A14739;315.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10253 strings out of 479334
- 152986 string characters out of 2854709
- 465695 words of memory out of 3000000
- 27538 multiletter control sequences out of 15000+200000
- 410060 words of font info for 50 fonts, out of 3000000 for 9000
+ 10261 strings out of 479334
+ 153169 string characters out of 2854709
+ 467682 words of memory out of 3000000
+ 27540 multiletter control sequences out of 15000+200000
+ 410229 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,7n,88p,1011b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\AhmetAkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Experiment_Manual.pdf (5 pages, 488714 bytes).
+ 83i,7n,88p,881b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\AhmetAkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Experiment_Manual.pdf (6 pages, 526352 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
