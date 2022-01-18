@@ -42,7 +42,7 @@ Light Dependent Resistors (abrevieted as LDRs) are semiconductor based electroni
 	\includegraphics[width=0.5\textwidth]{LDR_photo.png}
 	\caption{LDR picture}
 \end{figure} 
-LDR ,as easily can be inferred from its name, has a variable resistance which depends on the illumination on its surface. So, its resistance is high in dark and low in light. Those resistance values are vastly dependent on the size and the model of the particular LDR. In this step you are required to find an LDR from a manufacturer and from the datasheet provide following informations with necessary plots. You do not need to explain those data, it is enough to provide in the preliminary report with appropriate format.
+As easily can be inferred from its name, LDR has a variable resistance that depends on the illumination on its surface. So, its resistance is high in dark and low in light. Those resistance values are vastly dependent on the size and the model of the particular LDR. In this step, you are required to find an LDR from a manufacturer, and from the datasheet, provide the following pieces of information with necessary plots. You do not need to explain those data; it is enough to provide in the preliminary report with the appropriate format.
 \begin{itemize}
 	\item Sensitive surface area.
 	\item Resistance as a function of illumination (with plot).
@@ -63,7 +63,7 @@ Using this information, briefly describe the functional behavior of the circuit 
 \end{figure} 
 
 \subsection*{5}
-For this step you are required to do small research about optical distance sensors. Independent from the experiment, this step is for you to gain an insight on optical distance sensors.
+For this step, you are required to do a little research about optical distance sensors. Independent from the experiment, this step is for you to gain an insight into optical distance sensors.
 \begin{itemize}
 	\item Describe how triangulation measurement method works in \(\sim\) 50-100 words with a credible source. 
 	\item Describe how time of flight (ToF) measurement method works in \(\sim\) 50-100 words with a credible source. 
@@ -81,19 +81,19 @@ Important note - 1: You only need to show your work to the lab assistant for ste
 \subsection*{Step 1}
 Describe the relation between illumination on a surface and the distance of the light source.
 \subsection*{Step 2}
-In this step you are required to measure the distance of a light source using LDR component. Setup the configuration given in Figure 4 by connecting the probes to the digital multimeter. Adjust the multimeter so that it measures the resistance. 
+In this step, you are required to measure the distance of a light source using the LDR component. Set up the configuration given in Figure 4 by connecting the probes to the digital multimeter. Adjust the multimeter so that it measures the resistance. 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{setup.png}
 	\caption{Simple distance measurement with LDR configuration}
 \end{figure}
-It is necessary to align the source with  the surface of the LDR for better measurements. Also, pay attention not to  cause the ambient light to fluctuate with shadows.
+It is necessary to align the source with the surface of the LDR for better measurements. Also, pay attention not to cause the ambient light to fluctuate with shadows.
 \subsubsection*{a)}
-Using ruler make the distance D as "15 centimeter". Then record the resistance value. Following equation relates distance with the resistance of an LDR ,and prepared by us. X stands for distance in centimeters and you need to find the \(\alpha\) constant to shift curve to the calibrated point by solving the equation with the resistance value you recorded. You may get a help from a calculator.
+Using a ruler, make the distance D as "15 centimeter". Then record the resistance value. The following equation relates distance with the resistance of an LDR prepared by us. X stands for distance in centimeters, and you need to find the \(\alpha\) constant to shift the curve to the calibrated point by solving the equation with the resistance value you recorded. You may get help from a calculator.
 \[resistance   k\Omega = 0.07847 x^3 -0.3281 x^2 + 0.8929x + \alpha\] 
-Plot the resultant equation (in MATLAB). Convey series of arbitrary distances' resistance measurements (at least 5) and record the values. Do not forget to obtain real distance in centimeters with  ruler in order to compare with the results you found. Using the plot you have obtained map the values you recorded to obtain the measured distance. Present  values your found in tabular form in your report. Lastly compare them with the actual ruler measurement and express the deviation by calculation the deviation percentage.\\
+Plot the resultant equation (in MATLAB). Convey a series of arbitrary distances' resistance measurements (at least 5) and record the values. Do not forget to obtain the real distance in centimeters with a ruler in order to compare with the results you found. Using the plot you have obtained, map the values you recorded to obtain the measured distance. Present values you found in tabular form in your report. Lastly, compare them with the actual ruler measurement and express the deviation by calculation the deviation percentage.\\
 \subsection*{b)}
-As you practiced in preliminary work, LDR component have various manufacturers and different variations. So, only a base created using another LDR might not be as accurate as map prepared for the particular LDR you use and the ambient light you have. Thus, you are required to measure the resistance with 15 different known (via ruler) distance values and record them. \textbf{Hint:} You can mark where the ruler ends and aliging the same ruler the further distances can be measured. Provide data you have obtained in tabular form and plot (in MATLAB) resistance(in kOhm) vs distance (in cm). Fit an equation to this curve (see Appendix) and plot (in MATLAB). Compare the equation you obtained with the given equation in part a . 
+As you practiced in preliminary work, LDR components have various manufacturers and different variations. So, only a base created using another LDR might not be as accurate as a map prepared for the particular LDR you use and the ambient light you have. Thus, you are required to measure the resistance with 15 different knowns (via ruler) distance values and record them. \textbf{Hint:} You can mark where the ruler ends and align the same ruler so the further distances can be measured. Provide data you have obtained in tabular form and plot (in MATLAB) resistance(in kOhm) vs distance (in cm). Fit an equation to this curve (see Appendix) and plot (in MATLAB). Compare the equation you obtained with the given equation in part a. 
 \subsection*{c)}
 Map the values you recorded in part a to the plot in part b and calculate the deviations. Then compare the deviation values.
 \section*{Step 3} 

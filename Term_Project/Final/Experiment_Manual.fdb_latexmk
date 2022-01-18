@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1642492331 "c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/Term_Project/Final/Experiment_Manual.tex" "Experiment_Manual.pdf" "Experiment_Manual" 1642492346
+["pdflatex"] 1642499454 "c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/Term_Project/Final/Experiment_Manual.tex" "Experiment_Manual.pdf" "Experiment_Manual" 1642499457
   "C:/Users/AhmetAkman/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1619465436 14064 a310038d9d6a6b5947a4d45aefaa2858 ""
   "C:/Users/AhmetAkman/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1619464012 9409838 bf0436d81a1249172f6f80bd318dd4f4 ""
   "C:/Users/AhmetAkman/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1638724320 124156 de4f0dc6dcfe89740754b66581735726 ""
@@ -88,17 +88,17 @@
   "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575571282 9715 b051d5b493d9fe5f4bc251462d039e5f ""
   "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
-  "Experiment_Manual.aux" 1642492336 1358 857ad5120da0475cfd25eeced64a1842 "pdflatex"
-  "Experiment_Manual.out" 1642492335 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Experiment_Manual.tex" 1642492345 7917 2f6c12e69e2d3d8f5aed99380a6f8550 ""
-  "c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/Term_Project/Final/Experiment_Manual.tex" 1642492345 7917 2f6c12e69e2d3d8f5aed99380a6f8550 ""
+  "Experiment_Manual.aux" 1642499457 1358 857ad5120da0475cfd25eeced64a1842 "pdflatex"
+  "Experiment_Manual.out" 1642499457 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Experiment_Manual.tex" 1642499453 7961 eaa29e5b72a0c354a2b6822dd2919bea ""
+  "c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/Term_Project/Final/Experiment_Manual.tex" 1642499453 7961 eaa29e5b72a0c354a2b6822dd2919bea ""
   "figures//LDR_photo.png" 1638651664 224573 8da3b9d7b162199ade731c7d4cce3fc3 ""
   "figures//LDR_symbol.png" 1642426732 23532 57b02c6cc896e2fb529779ab70eff574 ""
   "figures//appendix.png" 1642436405 13359 eab3630781d9390b74a31116cd9982a7 ""
   "figures//darkness.png" 1639410893 102464 30da8f6a7775b2b5ed1102de7a955c2c ""
   "figures//setup.png" 1642429693 54277 527c79eeb2549b0bf5a549bfb41d021b ""
   (generated)
-  "Experiment_Manual.out"
+  "Experiment_Manual.aux"
   "Experiment_Manual.log"
   "Experiment_Manual.pdf"
-  "Experiment_Manual.aux"
+  "Experiment_Manual.out"
