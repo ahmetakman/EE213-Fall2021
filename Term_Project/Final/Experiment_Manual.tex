@@ -91,11 +91,11 @@ It is necessary to align the source with the surface of the LDR for better measu
 \subsubsection*{a)}
 Using a ruler, make the distance D as "15 centimeter". Then record the resistance value. The following equation relates distance with the resistance of an LDR prepared by us. X stands for distance in centimeters, and you need to find the \(\alpha\) constant to shift the curve to the calibrated point by solving the equation with the resistance value you recorded. You may get help from a calculator.
 \[resistance   k\Omega = 10^{-5} x^3 -0.0008971 x^2 + 0.04738x + \alpha\] 
-Plot the resultant equation (in MATLAB). Convey a series of arbitrary distances' resistance measurements (at least 5) and record the values. Do not forget to obtain the real distance in centimeters with a ruler in order to compare with the results you found. Using the plot you have obtained, map the values you recorded to obtain the measured distance. Present values you found in tabular form in your report. Lastly, compare them with the actual ruler measurement and express the deviation by calculation the deviation percentage.\\
+Plot the resultant equation (in MATLAB). Convey a series of arbitrary distances' resistance measurements (at least 5) and record the values. Do not forget to obtain the real distance in centimeters with a ruler in order to compare with the results you found. Using the plot you have obtained, map the values you recorded to obtain the measured distance. Present values you found in tabular form in your report. Lastly, compare them with the actual ruler measurement and express the deviation by calculation the root mean squared error (see Appendix).\\
 \subsection*{b)}
 As you practiced in preliminary work, LDR components have various manufacturers and different variations. So, only a base created using another LDR might not be as accurate as a map prepared for the particular LDR you use and the ambient light you have. Thus, you are required to measure the resistance with 15 different knowns (via ruler) distance values and record them. \textbf{Hint:} You can mark where the ruler ends and align the same ruler so the further distances can be measured. Provide data you have obtained in tabular form and plot (in MATLAB) resistance(in kOhm) vs distance (in cm). Fit an equation to this curve (see Appendix) and plot (in MATLAB). Compare the equation you obtained with the given equation in part a. 
 \subsection*{c)}
-Map the values you recorded in part a to the plot in part b and calculate the deviations. Then compare the deviation values.
+Map the values you recorded in part a to the plot in part b and calculate the deviations with root mean squared error. Then compare the deviation values.
 \section*{Step 3} 
 Explain the limitations of the method used in Step 2 to measure distance of a light source ,and compare it with the methods you described in the Preliminary Work.
 \section*{Appedix I}
@@ -105,7 +105,11 @@ MATLAB has the feature of fitting curves to the data. You can fit a curve to a d
 	\includegraphics[width=1\textwidth]{appendix.png}
 	\caption{MATLAB fit a curve}
 \end{figure}
-\section*{Appedix II}
+\section*{Appendix II}
+Root mean squared error (RMSE) for this case can be computed as taking square root of the square of the difference between actual distance and the calculated distance.
+\[RMSE = \sqrt{(actualdistance - measureddistance)^2}\]
+For more information follow the link: \url{https://www.sciencedirect.com/topics/engineering/root-mean-squared-error}
+\section*{Appedix III}
 The video link is: \url{www.youtube.com}
 
 

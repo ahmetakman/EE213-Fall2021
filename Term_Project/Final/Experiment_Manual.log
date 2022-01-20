@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  19 JAN 2022 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.26)  20 JAN 2022 14:03
 entering extended mode
 **"c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/Term_Project/Final/Experiment_Manual.tex"
 (c:/akman/METU EEE UNDERGRADUATE EDUCATION/3rdTermFall2021/EE213/EE213-Fall2021/Term_Project/Final/Experiment_Manual.tex
@@ -426,22 +426,27 @@ File: ./figures//appendix.png Graphic file (type png)
 <use ./figures//appendix.png>
 Package pdftex.def Info: ./figures//appendix.png  used on input line 105.
 (pdftex.def)             Requested size: 469.75502pt x 182.0663pt.
-[5] [6 <./figures//appendix.png>] (Experiment_Manual.aux)
+[5]
+Overfull \hbox (21.63206pt too wide) in paragraph at lines 110--112
+\OT1/cmr/m/n/12 For more in-for-ma-tion fol-low the link: [][]$\OT1/cmtt/m/n/12 https : / / www . sciencedirect . com / topics / engineering /
+ []
+
+[6 <./figures//appendix.png>] (Experiment_Manual.aux)
 Package rerunfilecheck Info: File `Experiment_Manual.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10261 strings out of 479334
- 153169 string characters out of 2854709
+ 10262 strings out of 479334
+ 153180 string characters out of 2854709
  467682 words of memory out of 3000000
  27540 multiletter control sequences out of 15000+200000
  410229 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,7n,88p,885b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\AhmetAkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Experiment_Manual.pdf (6 pages, 541074 bytes).
+ <C:\Users\AhmetAkman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/AhmetAkman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Experiment_Manual.pdf (6 pages, 553594 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
+ 110 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
